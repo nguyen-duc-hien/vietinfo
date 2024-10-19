@@ -1,0 +1,63 @@
+/* @font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Raleway/static/Raleway-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Raleway/static/Raleway-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Raleway/static/Raleway-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Raleway/static/Raleway-Bold.ttf") format("opentype");
+} */
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Inter/static/Inter_18pt-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Inter/static/Inter_18pt-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Inter/static/Inter_18pt-SemiBold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Inter/static/Inter_18pt-Bold.ttf") format("opentype");
+}
