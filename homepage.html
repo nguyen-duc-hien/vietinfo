@@ -185,7 +185,7 @@
                 </div>
                 <div class="bottom">
                     <!-- single item -->
-                    <div class="item">
+                    <div class="job-list-item">
                         <div class="line-time">
                             <div class="time">
                                 <p>59 phút trước</p>
@@ -219,7 +219,7 @@
                         </div>
                     </div>
                     <!-- single item -->
-                    <div class="item">
+                    <div class="job-list-item">
                         <div class="line-time">
                             <div class="time">
                                 <p>59 phút trước</p>
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                     <!-- single item -->
-                    <div class="item">
+                    <div class="job-list-item">
                         <div class="line-time">
                             <div class="time">
                                 <p>59 phút trước</p>
@@ -287,7 +287,7 @@
                         </div>
                     </div>
                     <!-- single item -->
-                    <div class="item">
+                    <div class="job-list-item">
                         <div class="line-time">
                             <div class="time">
                                 <p>59 phút trước</p>
@@ -321,7 +321,7 @@
                         </div>
                     </div>
                     <!-- single item -->
-                    <div class="item">
+                    <div class="job-list-item">
                         <div class="line-time">
                             <div class="time">
                                 <p>59 phút trước</p>
@@ -355,7 +355,7 @@
                         </div>
                     </div>
                     <!-- single item -->
-                    <div class="item">
+                    <div class="job-list-item">
                         <div class="line-time">
                             <div class="time">
                                 <p>59 phút trước</p>
@@ -2149,55 +2149,14 @@
                     <p>Copyright © 2024. Vietinfo LLC. All Right Reserved. </p>
     </footer>
 
-
     <script defer src="/assets/js/count-up.js"></script>
 
-    <!-- script header fixed top active input -->
-    <script defer>
-        // Lấy các phần tử cần xử lý
-        const input = document.querySelector('.input-trans');
-        const select = document.querySelector('.select-des');
-        const searchField = document.querySelector('.search-field');
-        const button = document.querySelector('.submit-button');
-
-        // Hàm thêm class 'focus'
-        function addFocusClass() {
-            select.classList.add('focus');
-            searchField.classList.add('focus');
-            button.classList.add('focus');
-        }
-
-        // Hàm xóa class 'focus'
-        function removeFocusClass() {
-            select.classList.remove('focus');
-            searchField.classList.remove('focus');
-            button.classList.remove('focus');
-        }
-
-        // Khi input được focus hoặc hover
-        input.addEventListener('focus', addFocusClass);
-        // input.addEventListener('mouseover', addFocusClass);
-
-        // Khi input bị mất focus hoặc không còn hover
-        input.addEventListener('blur', removeFocusClass);
-        // input.addEventListener('mouseout', removeFocusClass);
-    </script>
-    <!-- header scroll js -->
-    <script defer>
-        window.addEventListener('scroll', function () {
-            const header = document.querySelector('.header-scroll');
-            if (window.scrollY > 125) {
-                header.classList.add('active');
-            } else if (window.scrollY <= 125) {
-                header.classList.remove('active');
-            }
-        });
-    </script>
+    <!-- header script -->
+    <script defer src="/assets/js/header-sticky-script.js"></script>
 
     <!-- script active phẩn tử ở section event -->
     <script defer>
     </script>
-
 
     <!-- tab active document -->
     <script defer>
