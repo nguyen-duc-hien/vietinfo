@@ -462,24 +462,24 @@ select:focus {
     font-size: 48px;
   }
 }
-.text-heading-h2, body .homepage .banner-cta .container .banner .content h2 {
+.text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
   font-family: var(--f-raleway);
   font-size: 44px;
   line-height: 100%;
   font-weight: 700;
 }
 @media only screen and (max-width: 1480px) {
-  .text-heading-h2, body .homepage .banner-cta .container .banner .content h2 {
+  .text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-heading-h2, body .homepage .banner-cta .container .banner .content h2 {
+  .text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
     font-size: 38px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-heading-h2, body .homepage .banner-cta .container .banner .content h2 {
+  .text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
     font-size: 32px;
   }
 }
@@ -592,50 +592,50 @@ select:focus {
 .text-body {
   font-family: var(--f-inter);
 }
-.text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+.text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
 body .homepage .for-rent .container .bottom .item .info .second-row h2,
 body .homepage .for-rent .container .bottom .item .info .third-row h2,
 body .homepage .for-sale .container .bottom .item .info .first-row h2,
 body .homepage .for-sale .container .bottom .item .info .second-row h2,
 body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
 body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
+body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
   font-size: 20px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .homepage .job-list .container .bottom .item .context h2, .text-body-xl-bold, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 14px;
   }
 }
@@ -643,10 +643,10 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-xl-bold, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span {
+.text-body-xl-bold, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .homepage .job-list .container .bottom .item .context .line-salary .salary span {
   font-weight: 700;
 }
-.text-body-xl-semibold, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+.text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
 body .homepage .for-rent .container .bottom .item .info .second-row h2,
 body .homepage .for-rent .container .bottom .item .info .third-row h2,
 body .homepage .for-sale .container .bottom .item .info .first-row h2,
@@ -697,26 +697,26 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
 .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
   font-weight: 400;
 }
-.text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .home-banner .container .form-banner-1 .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+.text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .form-header .search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
   font-size: 16px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .home-banner .container .form-banner-1 .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .form-header .search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .home-banner .container .form-banner-1 .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .form-header .search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .home-banner .container .form-banner-1 .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .form-header .search-field .field .input-trans, body .header .first-row .container p, .text-body-md-semibold, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
     font-size: 12px;
   }
 }
@@ -727,19 +727,19 @@ body .homepage .for-sale .container .top .left p, body .homepage .event .contain
 .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary {
   font-weight: 700;
 }
-.text-body-md-semibold, body .homepage .home-banner .container .form-banner-1 .select-des {
+.text-body-md-semibold, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des {
   font-weight: 600;
 }
-.text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .first-row .container p {
+.text-body-md-medium, body .footer .container p, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .form-header .search-field .field .input-trans, body .header .first-row .container p {
   font-weight: 500;
 }
-.text-body-md-regular, body .footer .container .nav ul li, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+.text-body-md-regular, body .footer .container .nav ul li, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
 body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .bottom .item .context .line-salary .views p, body .homepage .job-list .container .bottom .item .context .line-salary .salary p, body .homepage .job-list .container .top .left p, body .header .second-row .container .nav ul li, .input-row .input-field {
   font-weight: 400;
 }
 .text-body-sm, .text-body-sm-regular, body .footer .container .policy .left,
 body .footer .container .policy a,
-body .footer .container .policy p, body .footer .container .contact .single a, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .footer .container .policy p, body .footer .container .contact .single a, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
@@ -747,7 +747,8 @@ body .homepage .for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .store-for-sale .container .bottom .item .info .first-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .job-list .container .bottom .item .context .line-location .location p,
-body .homepage .job-list .container .bottom .item .context .line-location .address p, .text-body-sm-medium, body .homepage .for-rent .container .bottom .item .info .location,
+body .homepage .job-list .container .bottom .item .context .line-location .address p, .text-body-sm-medium, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
 body .homepage .for-rent .container .bottom .item .info .second-row span,
 body .homepage .for-rent .container .bottom .item .info .third-row span,
@@ -774,7 +775,8 @@ body .homepage .for-sale .container .bottom .item .image .type p, body .homepage
 body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .homepage .job-list .container .bottom .item .line-time .locate p {
   font-weight: 600;
 }
-.text-body-sm-medium, body .homepage .for-rent .container .bottom .item .info .location,
+.text-body-sm-medium, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
 body .homepage .for-rent .container .bottom .item .info .second-row span,
 body .homepage .for-rent .container .bottom .item .info .third-row span,
@@ -790,7 +792,7 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row span, b
 }
 .text-body-sm-regular, body .footer .container .policy .left,
 body .footer .container .policy a,
-body .footer .container .policy p, body .footer .container .contact .single a, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .footer .container .policy p, body .footer .container .contact .single a, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
@@ -822,7 +824,7 @@ body .homepage .job-list .container .bottom .item .context .line-location .addre
   font-weight: 400;
 }
 
-.truncate-2row, body .homepage .for-rent .container .bottom .item .info .location,
+.truncate-2row, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .store-for-sale .container .bottom .item .info .location {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -830,7 +832,7 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   overflow: hidden;
 }
 
-.truncate-3row, body .homepage .event .container .bottom .right-content .item .context > p {
+.truncate-3row, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .event .container .bottom .right-content .item .context > p {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -961,6 +963,10 @@ body .custom-scrollbar::-webkit-scrollbar-thumb {
 body .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+body .header {
+  position: relative;
+  z-index: 3;
+}
 body .header .first-row {
   display: flex;
   align-items: center;
@@ -1043,6 +1049,117 @@ body .header .second-row .container .nav ul li a:hover {
 }
 body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span {
   color: var(--primary);
+}
+body .header .header-scroll {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 110px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: var(--white);
+}
+body .header .header-scroll.active {
+  display: flex;
+}
+body .header .header-scroll .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .header .header-scroll .container .form-header {
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  background: #fcfcfd;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .header .header-scroll .container .form-header .select-des {
+  color: #1d2939;
+  min-width: 240px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 52px;
+  appearance: none;
+  background: #fcfcfd;
+  border: 2px solid #d0d5dd;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  overflow: hidden;
+  /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("../image/icon/chev-down-gray.svg") no-repeat left 20px center;
+  /* Adjust background position here */
+  background-size: 24px 24px;
+  /* Adjust background size here */
+}
+body .header .header-scroll .container .form-header .select-des::after {
+  content: "";
+  /* Unicode for down arrow */
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Allow click through */
+}
+body .header .header-scroll .container .form-header .select-des.focus {
+  border-color: var(--primary);
+}
+body .header .header-scroll .container .form-header .search-field {
+  min-width: 390px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0px 8px 20px;
+  border-top: 2px solid #d0d5dd;
+  border-right: 2px solid #d0d5dd;
+  border-bottom: 2px solid #d0d5dd;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+body .header .header-scroll .container .form-header .search-field.focus {
+  border-color: var(--primary);
+}
+body .header .header-scroll .container .form-header .search-field .field {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+body .header .header-scroll .container .form-header .search-field .field .input-trans {
+  max-width: 152px;
+  color: #1d2939;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+body .header .header-scroll .container .form-header .search-field .field .input-trans::-moz-placeholder {
+  color: #667085;
+}
+body .header .header-scroll .container .form-header .search-field .field .input-trans::placeholder {
+  color: #667085;
+}
+body .header .header-scroll .container .form-header .search-field .submit-button {
+  width: 62px;
+  height: 60px;
+  border-radius: 0 16px 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .header .header-scroll .container .form-header .search-field .submit-button.focus {
+  background: #ededed;
+}
+body .header .header-scroll .container .form-header .search-field .submit-button figure {
+  width: 24px;
+  height: 24px;
 }
 body .homepage .home-banner {
   background: url(/assets/image/home-banner-1.png) no-repeat;
@@ -2246,11 +2363,363 @@ body .homepage .other-task .container .bottom {
   gap: 16px;
   margin-top: 48px;
 }
+body .homepage .other-task .container .bottom .side-banner {
+  background: url(/assets/image/other-task.png) no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 42px;
+  aspect-ratio: 63/27;
+  grid-row: 1/3;
+}
+body .homepage .other-task .container .bottom .side-banner h2 {
+  text-shadow: 0px 1px 4px rgba(12, 12, 13, 0.1), 0px 1px 4px rgba(12, 12, 13, 0.05);
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: 0.64px;
+  color: var(--white);
+}
+body .homepage .other-task .container .bottom .side-banner p {
+  margin-top: 12px;
+  text-shadow: 0px 1px 4px rgba(12, 12, 13, 0.1), 0px 1px 4px rgba(12, 12, 13, 0.05);
+  color: var(--white);
+}
+body .homepage .other-task .container .bottom .side-banner .button-primary {
+  margin-top: 24px;
+}
+body .homepage .other-task .container .bottom .item {
+  display: flex;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 16px;
+  border-radius: 12px;
+  border: 1px solid #d0d5dd;
+  background: #fcfcfd;
+  box-shadow: 0px 16px 16px -8px rgba(12, 12, 13, 0.1), 0px 4px 4px -4px rgba(12, 12, 13, 0.05);
+}
+body .homepage .other-task .container .bottom .item .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 32px;
+  background: #ebebeb;
+}
+body .homepage .other-task .container .bottom .item .icon figure {
+  width: 32px;
+  height: 32px;
+}
+body .homepage .other-task .container .bottom .item .icon figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .homepage .other-task .container .bottom .item .context {
+  flex: 1;
+}
+body .homepage .other-task .container .bottom .item .context h2 {
+  color: #1d2939;
+}
+body .homepage .other-task .container .bottom .item .context p {
+  color: #667085;
+  margin-top: 4px;
+}
+body .homepage .other-task .container .bottom .item .context .second-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .homepage .other-task .container .bottom .item .context .second-row hr {
+  width: 1px;
+  height: 16px;
+  border: none;
+  background-color: #d0d5dd;
+}
+body .homepage .other-task .container .bottom .item .context .second-row span {
+  color: #1d2939;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .homepage .other-task .container .bottom .item .context .second-row span figure {
+  width: 20px;
+  height: 20px;
+}
+body .homepage .other-task .container .bottom .item .context .second-row span figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .homepage .community-document {
+  padding-top: 68px;
+  padding-bottom: 68px;
+  background: #f5f5f5;
+}
+body .homepage .community-document .container .top {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+body .homepage .community-document .container .top .left .row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .homepage .community-document .container .top .left .row figure img {
+  width: 28px;
+  height: 28px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .homepage .community-document .container .top .left .row h2 {
+  font-family: var(--f-inter);
+  font-size: 30px;
+  line-height: 127%;
+  font-weight: 600;
+  color: #1d2939;
+}
+body .homepage .community-document .container .top .left p {
+  color: #344054;
+  margin-top: 12px;
+}
+body .homepage .community-document .container .top .right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+body .homepage .community-document .container .top .right .prev,
+body .homepage .community-document .container .top .right .next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #98a2b3;
+  border-radius: 48px;
+  box-shadow: 0px 1px 4px 0px rgba(12, 12, 13, 0.05);
+  cursor: pointer;
+}
+body .homepage .community-document .container .top .right .prev.disable,
+body .homepage .community-document .container .top .right .next.disable {
+  cursor: not-allowed;
+  border-color: #d0d5dd;
+}
+body .homepage .community-document .container .top .right .prev.disable svg path,
+body .homepage .community-document .container .top .right .next.disable svg path {
+  stroke: #d0d5dd;
+}
+body .homepage .community-document .container .top .right .prev svg {
+  transform: rotate(180deg);
+}
+body .homepage .community-document .container .bottom {
+  margin-top: 48px;
+}
+body .homepage .community-document .container .bottom .tab-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+body .homepage .community-document .container .bottom .tab-container .tab-item {
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #f7f7f7;
+  padding: 12px 10px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #ebebeb;
+  cursor: pointer;
+}
+body .homepage .community-document .container .bottom .tab-container .tab-item.active {
+  background: var(--primary);
+  color: var(--white);
+  box-shadow: 0px 24px 12px 0px rgba(88, 154, 228, 0.04);
+}
+body .homepage .community-document .container .bottom .view-item {
+  display: none;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+body .homepage .community-document .container .bottom .view-item.active {
+  display: flex;
+}
+body .homepage .community-document .container .bottom .view-item .item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+body .homepage .community-document .container .bottom .view-item .item .image {
+  width: 100%;
+  max-width: 404px;
+  aspect-ratio: 4/3;
+}
+body .homepage .community-document .container .bottom .view-item .item .image figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 4/3;
+}
+body .homepage .community-document .container .bottom .view-item .item .context {
+  width: 100%;
+  max-width: 416px;
+  min-height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .first-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .date,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .date figure,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view figure {
+  width: 20px;
+  height: 20px;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .date figure img,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p {
+  color: #1d2939;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .date hr,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view hr {
+  width: 1px;
+  height: 16px;
+  border: none;
+  background-color: #ebebeb;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .second-row h2 {
+  color: #1d2939;
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  margin-top: 12px;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .second-row p {
+  color: #667085;
+  letter-spacing: -0.2px;
+  margin-top: 12px;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .third-row {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .third-row .button-light-blue {
+  background: #e6edfa;
+  color: var(--primary);
+}
+body .homepage .community-document .container .bottom .view-item .item .context .third-row .button-light-blue figure {
+  width: 20px;
+  height: 20px;
+}
+body .homepage .community-document .container .bottom .view-item .item .context .third-row .button-light-blue figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .homepage .community-document .container .bottom .view-item .item.with-image {
+  width: 100%;
+}
+body .homepage .community-document .container .bottom .view-item .item.with-image .context {
+  padding: 20px 20px 20px 0;
+}
+body .homepage .community-document .container .bottom .view-item .item.w-50 {
+  width: calc(50% - 8px);
+}
+body .homepage .community-document .container .bottom .view-item .col-left {
+  width: 100%;
+  max-width: 846px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+body .homepage .community-document .container .bottom .view-item .col-right {
+  width: 100%;
+  max-width: 416px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body .homepage .community-document .container .bottom .view-item .col-right .item .context .second-row h2 {
+  font-size: 20px;
+  margin-top: 8px;
+}
+body .homepage .community-document .container .bottom .view-item .col-right .item .context .second-row p {
+  margin-top: 8px;
+}
+body .homepage .community-document .container .bottom .view-item .show-more {
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .homepage .community-document .container .bottom .view-item .show-more .button-border {
+  min-width: 240px;
+  padding: 12px;
+}
+body .homepage .last-item {
+  padding-top: 40px;
+  padding-bottom: 68px;
+  background: #f5f5f5;
+}
 body .footer {
   padding-top: 48px;
   padding-bottom: 12px;
   background: var(--white);
   box-shadow: 0px -1px 4px 0px rgba(12, 12, 13, 0.05);
+}
+body .footer .float-button {
+  position: fixed;
+  right: 87px;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .footer .float-button .float-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 99px;
+  filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.1));
+}
+body .footer .float-button .float-item figure img {
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 body .footer .container {
   display: flex;

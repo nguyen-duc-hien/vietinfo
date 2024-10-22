@@ -45,4 +45,79 @@
             </button>
         </div>
     </div>
+
+    <div class="header-scroll">
+        <div class="container">
+            <a href="/">
+                <figure>
+                    <img src="/assets/image/page-logo.svg" alt="logo">
+                </figure>
+            </a>
+
+            <form action="" class="form-header">
+                <select name="" id="" class="select-des">
+                    <option value="0">Danh mục </option>
+                    <option value="1">Danh mục 1</option>
+                    <option value="2">Danh mục 2</option>
+                    <option value="3">Danh mục 3</option>
+                </select>
+                <div class="search-field">
+                    <div class="field">
+                        <figure>
+                            <img src="/assets/image/icon/home-location.svg" alt="icon">
+                        </figure>
+                        <input type="text" class="input-trans" placeholder="City, state, ZIP code">
+                    </div>
+                    <button class="button-trans submit-button" type="submit">
+                        <figure><img src="/assets/image/icon/mag-glass.svg" alt=""></figure>
+                    </button>
+                </div>
+            </form>
+
+            <button class="button-primary">Đăng tin miễn phí</button>
+        </div>
+    </div>
 </header>
+
+
+<!-- script header fixed top active input -->
+<script defer>
+    // Lấy các phần tử cần xử lý
+    const input = document.querySelector('.input-trans');
+    const select = document.querySelector('.select-des');
+    const searchField = document.querySelector('.search-field');
+    const button = document.querySelector('.submit-button');
+
+    // Hàm thêm class 'focus'
+    function addFocusClass() {
+        select.classList.add('focus');
+        searchField.classList.add('focus');
+        button.classList.add('focus');
+    }
+
+    // Hàm xóa class 'focus'
+    function removeFocusClass() {
+        select.classList.remove('focus');
+        searchField.classList.remove('focus');
+        button.classList.remove('focus');
+    }
+
+    // Khi input được focus hoặc hover
+    input.addEventListener('focus', addFocusClass);
+    // input.addEventListener('mouseover', addFocusClass);
+
+    // Khi input bị mất focus hoặc không còn hover
+    input.addEventListener('blur', removeFocusClass);
+    // input.addEventListener('mouseout', removeFocusClass);
+</script>
+<!-- header scroll js -->
+<script defer>
+    window.addEventListener('scroll', function () {
+        const header = document.querySelector('.header-scroll');
+        if (window.scrollY > 125) {
+            header.classList.add('active');
+        } else if (window.scrollY <= 125) {
+            header.classList.remove('active');
+        }
+    });
+</script>
