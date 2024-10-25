@@ -78,7 +78,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+input {
   margin: 0;
   padding: 0;
   border: 0;
@@ -567,24 +568,24 @@ select:focus {
     font-size: 16px;
   }
 }
-.text-heading-h7, body .homepage .banner-cta .container .banner .content p, .input-row label {
+.text-heading-h7, body .homepage .banner-cta .container .banner .content p {
   font-family: var(--f-raleway);
   font-size: 20px;
   line-height: 120%;
   font-weight: 600;
 }
 @media only screen and (max-width: 1480px) {
-  .text-heading-h7, body .homepage .banner-cta .container .banner .content p, .input-row label {
+  .text-heading-h7, body .homepage .banner-cta .container .banner .content p {
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-heading-h7, body .homepage .banner-cta .container .banner .content p, .input-row label {
+  .text-heading-h7, body .homepage .banner-cta .container .banner .content p {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-heading-h7, body .homepage .banner-cta .container .banner .content p, .input-row label {
+  .text-heading-h7, body .homepage .banner-cta .container .banner .content p {
     font-size: 14px;
   }
 }
@@ -592,50 +593,50 @@ select:focus {
 .text-body {
   font-family: var(--f-inter);
 }
-.text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+.text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
 body .homepage .for-rent .container .bottom .item .info .second-row h2,
 body .homepage .for-rent .container .bottom .item .info .third-row h2,
 body .homepage .for-sale .container .bottom .item .info .first-row h2,
 body .homepage .for-sale .container .bottom .item .info .second-row h2,
 body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
 body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
   font-size: 20px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-xl, .text-body-xl-regular, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 14px;
   }
 }
@@ -643,7 +644,7 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .job-list-item .context .line-salary .salary span {
+.text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span {
   font-weight: 700;
 }
 .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
@@ -653,31 +654,31 @@ body .homepage .for-sale .container .bottom .item .info .first-row h2,
 body .homepage .for-sale .container .bottom .item .info .second-row h2,
 body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
 body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .job-list-item .context h2 {
+body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2 {
   font-weight: 600;
 }
 .text-body-xl-medium {
   font-weight: 500;
 }
-.text-body-xl-regular {
+.text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
   font-weight: 400;
 }
-.text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+.text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
   font-size: 18px;
   line-height: 155.6%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
     font-size: 14px;
   }
 }
@@ -691,32 +692,32 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
 .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p {
   font-weight: 600;
 }
-.text-body-lg-medium {
+.text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2 {
   font-weight: 500;
 }
 .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
   font-weight: 400;
 }
 .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
   font-size: 16px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1480px) {
   .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 767px) {
   .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-row .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
     font-size: 12px;
   }
 }
@@ -730,11 +731,11 @@ body .homepage .for-sale .container .top .left p, body .homepage .event .contain
 .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des {
   font-weight: 600;
 }
-.text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans {
+.text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title {
   font-weight: 500;
 }
 .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-row .input-field {
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field {
   font-weight: 400;
 }
 .text-body-sm, .text-body-sm-regular, body .footer .container .policy .left,
@@ -746,8 +747,8 @@ body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .store-for-sale .container .bottom .item .info .first-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .second-row .flexible p,
-body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .job-list-item .context .line-location .location p,
-body .job-list-item .context .line-location .address p, .text-body-sm-medium, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .sign-content .sign-wrapper .form-sign .keep-signin p, body .modal-job-content .right .contact-card p, body .job-list-item .context .line-location .location p,
+body .job-list-item .context .line-location .address p, body .validate-password .row p, .text-body-sm-medium, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
 body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
 body .homepage .for-rent .container .bottom .item .info .second-row span,
@@ -759,8 +760,8 @@ body .homepage .for-sale .container .bottom .item .image .first-row p, body .hom
 body .homepage .store-for-sale .container .bottom .item .info .second-row p,
 body .homepage .store-for-sale .container .bottom .item .info .third-row p, body .homepage .store-for-sale .container .bottom .item .info .first-row span,
 body .homepage .store-for-sale .container .bottom .item .info .second-row span,
-body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .job-list-item .line-time .time p, .text-body-sm-semibold, body .footer .container .contact .single h2, body .homepage .for-rent .container .bottom .item .image .type p,
-body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .job-list-item .line-time .locate p, .text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, .text-body-sm-uppercase {
+body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item, .text-body-sm-semibold, body .footer .container .contact .single h2, body .homepage .for-rent .container .bottom .item .image .type p,
+body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, body .job-list-item .line-time .locate p, .text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .share span, .text-body-sm-uppercase {
   font-size: 14px;
   line-height: 171.5%;
 }
@@ -768,11 +769,11 @@ body .homepage .for-sale .container .bottom .item .image .type p, body .homepage
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary {
+.text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .share span {
   font-weight: 700;
 }
 .text-body-sm-semibold, body .footer .container .contact .single h2, body .homepage .for-rent .container .bottom .item .image .type p,
-body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .job-list-item .line-time .locate p {
+body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, body .job-list-item .line-time .locate p {
   font-weight: 600;
 }
 .text-body-sm-medium, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
@@ -787,7 +788,7 @@ body .homepage .for-sale .container .bottom .item .image .first-row p, body .hom
 body .homepage .store-for-sale .container .bottom .item .info .second-row p,
 body .homepage .store-for-sale .container .bottom .item .info .third-row p, body .homepage .store-for-sale .container .bottom .item .info .first-row span,
 body .homepage .store-for-sale .container .bottom .item .info .second-row span,
-body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .job-list-item .line-time .time p {
+body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item {
   font-weight: 500;
 }
 .text-body-sm-regular, body .footer .container .policy .left,
@@ -799,8 +800,8 @@ body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .store-for-sale .container .bottom .item .info .first-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .second-row .flexible p,
-body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .job-list-item .context .line-location .location p,
-body .job-list-item .context .line-location .address p {
+body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .sign-content .sign-wrapper .form-sign .keep-signin p, body .modal-job-content .right .contact-card p, body .job-list-item .context .line-location .location p,
+body .job-list-item .context .line-location .address p, body .validate-password .row p {
   font-weight: 400;
 }
 .text-body-xs, .text-body-xs-regular, .text-body-xs-medium, .text-body-xs-semibold, .text-body-xs-bold, .text-body-xs-uppercase {
@@ -822,6 +823,14 @@ body .job-list-item .context .line-location .address p {
 }
 .text-body-xs-regular {
   font-weight: 400;
+}
+
+.truncate-1row, body .job-list-item .context .line-location .location p,
+body .job-list-item .context .line-location .address p, body .job-list-item .context h2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .truncate-2row, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .location,
@@ -846,34 +855,36 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   overflow: hidden;
 }
 
-.input-row {
+.input-label {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
-.input-row label {
-  color: var(--neutral-600);
+.input-label .input-title {
+  color: #1f2237;
 }
-.input-row .input-field {
+.input-label .input-field {
   display: flex;
-  padding: 15px 10px;
+  padding: 12px;
   align-items: flex-start;
-  border: 1px solid #d0d5dd;
-  width: 100%;
-  color: var(--black);
+  border: 1px solid #dedfe0;
+  border-radius: 8px;
   background: var(--white);
+  width: 100%;
+  color: #0f0f0f;
 }
-.input-row .input-field::-moz-placeholder {
-  color: #667085;
+.input-label .input-field::-moz-placeholder {
+  color: #6b7280;
 }
-.input-row .input-field::placeholder {
-  color: #667085;
+.input-label .input-field::placeholder {
+  color: #6b7280;
 }
-.input-row .input-field:focus {
-  border-color: var(--primary);
+.input-label .input-field:focus {
+  border: 2px solid var(--primary);
   caret-color: var(--primary);
 }
-.input-row select.input-field {
+.input-label select.input-field {
   width: 100%;
   appearance: none;
   /* Remove default arrow */
@@ -884,7 +895,7 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   background-size: 16px 16px;
   /* Adjust background size here */
 }
-.input-row select.input-field::after {
+.input-label select.input-field::after {
   content: "";
   /* Unicode for down arrow */
   position: absolute;
@@ -894,15 +905,15 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   pointer-events: none;
   /* Allow click through */
 }
-.input-row .input-trans {
+.input-label .input-trans {
   display: flex;
   width: 100%;
   border: none;
 }
-.input-row .input-trans:disabled {
+.input-label .input-trans:disabled {
   background: transparent;
 }
-.input-row select.input-trans {
+.input-label select.input-trans {
   width: 100%;
   appearance: none;
   /* Remove default arrow */
@@ -911,6 +922,28 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   background: url("../../assets/image/icon/arrow-down.svg") no-repeat right 0 center;
 }
 
+body figure.w-16 {
+  width: 16px;
+  height: 16px;
+}
+body figure.w-20 {
+  width: 20px;
+  height: 20px;
+}
+body figure.w-24 {
+  width: 24px;
+  height: 24px;
+}
+body figure.w-32 {
+  width: 32px;
+  height: 32px;
+}
+body figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 body .button-primary {
   width: -moz-fit-content;
   width: fit-content;
@@ -946,6 +979,58 @@ body .button-bg-white {
 body .rotate-180 {
   transform: rotate(180deg);
 }
+body .relative {
+  position: relative;
+}
+body .password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+body .password-toggle img {
+  display: none;
+}
+body .password-toggle img.show {
+  display: block;
+}
+body .validate-password .row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+body .validate-password .row img {
+  width: 14px;
+  height: 14px;
+}
+body .validate-password .row .check {
+  display: none;
+}
+body .validate-password .row .uncheck {
+  display: none;
+}
+body .validate-password .row p {
+  color: #747475;
+}
+body .validate-password .row.unchecked .check {
+  display: none;
+}
+body .validate-password .row.unchecked .uncheck {
+  display: block;
+}
+body .validate-password .row.unchecked p {
+  color: #de0000;
+}
+body .validate-password .row.checked .check {
+  display: flex;
+}
+body .validate-password .row.checked .uncheck {
+  display: none;
+}
+body .validate-password .row.checked p {
+  color: #28be2d;
+}
 body .w-full {
   width: 100%;
 }
@@ -976,19 +1061,144 @@ body .select-trans {
   background-size: 24px 24px;
   /* Adjust background size here */
 }
-body .custom-scrollbar::-webkit-scrollbar {
+body .custom-scrollbar::-webkit-scrollbar, body .modal-wrapper .modal-container .modal-content::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
-body .custom-scrollbar::-webkit-scrollbar-track {
+body .custom-scrollbar::-webkit-scrollbar-track, body .modal-wrapper .modal-container .modal-content::-webkit-scrollbar-track {
   border-radius: 99px;
 }
-body .custom-scrollbar::-webkit-scrollbar-thumb {
+body .custom-scrollbar::-webkit-scrollbar-thumb, body .modal-wrapper .modal-container .modal-content::-webkit-scrollbar-thumb {
   background: #d9d9d9;
   border-radius: 99px;
 }
-body .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+body .custom-scrollbar::-webkit-scrollbar-thumb:hover, body .modal-wrapper .modal-container .modal-content::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
+}
+body .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px 24px;
+}
+body .pagination .prev-page,
+body .pagination .next-page {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #d0d5dd;
+  background: var(--white);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+body .pagination .page-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+body .pagination .page-list .page-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  color: #667085;
+}
+body .pagination .page-list .page-item:hover {
+  background: #eaecf5;
+  color: var(--primary);
+}
+body .pagination .page-list .page-item.active {
+  background: #eaecf5;
+  color: var(--primary);
+}
+body .modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+body .modal-wrapper .modal-container {
+  margin: auto;
+  width: 95%;
+  max-width: 1356px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  padding-right: 10px;
+  gap: 24px;
+  background: var(--white);
+  border-radius: 5px;
+  background: #fcfcfd;
+  position: relative;
+}
+@media only screen and (max-width: 1199px) {
+  body .modal-wrapper .modal-container {
+    padding: 48px 10px 48px 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .modal-wrapper .modal-container {
+    padding: 48px 10px 48px 24px;
+  }
+}
+body .modal-wrapper .modal-container .modal-head {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  z-index: 2;
+  padding-right: 24px;
+}
+body .modal-wrapper .modal-container .modal-head figure.logo-modal {
+  width: 190px;
+  height: 51px;
+}
+body .modal-wrapper .modal-container .modal-head figure.logo-modal img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 19/5;
+}
+body .modal-wrapper .modal-container .modal-head .close-modal {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+body .modal-wrapper .modal-container .modal-head .close-modal figure img {
+  width: 36px;
+  height: 36px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .modal-wrapper .modal-container .modal-content {
+  max-height: 70vh;
+  padding-right: 14px;
+  overflow-y: auto;
+  z-index: 2;
+}
+@media only screen and (max-width: 1199px) {
+  body .modal-wrapper .modal-container .modal-content {
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .modal-wrapper .modal-container .modal-content {
+    padding-right: 14px;
+  }
 }
 body .header {
   position: relative;
@@ -1182,7 +1392,7 @@ body .job-list-item {
   box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
 }
 body .job-list-item .line-time {
-  padding: 8px;
+  padding-left: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1198,6 +1408,14 @@ body .job-list-item .line-time .time {
 }
 body .job-list-item .line-time .time p {
   color: var(--primary);
+}
+body .job-list-item .line-time .locate {
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 8px;
+  background: rgba(233, 239, 254, 0.6980392157);
 }
 body .job-list-item .line-time .locate p {
   color: #667085;
@@ -1293,6 +1511,387 @@ body .job-list-item .context .line-salary .views figure img {
 body .job-list-item .context .line-salary .views p {
   flex: 1;
   color: #1d2939;
+}
+body .modal-job-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+body .modal-job-content .left {
+  width: 100%;
+  max-width: 970px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+body .modal-job-content .left .title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body .modal-job-content .left .title-wrap .first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+body .modal-job-content .left .title-wrap .first-row .title h2 {
+  font-size: 32px;
+  line-height: 100%;
+  color: #2a2a32;
+}
+body .modal-job-content .left .title-wrap .first-row .title p {
+  color: #2a2a33;
+  margin-top: 8px;
+}
+body .modal-job-content .left .title-wrap .first-row .salary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .modal-job-content .left .title-wrap .hashtag-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 50px;
+  padding: 12px;
+  border-radius: 4px;
+  background: #f6f6fa;
+}
+body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p {
+  color: #2a2a32;
+}
+body .modal-job-content .left hr.modal-divider {
+  width: 100%;
+  height: 1px;
+  background: #d1d1d5;
+  border: none;
+}
+body .modal-job-content .left .description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body .modal-job-content .left .description .title {
+  color: #2a2a33;
+}
+body .modal-job-content .left .description .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body .modal-job-content .left .description .content p.des {
+  color: #2a2a32;
+  text-align: justify;
+  max-height: 96px;
+  transition: all 0.5s ease;
+}
+body .modal-job-content .left .description .content p.des.active {
+  max-height: auto;
+}
+body .modal-job-content .left .description .content .show-more {
+  padding: 0;
+  color: #0d4599;
+}
+body .modal-job-content .left .description .content .show-more figure img {
+  transition: all 0.5 ease;
+}
+body .modal-job-content .left .description .content .show-more.active figure img {
+  transform: rotate(180deg);
+  transition: all 0.5 ease;
+}
+body .modal-job-content .left .description .more-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .modal-job-content .left .description .more-info .row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .modal-job-content .left .description .more-info .row p {
+  color: #2a2a32;
+}
+body .modal-job-content .left .description .more-info .row p span {
+  font-weight: 700;
+}
+body .modal-job-content .left .description .more-info hr.vertical {
+  width: 1px;
+  margin: 0 4px;
+  height: 16px;
+  background: #d1d1d5;
+  border: none;
+}
+body .modal-job-content .left .other-job .top {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+body .modal-job-content .left .other-job .top .left {
+  flex: 1;
+}
+body .modal-job-content .left .other-job .top .left .row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .modal-job-content .left .other-job .top .left .row figure img {
+  width: 28px;
+  height: 28px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .modal-job-content .left .other-job .top .left .row h2 {
+  font-family: var(--f-inter);
+  font-size: 24px;
+  line-height: 127%;
+  font-weight: 600;
+  color: #1d2939;
+}
+body .modal-job-content .left .other-job .top .left p {
+  color: #344054;
+  margin-top: 12px;
+}
+body .modal-job-content .left .other-job .top .right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+body .modal-job-content .left .other-job .top .right .prev,
+body .modal-job-content .left .other-job .top .right .next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #98a2b3;
+  border-radius: 48px;
+  box-shadow: 0px 1px 4px 0px rgba(12, 12, 13, 0.05);
+  cursor: pointer;
+}
+body .modal-job-content .left .other-job .top .right .prev.disable,
+body .modal-job-content .left .other-job .top .right .next.disable {
+  cursor: not-allowed;
+  border-color: #d0d5dd;
+}
+body .modal-job-content .left .other-job .top .right .prev.disable svg path,
+body .modal-job-content .left .other-job .top .right .next.disable svg path {
+  stroke: #d0d5dd;
+}
+body .modal-job-content .left .other-job .top .right .prev svg {
+  transform: rotate(180deg);
+}
+body .modal-job-content .left .other-job .bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 8px 0;
+}
+body .modal-job-content .right {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body .modal-job-content .right .contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+body .modal-job-content .right .contact-card h2 {
+  font-size: 24px;
+  color: #2a2a33;
+}
+body .modal-job-content .right .contact-card p {
+  color: #2a2a33;
+}
+body .modal-job-content .right .contact-card a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+}
+body .modal-job-content .right .contact-card a:hover svg path {
+  stroke: var(--primary);
+}
+body .modal-job-content .right .share {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  background: #e9effe;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+body .modal-job-content .right .share span {
+  color: #2a2a32;
+}
+body .modal-job-content .right .share .share-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .modal-job-content .right .job-list-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(/assets/image/search-result-modal.svg) no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  padding-left: 24px;
+  aspect-ratio: 1/1;
+}
+body .modal-job-content .right .job-list-banner h2 {
+  color: var(--white);
+  text-shadow: 0px 1px 4px rgba(12, 12, 13, 0.1), 0px 1px 4px rgba(12, 12, 13, 0.05);
+  letter-spacing: 0.48px;
+}
+body .modal-job-content .right .job-list-banner p {
+  margin-top: 12px;
+  color: var(--white);
+  text-shadow: 0px 1px 4px rgba(12, 12, 13, 0.1), 0px 1px 4px rgba(12, 12, 13, 0.05);
+  letter-spacing: 0.28px;
+}
+body .modal-job-content .right .job-list-banner .button-primary {
+  margin-top: 24px;
+}
+body .sign-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .sign-content .sign-wrapper {
+  width: 100%;
+  max-width: 632px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+body .sign-content .sign-wrapper .sign-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 48px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: var(--white);
+  box-shadow: 0px 16px 16px -8px rgba(12, 12, 13, 0.1), 0px 4px 4px -4px rgba(12, 12, 13, 0.05);
+}
+body .sign-content .sign-wrapper .sign-container .tab-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+body .sign-content .sign-wrapper .sign-container .tab-container .tab-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-bottom: 1px solid;
+  border-color: #b2b2b2;
+  color: #333333;
+}
+body .sign-content .sign-wrapper .sign-container .tab-container .tab-item:hover {
+  font-weight: 700;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+body .sign-content .sign-wrapper .sign-container .tab-container .tab-item.active {
+  font-weight: 700;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+body .sign-content .sign-wrapper .form-sign {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+body .sign-content .sign-wrapper .form-sign .button-primary {
+  height: 56px;
+}
+body .sign-content .sign-wrapper .form-sign .term-service {
+  color: #1f2237;
+}
+body .sign-content .sign-wrapper .form-sign .term-service a {
+  color: #0e74bc;
+  text-decoration: underline;
+}
+body .sign-content .sign-wrapper .form-sign .forgot-password {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body .sign-content .sign-wrapper .form-sign .forgot-password a {
+  color: #0e74bc;
+}
+body .sign-content .sign-wrapper .form-sign .keep-signin {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+body .sign-content .sign-wrapper .form-sign .keep-signin label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #1f2237;
+}
+body .sign-content .sign-wrapper .form-sign .keep-signin label input {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  accent-color: #2f6bff;
+}
+body .sign-content .sign-wrapper .form-sign .keep-signin p {
+  color: #6b7280;
+}
+body .sign-content .sign-wrapper .form-sign .other-connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+body .sign-content .sign-wrapper .form-sign .other-connect h2 {
+  color: #373a51;
+}
+body .sign-content .sign-wrapper .form-sign .other-connect .other-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body .sign-content .sign-wrapper .form-sign .other-connect .other-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #344054;
 }
 body .homepage .home-banner {
   background: url(/assets/image/home-banner-1.png) no-repeat;
