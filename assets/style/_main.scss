@@ -7,6 +7,8 @@
   --black: #000;
   --white: #fff;
   --text: #232323;
+  --gray-900: #101828;
+  --gray-600: #475467;
   // --neutral-900: #112722;
   // --neutral-800: #1f3731;
   // --neutral-700: #3c4241;
@@ -31,6 +33,9 @@ a {
   &:hover {
     color: var(--primary);
   }
+}
+b {
+  font-weight: 700;
 }
 figure {
   margin: 0;
@@ -427,6 +432,16 @@ $m-4: 480px;
       font-weight: 400;
     }
   }
+}
+
+.text-gray-900 {
+  color: var(--gray-900);
+}
+.text-gray-600 {
+  color: var(--gray-600);
+}
+.uppercase {
+  text-transform: uppercase;
 }
 
 .truncate-1row {

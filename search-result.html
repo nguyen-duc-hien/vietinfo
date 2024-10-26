@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body class="search-body">
     <header class="header">
         <div class="first-row">
             <div class="container">
@@ -97,7 +97,7 @@
         </div>
     </header>
 
-    <div class="search-result" style="min-height: 100vh;">
+    <div class="search-result">
         <section class="search-result-page">
             <form class="result-filter">
                 <div class="search-input-field">
@@ -134,7 +134,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="right">
+                <div class="right custom-scrollbar">
                     <div class="top">
                         <div class="row">
                             <figure><img src="/assets/image/vifo-tick.svg" alt=""></figure>
@@ -156,7 +156,7 @@
                     <div class="bottom">
                         <div class="item-view">
                             <!-- single item -->
-                            <div class="job-list-item">
+                            <div class="job-list-item open-modal" data-modal="modalJobDetail">
                                 <div class="line-time">
                                     <div class="time">
                                         <p>59 phút trước</p>
@@ -190,7 +190,7 @@
                                 </div>
                             </div>
                             <!-- single item -->
-                            <div class="job-list-item">
+                            <div class="job-list-item open-modal" data-modal="modalJobDetail">
                                 <div class="line-time">
                                     <div class="time">
                                         <p>59 phút trước</p>
@@ -233,7 +233,7 @@
                             </div>
 
                             <!-- single item -->
-                            <div class="job-list-item">
+                            <div class="job-list-item open-modal" data-modal="modalJobDetail">
                                 <div class="line-time">
                                     <div class="time">
                                         <p>59 phút trước</p>
@@ -267,7 +267,7 @@
                                 </div>
                             </div>
                             <!-- single item -->
-                            <div class="job-list-item">
+                            <div class="job-list-item open-modal" data-modal="modalJobDetail">
                                 <div class="line-time">
                                     <div class="time">
                                         <p>59 phút trước</p>
@@ -301,7 +301,7 @@
                                 </div>
                             </div>
                             <!-- single item -->
-                            <div class="job-list-item">
+                            <div class="job-list-item open-modal" data-modal="modalJobDetail">
                                 <div class="line-time">
                                     <div class="time">
                                         <p>59 phút trước</p>
@@ -366,12 +366,120 @@
                             </button>
                         </div>
                     </div>
+
+                    <footer>
+                        <div class="footer search-footer">
+                            <div class="float-button">
+                                <div class="float-item">
+                                    <figure><img src="/assets/image/icon/chat-box.svg" alt=""></figure>
+                                </div>
+                                <div class="float-item">
+                                    <figure><img src="/assets/image/icon/mess.svg" alt=""></figure>
+                                </div>
+                                <div class="float-item">
+                                    <figure><img src="/assets/image/icon/totop.svg" alt=""></figure>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <a href="/">
+                                    <figure><img src="/assets/image/footer-logo.svg" alt="logo"></figure>
+                                </a>
+                                <p>Cổng thông tin <span class="special">MIỄN PHÍ</span> dành cho cộng đồng người Việt
+                                    tại Mỹ</p>
+                                <nav class="nav">
+                                    <ul>
+                                        <li><a href="#">Việc làm</a></li>
+                                        <li><a href="#">Mua cửa tiệm</a></li>
+                                        <li><a href="#">Việt Event</a></li>
+                                        <li><a href="#">Thuê nhà</a></li>
+                                        <li><a href="#">Mua nhà</a></li>
+                                        <li><a href="#">Rao vặt</a></li>
+                                        <li><a href="#">Liên hệ quảng cáo</a></li>
+                                    </ul>
+                                </nav>
+
+                                <div class="social">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/icon/footer-fb.svg" alt="fb"></figure>
+                                    </a>
+                                    <a href="#">
+                                        <figure><img src="/assets/image/icon/footer-yt.svg" alt="yt"></figure>
+                                    </a>
+                                    <a href="#">
+                                        <figure><img src="/assets/image/icon/footer-ins.svg" alt="ins"></figure>
+                                    </a>
+                                    <a href="#">
+                                        <figure><img src="/assets/image/icon/footer-x.svg" alt="x"></figure>
+                                    </a>
+                                </div>
+                                <div class="contact">
+                                    <div class="single">
+                                        <h2>Liên hệ hợp tác</h2>
+                                        <a href="#">Email: contact@vietinfo.us</a>
+                                        <a href="#">Phone: 678 408 2288</a>
+                                    </div>
+                                    <div class="single">
+                                        <h2>Liên hệ hợp tác</h2>
+                                        <a href="#">Email: contact@vietinfo.us</a>
+                                        <a href="#">Phone: 678 408 2288</a>
+                                    </div>
+                                    <div class="single">
+                                        <h2>Liên hệ hợp tác</h2>
+                                        <a href="#">Email: contact@vietinfo.us</a>
+                                        <a href="#">Phone: 678 408 2288</a>
+                                    </div>
+                                </div>
+
+                                <div class="payment">
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-visa.svg" alt="visa"></figure>
+                                    </div>
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-mc.svg" alt="mc"></figure>
+                                    </div>
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-amex.svg" alt="amex"></figure>
+                                    </div>
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-ap.svg" alt="ap"></figure>
+                                    </div>
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-pp.svg" alt="pp"></figure>
+                                    </div>
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-jcb.svg" alt="jcb"></figure>
+                                    </div>
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-dcv.svg" alt="dcv"></figure>
+                                    </div>
+                                    <div class="logo-icon">
+                                        <figure><img src="/assets/image/footer-dc.svg" alt="dc"></figure>
+                                    </div>
+                                </div>
+
+                                <div class="policy">
+                                    <div class="left">
+                                        <a href="#">Privacy Policy</a>
+                                        |
+                                        <a href="#">Terms of Service</a>
+                                        |
+                                        <a href="#">Sitemap</a>
+                                    </div>
+                                    <p>Designed by Qixtech - Web Design & Digital Marketing</p>
+                                    <p>Copyright © 2024. Vietinfo LLC. All Right Reserved. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </footer>
                 </div>
             </div>
+
         </section>
 
         <!-- modal việc làm -->
-        <div id="" class="modal-wrapper" style="display: flex;">
+        <div id="modalJobDetail" class="modal-wrapper">
             <div class="modal-container">
                 <div class="modal-head">
                     <figure class="logo-modal">
@@ -761,111 +869,7 @@
         </div>
     </div>
 
-    <footer>
-        <div class="footer">
-            <div class="float-button">
-                <div class="float-item">
-                    <figure><img src="/assets/image/icon/chat-box.svg" alt=""></figure>
-                </div>
-                <div class="float-item">
-                    <figure><img src="/assets/image/icon/mess.svg" alt=""></figure>
-                </div>
-                <div class="float-item">
-                    <figure><img src="/assets/image/icon/totop.svg" alt=""></figure>
-                </div>
-            </div>
 
-            <div class="container">
-                <a href="/">
-                    <figure><img src="/assets/image/footer-logo.svg" alt="logo"></figure>
-                </a>
-                <p>Cổng thông tin <span class="special">MIỄN PHÍ</span> dành cho cộng đồng người Việt tại Mỹ</p>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#">Việc làm</a></li>
-                        <li><a href="#">Mua cửa tiệm</a></li>
-                        <li><a href="#">Việt Event</a></li>
-                        <li><a href="#">Thuê nhà</a></li>
-                        <li><a href="#">Mua nhà</a></li>
-                        <li><a href="#">Rao vặt</a></li>
-                        <li><a href="#">Liên hệ quảng cáo</a></li>
-                    </ul>
-                </nav>
-
-                <div class="social">
-                    <a href="#">
-                        <figure><img src="/assets/image/icon/footer-fb.svg" alt="fb"></figure>
-                    </a>
-                    <a href="#">
-                        <figure><img src="/assets/image/icon/footer-yt.svg" alt="yt"></figure>
-                    </a>
-                    <a href="#">
-                        <figure><img src="/assets/image/icon/footer-ins.svg" alt="ins"></figure>
-                    </a>
-                    <a href="#">
-                        <figure><img src="/assets/image/icon/footer-x.svg" alt="x"></figure>
-                    </a>
-                </div>
-                <div class="contact">
-                    <div class="single">
-                        <h2>Liên hệ hợp tác</h2>
-                        <a href="#">Email: contact@vietinfo.us</a>
-                        <a href="#">Phone: 678 408 2288</a>
-                    </div>
-                    <div class="single">
-                        <h2>Liên hệ hợp tác</h2>
-                        <a href="#">Email: contact@vietinfo.us</a>
-                        <a href="#">Phone: 678 408 2288</a>
-                    </div>
-                    <div class="single">
-                        <h2>Liên hệ hợp tác</h2>
-                        <a href="#">Email: contact@vietinfo.us</a>
-                        <a href="#">Phone: 678 408 2288</a>
-                    </div>
-                </div>
-
-                <div class="payment">
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-visa.svg" alt="visa"></figure>
-                    </div>
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-mc.svg" alt="mc"></figure>
-                    </div>
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-amex.svg" alt="amex"></figure>
-                    </div>
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-ap.svg" alt="ap"></figure>
-                    </div>
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-pp.svg" alt="pp"></figure>
-                    </div>
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-jcb.svg" alt="jcb"></figure>
-                    </div>
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-dcv.svg" alt="dcv"></figure>
-                    </div>
-                    <div class="logo-icon">
-                        <figure><img src="/assets/image/footer-dc.svg" alt="dc"></figure>
-                    </div>
-                </div>
-
-                <div class="policy">
-                    <div class="left">
-                        <a href="#">Privacy Policy</a>
-                        |
-                        <a href="#">Terms of Service</a>
-                        |
-                        <a href="#">Sitemap</a>
-                    </div>
-                    <p>Designed by Qixtech - Web Design & Digital Marketing</p>
-                    <p>Copyright © 2024. Vietinfo LLC. All Right Reserved. </p>
-                </div>
-            </div>
-        </div>
-
-    </footer>
 
     <!-- header script -->
     <script defer src="/assets/js/header-sticky-script.js"></script>

@@ -361,6 +361,8 @@ th {
   --black: #000;
   --white: #fff;
   --text: #232323;
+  --gray-900: #101828;
+  --gray-600: #475467;
 }
 
 body {
@@ -376,6 +378,10 @@ a {
 }
 a:hover {
   color: var(--primary);
+}
+
+b {
+  font-weight: 700;
 }
 
 figure {
@@ -600,7 +606,8 @@ body .homepage .for-sale .container .bottom .item .info .first-row h2,
 body .homepage .for-sale .container .bottom .item .info .second-row h2,
 body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
 body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .dashboard-container .right-content .title .left h1,
+body .dashboard .dashboard-container .right-content .title .right h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
   font-size: 20px;
   line-height: 150%;
 }
@@ -612,7 +619,8 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .dashboard-container .right-content .title .left h1,
+  body .dashboard .dashboard-container .right-content .title .right h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 18px;
   }
 }
@@ -624,7 +632,8 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .dashboard-container .right-content .title .left h1,
+  body .dashboard .dashboard-container .right-content .title .right h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 16px;
   }
 }
@@ -636,7 +645,8 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .dashboard-container .right-content .title .left h1,
+  body .dashboard .dashboard-container .right-content .title .right h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 14px;
   }
 }
@@ -644,7 +654,8 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-xl-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span {
+.text-body-xl-bold, body .dashboard .dashboard-container .right-content .title .left h1,
+body .dashboard .dashboard-container .right-content .title .right h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span {
   font-weight: 700;
 }
 .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
@@ -663,22 +674,22 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
 .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
   font-weight: 400;
 }
-.text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+.text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
   font-size: 18px;
   line-height: 155.6%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
+  .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
     font-size: 14px;
   }
 }
@@ -692,32 +703,32 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
 .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p {
   font-weight: 600;
 }
-.text-body-lg-medium, body .sign-content .sign-wrapper .form-sign .other-connect h2 {
+.text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2 {
   font-weight: 500;
 }
 .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
   font-weight: 400;
 }
-.text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+.text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .button-lightblue, .text-body-md-uppercase {
   font-size: 16px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .button-lightblue, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .button-lightblue, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title, .text-body-md-semibold, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, .text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .button-lightblue, .text-body-md-uppercase {
     font-size: 12px;
   }
 }
@@ -725,22 +736,22 @@ body .homepage .for-sale .container .top .left p, body .homepage .event .contain
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .button-trans, body .button-bg-white, body .button-border, body .button-primary {
+.text-body-md-bold, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .button-lightblue {
   font-weight: 700;
 }
-.text-body-md-semibold, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des {
+.text-body-md-semibold, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des {
   font-weight: 600;
 }
-.text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title {
+.text-body-md-medium, body .footer .container p, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .first-row .container p, body .select-trans, body .input-trans, .input-label .input-title {
   font-weight: 500;
 }
-.text-body-md-regular, body .footer .container .nav ul li, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+.text-body-md-regular, body .footer .container .nav ul li, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
 body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, .input-label .input-field {
   font-weight: 400;
 }
 .text-body-sm, .text-body-sm-regular, body .footer .container .policy .left,
 body .footer .container .policy a,
-body .footer .container .policy p, body .footer .container .contact .single a, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
@@ -748,7 +759,7 @@ body .homepage .for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .store-for-sale .container .bottom .item .info .first-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .sign-content .sign-wrapper .form-sign .keep-signin p, body .modal-job-content .right .contact-card p, body .job-list-item .context .line-location .location p,
-body .job-list-item .context .line-location .address p, body .validate-password .row p, .text-body-sm-medium, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .job-list-item .context .line-location .address p, body .validate-password .row p, .text-body-sm-medium, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
 body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
 body .homepage .for-rent .container .bottom .item .info .second-row span,
@@ -760,8 +771,10 @@ body .homepage .for-sale .container .bottom .item .image .first-row p, body .hom
 body .homepage .store-for-sale .container .bottom .item .info .second-row p,
 body .homepage .store-for-sale .container .bottom .item .info .third-row p, body .homepage .store-for-sale .container .bottom .item .info .first-row span,
 body .homepage .store-for-sale .container .bottom .item .info .second-row span,
-body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item, .text-body-sm-semibold, body .footer .container .contact .single h2, body .homepage .for-rent .container .bottom .item .image .type p,
-body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, body .job-list-item .line-time .locate p, .text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .share span, .text-body-sm-uppercase {
+body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item, body .switch-text,
+body .input-text, .text-body-sm-semibold, body .footer .container .contact .single h2, body .dashboard .table-wrapper .table-bottom .action-button .next,
+body .dashboard .table-wrapper .table-bottom .action-button .prev, body .dashboard .table-wrapper .table-container table thead tr td, body .homepage .for-rent .container .bottom .item .image .type p,
+body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, body .job-list-item .line-time .locate p, .text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-lightblue, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-lightblue, body .modal-job-content .right .share span, .text-body-sm-uppercase {
   font-size: 14px;
   line-height: 171.5%;
 }
@@ -769,14 +782,15 @@ body .homepage .for-sale .container .bottom .item .image .type p, body .homepage
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .share span {
+.text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-lightblue, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-lightblue, body .modal-job-content .right .share span {
   font-weight: 700;
 }
-.text-body-sm-semibold, body .footer .container .contact .single h2, body .homepage .for-rent .container .bottom .item .image .type p,
+.text-body-sm-semibold, body .footer .container .contact .single h2, body .dashboard .table-wrapper .table-bottom .action-button .next,
+body .dashboard .table-wrapper .table-bottom .action-button .prev, body .dashboard .table-wrapper .table-container table thead tr td, body .homepage .for-rent .container .bottom .item .image .type p,
 body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, body .job-list-item .line-time .locate p {
   font-weight: 600;
 }
-.text-body-sm-medium, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+.text-body-sm-medium, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
 body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
 body .homepage .for-rent .container .bottom .item .info .second-row span,
@@ -788,12 +802,13 @@ body .homepage .for-sale .container .bottom .item .image .first-row p, body .hom
 body .homepage .store-for-sale .container .bottom .item .info .second-row p,
 body .homepage .store-for-sale .container .bottom .item .info .third-row p, body .homepage .store-for-sale .container .bottom .item .info .first-row span,
 body .homepage .store-for-sale .container .bottom .item .info .second-row span,
-body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item {
+body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item, body .switch-text,
+body .input-text {
   font-weight: 500;
 }
 .text-body-sm-regular, body .footer .container .policy .left,
 body .footer .container .policy a,
-body .footer .container .policy p, body .footer .container .contact .single a, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
@@ -804,7 +819,7 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row .flexib
 body .job-list-item .context .line-location .address p, body .validate-password .row p {
   font-weight: 400;
 }
-.text-body-xs, .text-body-xs-regular, .text-body-xs-medium, .text-body-xs-semibold, .text-body-xs-bold, .text-body-xs-uppercase {
+.text-body-xs, .text-body-xs-regular, body .status-badge, .text-body-xs-medium, .text-body-xs-semibold, .text-body-xs-bold, .text-body-xs-uppercase {
   font-size: 12px;
   line-height: 166.7%;
 }
@@ -821,8 +836,20 @@ body .job-list-item .context .line-location .address p, body .validate-password 
 .text-body-xs-medium {
   font-weight: 500;
 }
-.text-body-xs-regular {
+.text-body-xs-regular, body .status-badge {
   font-weight: 400;
+}
+
+.text-gray-900 {
+  color: var(--gray-900);
+}
+
+.text-gray-600 {
+  color: var(--gray-600);
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .truncate-1row, body .job-list-item .context .line-location .location p,
@@ -938,13 +965,165 @@ body figure.w-32 {
   width: 32px;
   height: 32px;
 }
+body figure.w-35 {
+  width: 35px;
+  height: 35px;
+}
 body figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .button-primary {
+body .w-full {
+  width: 100%;
+}
+body .justify-center {
+  justify-content: center;
+}
+body .row-gap, body .row-gap-16, body .row-gap-12, body .row-gap-8, body .row-gap-4 {
+  display: flex;
+  align-items: center;
+}
+body .row-gap-4 {
+  gap: 4px;
+}
+body .row-gap-8 {
+  gap: 8px;
+}
+body .row-gap-12 {
+  gap: 12px;
+}
+body .row-gap-16 {
+  gap: 16px;
+}
+body .switch-wrap,
+body .custom-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+body .switch-text,
+body .input-text {
+  color: #101828;
+}
+body .switch-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 36px;
+  height: 20px;
+}
+body .switch-custom input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+body .switch-custom input:checked + .slider {
+  background-color: #004dd1;
+}
+body .switch-custom input:checked + .slider:before {
+  transform: translateX(16px);
+}
+body .switch-custom .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f2f4f7;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+body .switch-custom .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+body .checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body .checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+body .checkbox-container input:checked + .checkmark {
+  background-color: #eaf4ff;
+  border-color: #004dd1;
+}
+body .checkbox-container input:checked + .checkmark:after {
+  display: block;
+}
+body .checkbox-container .checkmark {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: 2px solid #d0d5dd;
+  border-radius: 6px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+body .checkbox-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 12px;
+  border: solid #004dd1;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+body .select-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 44px 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d5d7da;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(/assets/image/icon/chevron-down.svg) no-repeat right 14px center;
+  background-size: 20px 20px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #181d27;
+}
+body .select-field::-moz-placeholder {
+  color: #717680;
+}
+body .select-field::placeholder {
+  color: #717680;
+}
+body .select-field:focus {
+  outline: none;
+  border-color: #004dd1;
+  caret-color: #004dd1;
+}
+body .button-primary, body .button-lightblue {
   width: -moz-fit-content;
   width: fit-content;
   display: flex;
@@ -956,7 +1135,7 @@ body .button-primary {
   border-radius: 8px;
   color: #f3f3f3;
 }
-body .button-trans, body .button-bg-white, body .button-border {
+body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border {
   width: -moz-fit-content;
   width: fit-content;
   display: flex;
@@ -967,6 +1146,12 @@ body .button-trans, body .button-bg-white, body .button-border {
   background: transparent;
   border-radius: 8px;
 }
+body .button-trans.p-10, body .p-10.button-bg-red, body .p-10.button-bg-white, body .p-10.button-border {
+  padding: 10;
+}
+body .button-trans.p-0, body .p-0.button-bg-red, body .p-0.button-bg-white, body .p-0.button-border {
+  padding: 0;
+}
 body .button-border {
   border: 1px solid var(--primary);
   color: var(--primary);
@@ -975,6 +1160,15 @@ body .button-bg-white {
   background: var(--white);
   color: var(--primary);
   box-shadow: 0px 1px 4px 0px rgba(12, 12, 13, 0.05);
+}
+body .button-bg-red {
+  background: #d92d20;
+  color: var(--white);
+  box-shadow: 0px 1px 4px 0px rgba(12, 12, 13, 0.05);
+}
+body .button-lightblue {
+  background: #eff8ff;
+  color: var(--primary);
 }
 body .rotate-180 {
   transform: rotate(180deg);
@@ -1030,9 +1224,6 @@ body .validate-password .row.checked .uncheck {
 }
 body .validate-password .row.checked p {
   color: #28be2d;
-}
-body .w-full {
-  width: 100%;
 }
 body .input-trans {
   max-width: 152px;
@@ -1116,6 +1307,50 @@ body .pagination .page-list .page-item:hover {
 body .pagination .page-list .page-item.active {
   background: #eaecf5;
   color: var(--primary);
+}
+body .status-badge {
+  display: flex;
+  padding: 2px 8px 2px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 16px;
+}
+body .status-badge .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 99px;
+}
+body .status-badge.active {
+  color: #027a48;
+  background: #ecfdf3;
+}
+body .status-badge.active .dot {
+  background: #12b76a;
+}
+body .status-badge.inactive {
+  color: #344054;
+  background: #f2f4f7;
+}
+body .status-badge.inactive .dot {
+  background: #667085;
+}
+body .status-badge.error {
+  color: #b42318;
+  background: #fef3f2;
+}
+body .status-badge.error .dot {
+  background: #f04438;
+}
+body .status-badge.warning {
+  color: #b54708;
+  background: #fff6ed;
+}
+body .status-badge.warning .dot {
+  background: #fb6514;
+}
+body .open-modal {
+  cursor: pointer;
 }
 body .modal-wrapper {
   display: none;
@@ -1284,7 +1519,7 @@ body .header .second-row .container .nav ul li a {
 body .header .second-row .container .nav ul li a:hover {
   color: var(--primary);
 }
-body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span {
+body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span {
   color: var(--primary);
 }
 body .header .header-scroll {
@@ -1768,7 +2003,7 @@ body .modal-job-content .right .job-list-banner p {
   text-shadow: 0px 1px 4px rgba(12, 12, 13, 0.1), 0px 1px 4px rgba(12, 12, 13, 0.05);
   letter-spacing: 0.28px;
 }
-body .modal-job-content .right .job-list-banner .button-primary {
+body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-lightblue {
   margin-top: 24px;
 }
 body .sign-content {
@@ -1827,7 +2062,7 @@ body .sign-content .sign-wrapper .form-sign {
   flex-direction: column;
   gap: 24px;
 }
-body .sign-content .sign-wrapper .form-sign .button-primary {
+body .sign-content .sign-wrapper .form-sign .button-primary, body .sign-content .sign-wrapper .form-sign .button-lightblue {
   height: 56px;
 }
 body .sign-content .sign-wrapper .form-sign .term-service {
@@ -1991,7 +2226,7 @@ body .homepage .home-banner .container .form-banner-1 .home-search-field .field 
 body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans::placeholder {
   color: #667085;
 }
-body .homepage .home-banner .container .form-banner-1 .home-search-field .button-primary {
+body .homepage .home-banner .container .form-banner-1 .home-search-field .button-primary, body .homepage .home-banner .container .form-banner-1 .home-search-field .button-lightblue {
   font-weight: 600;
   min-width: 134px;
 }
@@ -2996,7 +3231,7 @@ body .homepage .other-task .container .bottom .side-banner p {
   text-shadow: 0px 1px 4px rgba(12, 12, 13, 0.1), 0px 1px 4px rgba(12, 12, 13, 0.05);
   color: var(--white);
 }
-body .homepage .other-task .container .bottom .side-banner .button-primary {
+body .homepage .other-task .container .bottom .side-banner .button-primary, body .homepage .other-task .container .bottom .side-banner .button-lightblue {
   margin-top: 24px;
 }
 body .homepage .other-task .container .bottom .item {
@@ -3304,6 +3539,14 @@ body .homepage .last-item {
   padding-bottom: 68px;
   background: #f5f5f5;
 }
+body.search-body {
+  height: 100%;
+  overflow: hidden;
+}
+body .search-result {
+  height: calc(100% - 125px);
+  overflow: hidden;
+}
 body .search-result .search-result-page .result-filter {
   display: flex;
   align-items: center;
@@ -3379,7 +3622,7 @@ body .search-result .search-result-page .result-filter .select-des::after {
   pointer-events: none;
   /* Allow click through */
 }
-body .search-result .search-result-page .result-filter .button-primary {
+body .search-result .search-result-page .result-filter .button-primary, body .search-result .search-result-page .result-filter .button-lightblue {
   margin-left: 8px;
 }
 body .search-result .search-result-page .result-view {
@@ -3400,7 +3643,10 @@ body .search-result .search-result-page .result-view .left .sticky {
   border-radius: 12px;
 }
 body .search-result .search-result-page .result-view .right {
-  width: 752px;
+  width: 750px;
+  flex: 0 0 750px;
+  height: 100%;
+  overflow-y: scroll;
 }
 body .search-result .search-result-page .result-view .right .top .row {
   display: flex;
@@ -3462,8 +3708,341 @@ body .search-result .search-result-page .result-view .right .bottom .item-view .
   text-shadow: 0px 1px 4px rgba(12, 12, 13, 0.1), 0px 1px 4px rgba(12, 12, 13, 0.05);
   letter-spacing: 0.28px;
 }
-body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary {
+body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-lightblue {
   margin-top: 24px;
+}
+body .dashboard {
+  display: flex;
+}
+body .dashboard .dashboard-container {
+  width: 100%;
+  display: flex;
+}
+body .dashboard .dashboard-container .left-nav {
+  padding: 30px 60px;
+  background: var(--primary);
+  height: 100%;
+  width: 100%;
+  max-width: 344px;
+  position: relative;
+}
+body .dashboard .dashboard-container .left-nav .fixed {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: fixed;
+  top: 30px;
+  left: 60px;
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav .logo {
+  width: 190px;
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .avatar {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 636.364px;
+  background: var(--white);
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .avatar figure {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .avatar figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 636.364px;
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name {
+  font-size: 22px;
+  color: var(--white);
+}
+body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email {
+  color: var(--white);
+}
+body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--white);
+}
+body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item:hover a {
+  background: var(--white);
+  color: var(--primary);
+}
+body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item:hover a figure img {
+  filter: invert(54%) sepia(88%) saturate(3061%) hue-rotate(210deg) brightness(94%) contrast(102%);
+}
+body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul.active a {
+  background: var(--white);
+  color: var(--primary);
+}
+body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul.active a figure img {
+  filter: invert(54%) sepia(88%) saturate(3061%) hue-rotate(210deg) brightness(94%) contrast(102%);
+}
+body .dashboard .dashboard-container .right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: auto;
+  padding: 0 32px;
+  width: 100%;
+  max-width: 1504px;
+}
+body .dashboard .dashboard-container .right-content .title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 0;
+}
+body .dashboard .dashboard-container .right-content .title .left,
+body .dashboard .dashboard-container .right-content .title .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+body .dashboard .dashboard-container .right-content .title .left h1,
+body .dashboard .dashboard-container .right-content .title .right h1 {
+  font-size: 40px;
+  color: #1d2939;
+}
+body .dashboard .dashboard-container .right-content .news {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 59px;
+  border-radius: 5px;
+  background: #f8f9fc;
+}
+body .dashboard .dashboard-container .right-content .news .new {
+  display: flex;
+  padding: 2px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #eff8ff;
+  background: #fec84b;
+  color: var(--black);
+}
+body .dashboard .dashboard-container .right-content .news p {
+  color: var(--primary);
+}
+body .dashboard .table-filter {
+  display: flex;
+  align-items: center;
+  padding: 16px 48px;
+  gap: 8px;
+  border: 1px solid #d0d5dd;
+}
+body .dashboard .table-filter .search-input-field {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  background: var(--white);
+}
+body .dashboard .table-filter .search-input-field.focus {
+  border: 2px solid var(--primary);
+}
+body .dashboard .table-filter .search-input-field .search-icon {
+  width: 56px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+body .dashboard .table-filter .search-input-field .search-icon.focus {
+  background: #ededed;
+  border: 1px solid var(--primary);
+  border-right: 2px solid var(--primary);
+}
+body .dashboard .table-filter .search-input-field .clear-icon {
+  padding-left: 8px;
+  display: none;
+}
+body .dashboard .table-filter .search-input-field .clear-icon.active {
+  display: block;
+}
+body .dashboard .table-filter .search-input-field .input-trans {
+  max-width: unset;
+  margin-left: 24px;
+  padding-right: 20px;
+}
+body .dashboard .table-filter .select-des {
+  color: #1d2939;
+  min-width: 240px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 52px;
+  appearance: none;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  overflow: hidden;
+  /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("../image/icon/dropdown-banner-1.svg") no-repeat left 20px center;
+  /* Adjust background position here */
+  background-size: 24px 24px;
+  /* Adjust background size here */
+}
+body .dashboard .table-filter .select-des::after {
+  content: "";
+  /* Unicode for down arrow */
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Allow click through */
+}
+body .dashboard .table-filter .button-primary, body .dashboard .table-filter .button-lightblue {
+  margin-left: 8px;
+}
+body .dashboard .table-wrapper {
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  background: var(--white);
+  overflow: hidden;
+  box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1), 0px 1px 2px 0px rgba(16, 24, 40, 0.06);
+}
+body .dashboard .table-wrapper .table-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+}
+body .dashboard .table-wrapper .table-title .left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .dashboard .table-wrapper .table-title .left h2 {
+  color: #101828;
+}
+body .dashboard .table-wrapper .table-title .left .post-num {
+  display: flex;
+  padding: 2px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: #eff8ff;
+  color: var(--primary);
+}
+body .dashboard .table-wrapper .table-title .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+body .dashboard .table-wrapper .table-container table .center {
+  text-align: center;
+}
+body .dashboard .table-wrapper .table-container table .middle {
+  vertical-align: middle;
+}
+body .dashboard .table-wrapper .table-container table thead tr td {
+  padding: 12px 24px;
+  border-bottom: 1px solid #e4e7ec;
+  background: #f9fafb;
+  vertical-align: bottom;
+  text-align: left;
+  color: #475467;
+}
+body .dashboard .table-wrapper .table-container table tbody tr td {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e4e7ec;
+  background: var(--white);
+  vertical-align: bottom;
+  text-align: left;
+  color: #475467;
+}
+body .dashboard .table-wrapper .table-container .sound-border {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6.667px;
+  border-radius: 32px;
+  background: #f2f4f7;
+}
+body .dashboard .table-wrapper .table-bottom {
+  display: flex;
+  padding: 12px 24px 16px 24px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d0d5dd;
+  background: var(--white);
+}
+body .dashboard .table-wrapper .table-bottom .action-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+body .dashboard .table-wrapper .table-bottom .action-button .next,
+body .dashboard .table-wrapper .table-bottom .action-button .prev {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 4px;
+  border: 1px solid #d5d7da;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  cursor: pointer;
+  color: #344054;
+}
+body .dashboard .table-wrapper .table-bottom .action-button .page-num {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #667085;
+}
+body .dashboard .table-wrapper .table-bottom .action-button .page-num.active {
+  background: #eff8ff;
+  color: var(--primary);
 }
 body .footer {
   padding-top: 48px;
@@ -3584,4 +4163,31 @@ body .footer .container .policy .left {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+body .footer.search-footer {
+  padding: 0 64px;
+}
+body .footer.search-footer .container .nav {
+  width: 100%;
+}
+body .footer.search-footer .container .nav ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+body .footer.search-footer .container .nav ul li {
+  text-align: center;
+}
+body .footer.search-footer .container .contact {
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+body .footer.search-footer .container .policy {
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+body .footer.search-footer .container .policy .left {
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
