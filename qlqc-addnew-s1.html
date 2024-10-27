@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/main.css" />
+    <title>Quản lý quảng cáo - Tạo mới</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+</head>
+
+<body>
+    <div class="dashboard">
+        <section class="dashboard-container" style="min-height: 100vh;">
+            <div class="left-nav">
+                <div class="fixed">
+                    <div class="top-nav">
+                        <a href="#" class="logo">
+                            <figure><img src="/assets/image/page-logo-white.svg" alt="logo"></figure>
+                        </a>
+                        <div class="info">
+                            <div class="avatar">
+                                <figure><img src="/assets/image/dashboard-avatar.svg" alt="avatar"></figure>
+                            </div>
+                            <div class="information">
+                                <h2 class="name">Tu Nguyen</h2>
+                                <span class="email">tu.nguyen@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="nav">
+                            <ul>
+                                <li class="nav-item active">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/dashboard.svg" alt="icon"></figure>
+                                        Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/user.svg" alt="icon"></figure>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/upload.svg" alt="icon"></figure>
+                                        Quản lý tin rao vặt
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/briefcase.svg" alt="icon"></figure>
+                                        Quản lý quảng cáo
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/card.svg" alt="icon"></figure>
+                                        Billing & Payments
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="title add-new">
+                    <div class="left">
+                        <button class="button-trans p-0 uppercase text-primary">
+                            <figure class="w-40"><img src="/assets/image/icon/arrow-circle-broken-right.svg" alt="icon">
+                            </figure>
+                            QUAY LẠI
+                        </button>
+                    </div>
+
+                    <h1>Đăng ký dịch vụ quảng cáo</h1>
+                </div>
+
+                <div class="addnew-content">
+                    <div class="progress">
+                        <div class="progress-bar">
+                            <!-- thêm active khi đã xong tiến trình -->
+                            <div class="progress-item active">
+                                <div class="dot"></div>
+                                <div class="content">
+                                    <figure class="w-36"><img src="/assets/image/icon/gear.svg" alt="icon"></figure>
+                                    <p>Thiết lập quảng cáo</p>
+                                </div>
+                            </div>
+                            <!-- thêm active khi đã xong tiến trình -->
+                            <div class="progress-divider first"></div>
+                            <div class="progress-item">
+                                <div class="dot"></div>
+                                <div class="content">
+                                    <figure class="w-36"><img src="/assets/image/icon/board-check.svg" alt="icon">
+                                    </figure>
+                                    <p>Thanh tóan</p>
+                                </div>
+                            </div>
+                            <!-- thêm active khi đã xong tiến trình -->
+                            <div class="progress-divider second"></div>
+                            <div class="progress-item">
+                                <div class="dot"></div>
+                                <div class="content">
+                                    <figure class="w-36"><img src="/assets/image/icon/internet-global.svg" alt="icon">
+                                    </figure>
+                                    <p>Online</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="addnew-form">
+                        <label for="" class="input-label w-50">
+                            <p class="input-title semibold">khu vực đặt quảng cáo &nbsp;<a href="#"
+                                    class="primary-under">Tìm
+                                    hiểu thêm</a></p>
+                            <select name="" id="" class="input-field">
+                                <option value="">Homepage - trang chủ</option>
+                                <option value="">Homepage - trang chủ 2</option>
+                                <option value="">Homepage - trang chủ 3</option>
+                                <option value="">Homepage - trang chủ 4</option>
+                            </select>
+                        </label>
+                        <label for="" class="input-label w-50">
+                            <p class="input-title semibold">Vị trí đặt quảng cáo</p>
+                            <select name="" id="" class="input-field">
+                                <option value="">Vị trí H1 (120 x 240 px)</option>
+                                <option value="">Vị trí H1 (120 x 240 px) 2</option>
+                                <option value="">Vị trí H1 (120 x 240 px) 3</option>
+                                <option value="">Vị trí H1 (120 x 240 px) 4</option>
+                            </select>
+                        </label>
+                        <label for="" class="input-label">
+                            <p class="input-title semibold">Quy mô quảng cáo <span class="input-title regular">(nơi
+                                    quảng
+                                    cáo sẽ xuất hiện, ví
+                                    dụ anh chị chọn “Toàn nước Mỹ,” ads sẽ xuất hiện cho người vào VietInfo trên
+                                    toàn nước Mỹ)</span></p>
+                            <select name="" id="" class="input-field">
+                                <option value="">Toàn nước Mỹ</option>
+                                <option value="">Bang 1</option>
+                                <option value="">Bang 2</option>
+                                <option value="">Bang 3</option>
+                            </select>
+                        </label>
+
+                        <label for="" class="input-label">
+                            <p class="input-title semibold">State(s)</p>
+                            <div class="multi-dropdown" data-dropdown="state">
+                                <div class="multi-dropdown-label input-field">
+                                    Tất cả trạng thái
+                                </div>
+                                <div class="multi-dropdown-content w-360">
+                                    <!-- search -->
+                                    <div class="search-input-field w-full">
+                                        <div class="search-icon">
+                                            <figure><img src="/assets/image/icon/mag-glass.svg" alt="icon"></figure>
+                                        </div>
+                                        <div class="clear-icon">
+                                            <figure><img src="/assets/image/icon/close-border.svg" alt="icon"></figure>
+                                        </div>
+                                        <input type="text" class="input-trans field-input" placeholder="Nhập tên state">
+                                    </div>
+
+                                    <label class="custom-checkbox">
+                                        <div class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </div>
+                                        <p class="input-text">Tất cả trạng thái</p>
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <div class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </div>
+                                        <p class="input-text">Under review</p>
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <div class="checkbox-container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </div>
+                                        <p class="input-text">Active</p>
+                                    </label>
+
+                                    <hr class="divider-full-e0">
+
+                                    <div class="button-confirm">
+                                        <button class="button-primary">
+                                            Xác nhận
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+
+
+                        <label for="" class="input-label relative">
+                            <p class="input-title semibold">
+                                Thời gian quảng cáo
+                                <span class="input-title regular">
+                                    (5% discount tự động apply dành cho quảng cáo trên 6 months)
+                                </span>
+                            </p>
+                            <input type="text" class="input-field date-picker-open" readonly
+                                placeholder="Chọn một hoặc nhiều tháng bạn muốn hiện quảng cáo">
+
+
+                            <!-- DatePicker -->
+                            <div class="datepicker-custom">
+                                <div class="datepicker-header">
+                                    <div class="first-row">
+                                        <button class="prev-year">&lt;</button>
+                                        <div class="year-display">2024</div>
+                                        <button class="next-year">&gt;</button>
+                                    </div>
+                                    <p class="context">Chọn một hoặc nhiều tháng bạn muốn hiện quảng cáo</p>
+                                </div>
+                                <div class="datepicker-content">
+                                    <div class="month-grid">
+                                        <button class="month-item" data-month="January">January</button>
+                                        <button class="month-item" data-month="February">February</button>
+                                        <button class="month-item" data-month="March">March</button>
+                                        <button class="month-item" data-month="April">April</button>
+                                        <button class="month-item" data-month="May">May</button>
+                                        <button class="month-item" data-month="June">June</button>
+                                        <button class="month-item" data-month="July">July</button>
+                                        <button class="month-item" data-month="August">August</button>
+                                        <button class="month-item disabled" data-month="September">September</button>
+                                        <button class="month-item" data-month="October">October</button>
+                                        <button class="month-item" data-month="November">November</button>
+                                        <button class="month-item" data-month="December">December</button>
+                                    </div>
+                                </div>
+                                <div class="datepicker-footer">
+                                    <div class="selected-months">
+                                        <p>Thời gian quảng cáo:</p>
+                                        <div class="selected-list"></div>
+                                    </div>
+                                    <div class="action-buttons">
+                                        <button class="cancel-button">Cancel</button>
+                                        <button class="button-primary save-button">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </form>
+
+                    <div class="addnew-form g-16">
+                        <h2 class="w-full text-body-md-bold text-gray-900">Thông tin đơn hàng</h2>
+                        <form action="" class="row-gap-16">
+                            <p class="text-body-md-medium text-gray-900">Code giảm giá</p>
+                            <label for="" class="input-label w-50">
+                                <p></p>
+                                <input type="text" class="input-field" placeholder="abc">
+                            </label>
+                            <button class="button-border">Áp dụng</button>
+                        </form>
+
+                        <div class="row-between">
+                            <p class="order-info-title">Subtotal</p>
+                            <p class="order-info-content">$10</p>
+                        </div>
+                        <div class="row-between">
+                            <p class="order-info-title">Giảm giá</p>
+                            <p class="order-info-content">$10</p>
+                        </div>
+                        <div class="row-between">
+                            <p class="order-info-title">Thuế</p>
+                            <p class="order-info-content">$10</p>
+                        </div>
+                        <hr class="divider-full-e0">
+
+                        <div class="row-between">
+                            <p class="order-info-total">Tổng cộng</p>
+                            <p class="order-info-total">$10</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <footer>
+                    <div class="footer">
+                        <div class="float-button">
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/chat-box.svg" alt=""></figure>
+                            </div>
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/mess.svg" alt=""></figure>
+                            </div>
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/totop.svg" alt=""></figure>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <a href="/">
+                                <figure><img src="/assets/image/footer-logo.svg" alt="logo"></figure>
+                            </a>
+                            <p>Cổng thông tin <span class="special">MIỄN PHÍ</span> dành cho cộng đồng người Việt tại Mỹ
+                            </p>
+                            <nav class="nav">
+                                <ul>
+                                    <li><a href="#">Việc làm</a></li>
+                                    <li><a href="#">Mua cửa tiệm</a></li>
+                                    <li><a href="#">Việt Event</a></li>
+                                    <li><a href="#">Thuê nhà</a></li>
+                                    <li><a href="#">Mua nhà</a></li>
+                                    <li><a href="#">Rao vặt</a></li>
+                                    <li><a href="#">Liên hệ quảng cáo</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="social">
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-fb.svg" alt="fb"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-yt.svg" alt="yt"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-ins.svg" alt="ins"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-x.svg" alt="x"></figure>
+                                </a>
+                            </div>
+                            <div class="contact">
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                            </div>
+
+                            <div class="payment">
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-visa.svg" alt="visa"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-mc.svg" alt="mc"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-amex.svg" alt="amex"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-ap.svg" alt="ap"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-pp.svg" alt="pp"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-jcb.svg" alt="jcb"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-dcv.svg" alt="dcv"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-dc.svg" alt="dc"></figure>
+                                </div>
+                            </div>
+
+                            <div class="policy">
+                                <div class="left">
+                                    <a href="#">Privacy Policy</a>
+                                    |
+                                    <a href="#">Terms of Service</a>
+                                    |
+                                    <a href="#">Sitemap</a>
+                                </div>
+                                <p>Designed by Qixtech - Web Design & Digital Marketing</p>
+                                <p>Copyright © 2024. Vietinfo LLC. All Right Reserved. </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <!-- modal script -->
+    <script defer src="/assets/js/modal.js"></script>
+    <!-- script input -->
+    <script defer src="/assets/js/script-input.js"></script>
+
+    <!-- multi dropdown js, file này là dummy demo, về sau nhân ra để xử lý nhiều chỗ -->
+    <script defer src="/assets/js/multi-dropdown.js"></script>
+
+
+    <!-- script datepicker custom -->
+    <script defer>
+        document.addEventListener('DOMContentLoaded', function () {
+            const inputField = document.querySelector('.date-picker-open');
+            const datePicker = document.querySelector('.datepicker-custom');
+            const monthButtons = document.querySelectorAll('.month-item');
+            const selectedList = document.querySelector('.selected-list');
+            const prevYearButton = document.querySelector('.prev-year');
+            const nextYearButton = document.querySelector('.next-year');
+            const yearDisplay = document.querySelector('.year-display');
+            const saveButton = document.querySelector('.save-button');
+            const cancelButton = document.querySelector('.cancel-button');
+            let selectedMonths = [];
+
+            // Hiển thị DatePicker khi click vào input
+            inputField.addEventListener('click', function (event) {
+                datePicker.style.display = 'block';
+                event.stopPropagation(); // Ngăn không cho sự kiện click truyền lên document
+            });
+
+            // Xử lý khi click vào các tháng
+            monthButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const month = this.getAttribute('data-month');
+
+                    if (this.classList.contains('selected')) {
+                        this.classList.remove('selected');
+                        selectedMonths = selectedMonths.filter(m => m !== month);
+                    } else {
+                        this.classList.add('selected');
+                        selectedMonths.push(month);
+                    }
+
+                    renderSelectedMonths();
+                });
+            });
+
+            // Hiển thị các tháng đã chọn
+            function renderSelectedMonths() {
+                selectedList.innerHTML = '';
+                const selectedText = selectedMonths.map(month => month.substring(0, 3)).join(', ');
+                inputField.value = selectedText; // Hiển thị trong input
+                selectedMonths.forEach(month => {
+                    const item = document.createElement('div');
+                    item.classList.add('selected-item');
+                    item.textContent = month.substring(0, 3); // Viết tắt tháng
+                    selectedList.appendChild(item);
+                });
+            }
+
+            // Xử lý nút chuyển năm
+            prevYearButton.addEventListener('click', () => changeYear(-1));
+            nextYearButton.addEventListener('click', () => changeYear(1));
+
+            function changeYear(change) {
+                const currentYear = parseInt(yearDisplay.textContent);
+                yearDisplay.textContent = currentYear + change;
+            }
+
+            // Xử lý nút Save
+            saveButton.addEventListener('click', function () {
+                datePicker.style.display = 'none';
+            });
+
+            // Xử lý nút Cancel
+            cancelButton.addEventListener('click', function () {
+                datePicker.style.display = 'none';
+            });
+
+            // Đóng DatePicker nếu click ra ngoài
+            document.addEventListener('click', function (event) {
+                // Kiểm tra nếu click không nằm trong DatePicker và không phải input
+                if (!datePicker.contains(event.target) && event.target !== inputField) {
+                    datePicker.style.display = 'none';
+                }
+            });
+
+            // Ngăn không cho sự kiện click bên trong DatePicker đóng modal
+            datePicker.addEventListener('click', function (event) {
+                event.stopPropagation(); // Ngăn sự kiện click truyền lên document
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

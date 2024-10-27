@@ -112,18 +112,65 @@
                         <input type="text" class="input-trans field-input" placeholder="Name, slot">
                     </div>
 
-                    <select name="" id="" class="select-des">
-                        <option value="0">Cho thuê nhà </option>
-                        <option value="1">Cho thuê nhà 1</option>
-                        <option value="2">Cho thuê nhà 2</option>
-                        <option value="3">Cho thuê nhà 3</option>
-                    </select>
-                    <select name="" id="" class="select-des">
-                        <option value="0">Tất cả trạng thái </option>
-                        <option value="1">Tất cả trạng thái 1</option>
-                        <option value="2">Tất cả trạng thái 2</option>
-                        <option value="3">Tất cả trạng thái 3</option>
-                    </select>
+                    <div class="multi-dropdown" data-dropdown="menu1">
+                        <div class="multi-dropdown-label">
+                            Tất cả trạng thái
+                        </div>
+                        <div class="multi-dropdown-content">
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">Tất cả trạng thái</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">Under review</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">Active</p>
+                            </label>
+
+                        </div>
+                    </div>
+
+                    <div class="multi-dropdown" data-dropdown="menu1">
+                        <div class="multi-dropdown-label">
+                            Tất cả khu vực
+                        </div>
+                        <div class="multi-dropdown-content">
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">Tất cả khu vực</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">Trang chủ - homepage</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">Trang kết quả tìm kiếm</p>
+                            </label>
+
+                        </div>
+                    </div>
 
                     <button class="button-lightblue" style="height: 50px;">Tìm kiếm</button>
                 </form>
@@ -684,6 +731,8 @@
     <!-- modal script -->
     <script defer src="/assets/js/modal.js"></script>
 
+    <!-- multi dropdown js, file này là dummy demo, về sau nhân ra để xử lý nhiều chỗ -->
+    <script defer src="/assets/js/multi-dropdown.js"></script>
 
 </body>
 
