@@ -145,10 +145,207 @@
                                             <p class="num-end">Ending in 1234</p>
                                         </div>
                                     </label>
+                                    <label class="payment-item">
+                                        <input type="radio" name="payment" class="" id="">
+                                        <div class="payment-context between">
+                                            <!-- <figure><img src="/assets/image/badge-master.svg" alt=""></figure> -->
+                                            <p class="type">Add a credit or debit</p>
+                                            <div class="payment">
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-visa.svg" alt="visa">
+                                                    </figure>
+                                                </div>
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-mc.svg" alt="mc"></figure>
+                                                </div>
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-amex.svg" alt="amex">
+                                                    </figure>
+                                                </div>
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-ap.svg" alt="ap"></figure>
+                                                </div>
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-pp.svg" alt="pp"></figure>
+                                                </div>
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-jcb.svg" alt="jcb"></figure>
+                                                </div>
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-dcv.svg" alt="dcv"></figure>
+                                                </div>
+                                                <div class="logo-icon">
+                                                    <figure><img src="/assets/image/footer-dc.svg" alt="dc"></figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <label class="payment-item">
+                                        <input type="radio" name="payment" class="" id="">
+                                        <div class="payment-context">
+                                            <p class="num-end">Thanh toán qua chuyển khoản ACH/Zelle</p>
+                                        </div>
+                                    </label>
+                                    <!-- mục này là extend của phần thanh toán qua chuyển khoản, hiện khi chuyển khoản được chọn -->
+                                    <div class="payment-item col">
+                                        <div class="step-list">
+                                            <div class="step">
+                                                <figure class="w-20"><img src="/assets/image/check-round-broke.svg"
+                                                        alt="icon">
+                                                </figure>
+                                                <p>Bước 1: Hoàn tất các bước đăng ký quảng cáo như bình thường.
+                                                </p>
+                                            </div>
+                                            <div class="step">
+                                                <figure class="w-20"><img src="/assets/image/check-round-broke.svg"
+                                                        alt="icon">
+                                                </figure>
+                                                <p>
+                                                    Bước 2: Chuyển khoản thanh toán tới tài khoản VietInfo. <b>Thông tin
+                                                        cho việc chuyển khoản sẽ được cung cấp chi tiết tại bước cuối
+                                                        cùng,
+                                                        đồng thời sẽ được gửi đến email của anh/chị ngay sau đó.</b>
+                                                </p>
+                                            </div>
+                                            <div class="step">
+                                                <figure class="w-20"><img src="/assets/image/check-round-broke.svg"
+                                                        alt="icon">
+                                                </figure>
+                                                <p>
+                                                    Bước 3: Upload receipt payment thông qua mục “Quản lý quảng cáo”
+                                                    trên tài khoản của anh/chị.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
+                            <div class="bill-info">
+                                <h2>Billing information</h2>
+                                <label class="bill-item">
+                                    <input type="radio" name="bill" class="radio-black" id="">
+                                    <div class="bill-context">
+                                        <p class="name">Tu Nguyen</p>
+                                        <p class="info">139 Triumph Rd <br>
+                                            Dallas, TX 75241</p>
+                                    </div>
+                                </label>
+                                <label class="bill-item">
+                                    <input type="radio" name="bill" class="radio-black" id="">
+                                    <div class="bill-context">
+                                        <p class="other">Thêm thông tin khác</p>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="bill-info">
+                                <h2>Billing information</h2>
+                                <div class="form-info">
+                                    <label for="" class="input-label w-50">
+                                        <p class="input-title">Name</p>
+                                        <input type="text" class="input-field" placeholder="Your name">
+                                    </label>
+                                    <label for="" class="input-label w-50">
+                                        <p class="input-title">Email</p>
+                                        <input type="text" class="input-field" placeholder="Email address">
+                                    </label>
+                                    <label for="" class="input-label w-50">
+                                        <p class="input-title">Address 1 </p>
+                                        <input type="text" class="input-field" placeholder="Stress adress">
+                                    </label>
+                                    <label for="" class="input-label w-50">
+                                        <p class="input-title">Address 2
+                                            <span>(optional)</span>
+                                        </p>
+                                        <input type="text" class="input-field"
+                                            placeholder="Apt, suite, unit, building, floor, etc.">
+                                    </label>
+                                    <label for="" class="input-label w-33">
+                                        <p class="input-title">City</p>
+                                        <input type="text" class="input-field" placeholder="City name">
+                                    </label>
+                                    <label for="" class="input-label w-33">
+                                        <p class="input-title">State</p>
+                                        <select name="" id="" class="input-field">
+                                            <option value="">Choose state</option>
+                                            <option value="">Bang 1</option>
+                                            <option value="">Bang 2</option>
+                                            <option value="">Bang 3</option>
+                                        </select>
+                                    </label>
+                                    <label for="" class="input-label w-33">
+                                        <p class="input-title">Zip code</p>
+                                        <input type="text" class="input-field" placeholder="Zip code">
+                                    </label>
+
+                                    <label for="" class="save-info">
+                                        <input type="checkbox" class="">
+                                        Save this information for next time
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="button-submit">
+                                <button class="button-primary">Lưu </button>
+                            </div>
+
+
                         </div>
                         <div class="right">
+                            <div class="product-info-wrap">
+                                <div class="product-top">
+                                    <figure class="w-24"><img src="/assets/image/ticket-sale.svg" alt="icon"></figure>
+                                    <h2>Product info</h2>
+                                    <figure class="w-24"><img src="/assets/image/icon/chevron-down.svg" alt="icon">
+                                    </figure>
+                                </div>
+                                <div class="product-content">
+                                    <div class="icon">
+                                        <figure class="w-35"><img src="/assets/image/icon/sound-dashboard.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="info">Trang chủ - homepage Ad</p>
+                                        <div class="card">H1</div>
+                                        <div class="card">May, June, July, <b>+5</b></div>
+                                    </div>
+                                    <p class="price">$96.00</p>
+                                </div>
+                            </div>
+
+                            <div class="order-info-wrap">
+                                <h2>Order summary</h2>
+                                <div class="order-info">
+                                    <div class="row">
+                                        <p class="info">Sub total</p>
+                                        <p class="price">$96.00</p>
+                                    </div>
+                                    <hr class="row-divider">
+                                    <div class="row">
+                                        <p class="info">Sub total</p>
+                                        <p class="price">$96.00</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="info">Sub total</p>
+                                        <p class="price">$96.00</p>
+                                    </div>
+                                    <hr class="row-divider">
+                                    <div class="row">
+                                        <p class="info">Sub total</p>
+                                        <p class="price-total">$96.00</p>
+                                    </div>
+                                </div>
+
+                                <p class="term">By proceeding with your purchase, you agree to <a href="#">Vietinfo's
+                                        Terms of
+                                        Service</a> and
+                                    <a href="#">Personal Data Processing Policy.</a>
+                                </p>
+
+                                <button class="button-primary w-full h-56">Checkout</button>
+                            </div>
 
                         </div>
                     </div>
