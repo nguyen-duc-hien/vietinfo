@@ -1004,6 +1004,10 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   border: 2px solid var(--primary);
   caret-color: var(--primary);
 }
+.input-label .input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
+}
 .input-label select.input-field {
   width: 100%;
   appearance: none;
@@ -1024,6 +1028,10 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   transform: translateY(-50%);
   pointer-events: none;
   /* Allow click through */
+}
+.input-label select.input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
 }
 .input-label .input-trans {
   display: flex;
@@ -2064,6 +2072,10 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   border: 2px solid var(--primary);
   caret-color: var(--primary);
 }
+.input-label .input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
+}
 .input-label select.input-field {
   width: 100%;
   appearance: none;
@@ -2084,6 +2096,10 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   transform: translateY(-50%);
   pointer-events: none;
   /* Allow click through */
+}
+.input-label select.input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
 }
 .input-label .input-trans {
   display: flex;
@@ -5990,6 +6006,7 @@ body .dashboard .addnew-content .payment-wrapper {
   gap: 16px;
 }
 body .dashboard .addnew-content .payment-wrapper .left {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 32px;

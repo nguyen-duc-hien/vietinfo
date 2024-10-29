@@ -1,63 +1,63 @@
 :root {
-    --f-raleway: "Raleway";
-    --f-inter: "Inter";
+  --f-raleway: "Raleway";
+  --f-inter: "Inter";
 
-    --primary: #004dd1;
-    --secondary: #e7b55e;
-    --black: #000;
-    --white: #fff;
-    --text: #232323;
-    --gray-900: #101828;
-    --gray-800: #1d2939;
-    --gray-700: #344054;
-    --gray-600: #475467;
-    --gray-500: #667085;
-    --gray-300: #d0d5dd;
-    --gray-200: #e4e7ec;
-    --gray-100: #f2f4f7;
+  --primary: #004dd1;
+  --secondary: #e7b55e;
+  --black: #000;
+  --white: #fff;
+  --text: #232323;
+  --gray-900: #101828;
+  --gray-800: #1d2939;
+  --gray-700: #344054;
+  --gray-600: #475467;
+  --gray-500: #667085;
+  --gray-300: #d0d5dd;
+  --gray-200: #e4e7ec;
+  --gray-100: #f2f4f7;
 }
 body {
-    font-family: var(--f-inter);
-    font-weight: 400;
-    font-style: normal;
-    overflow-x: hidden;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  font-family: var(--f-inter);
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 a {
-    text-decoration: none;
-    &:hover {
-        color: var(--primary);
-    }
+  text-decoration: none;
+  &:hover {
+    color: var(--primary);
+  }
 }
 b {
-    font-weight: 700;
+  font-weight: 700;
 }
 figure {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        max-width: max-content;
-    }
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: max-content;
+  }
 }
 input,
 textarea,
 select {
-    outline: 0;
-    background: transparent;
-    &::-webkit-outer-spin-button,
-    &::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        -moz-appearance: textfield;
-    }
-    &:focus {
-        outline: none;
-    }
+  outline: 0;
+  background: transparent;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+  }
+  &:focus {
+    outline: none;
+  }
 }
 
 $m-14: 1480px;
@@ -70,528 +70,538 @@ $m-6: 667px;
 $m-4: 480px;
 
 @mixin Responsive($screen) {
-    @if $screen == m-14 {
-        @media only screen and (max-width: $m-14) {
-            @content;
-        }
-    } @else if $screen == m-12 {
-        @media only screen and (max-width: $m-12) {
-            @content;
-        }
-    } @else if $screen == m-11 {
-        @media only screen and (max-width: $m-11) {
-            @content;
-        }
-    } @else if $screen == m-10 {
-        @media only screen and (max-width: $m-10) {
-            @content;
-        }
-    } @else if $screen == m-9 {
-        @media only screen and (max-width: $m-9) {
-            @content;
-        }
-    } @else if $screen == m-7 {
-        @media only screen and (max-width: $m-7) {
-            @content;
-        }
-    } @else if $screen == m-6 {
-        @media only screen and (max-width: $m-6) {
-            @content;
-        }
-    } @else if $screen == m-4 {
-        @media only screen and (max-width: $m-4) {
-            @content;
-        }
+  @if $screen == m-14 {
+    @media only screen and (max-width: $m-14) {
+      @content;
     }
+  } @else if $screen == m-12 {
+    @media only screen and (max-width: $m-12) {
+      @content;
+    }
+  } @else if $screen == m-11 {
+    @media only screen and (max-width: $m-11) {
+      @content;
+    }
+  } @else if $screen == m-10 {
+    @media only screen and (max-width: $m-10) {
+      @content;
+    }
+  } @else if $screen == m-9 {
+    @media only screen and (max-width: $m-9) {
+      @content;
+    }
+  } @else if $screen == m-7 {
+    @media only screen and (max-width: $m-7) {
+      @content;
+    }
+  } @else if $screen == m-6 {
+    @media only screen and (max-width: $m-6) {
+      @content;
+    }
+  } @else if $screen == m-4 {
+    @media only screen and (max-width: $m-4) {
+      @content;
+    }
+  }
 }
 
 .container {
-    width: 100%;
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    @include Responsive(m-14) {
-        max-width: 100%;
-        padding: 0 60px;
-    }
-    @include Responsive(m-12) {
-        max-width: 100%;
-        padding: 0 40px;
-    }
-    @include Responsive(m-7) {
-        max-width: 100%;
-        padding: 0 24px;
-    }
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  @include Responsive(m-14) {
+    max-width: 100%;
+    padding: 0 60px;
+  }
+  @include Responsive(m-12) {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+  @include Responsive(m-7) {
+    max-width: 100%;
+    padding: 0 24px;
+  }
 }
 
 // ----------------------- Text heading style library -----------------------
 .text-heading {
+  font-family: var(--f-raleway);
+  &-h1 {
     font-family: var(--f-raleway);
-    &-h1 {
-        font-family: var(--f-raleway);
-        font-size: 72px;
-        line-height: normal;
-        font-weight: 800;
-        @include Responsive(m-14) {
-            font-size: 64px;
-        }
-        @include Responsive(m-11) {
-            font-size: 52px;
-        }
-
-        @include Responsive(m-7) {
-            font-size: 48px;
-        }
+    font-size: 72px;
+    line-height: normal;
+    font-weight: 800;
+    @include Responsive(m-14) {
+      font-size: 64px;
     }
-    &-h2 {
-        font-family: var(--f-raleway);
-        font-size: 44px;
-        line-height: 100%;
-        font-weight: 700;
-        @include Responsive(m-14) {
-            font-size: 40px;
-        }
-        @include Responsive(m-11) {
-            font-size: 38px;
-        }
-
-        @include Responsive(m-7) {
-            font-size: 32px;
-        }
+    @include Responsive(m-11) {
+      font-size: 52px;
     }
-    &-h3 {
-        font-family: var(--f-raleway);
-        font-size: 40px;
-        line-height: 140%;
-        font-weight: 600;
-        @include Responsive(m-14) {
-            font-size: 38px;
-        }
-        @include Responsive(m-11) {
-            font-size: 34px;
-        }
 
-        @include Responsive(m-7) {
-            font-size: 28px;
-        }
+    @include Responsive(m-7) {
+      font-size: 48px;
     }
-    &-h4 {
-        font-family: var(--f-raleway);
-        font-size: 32px;
-        line-height: 137.5%;
-        font-weight: 600;
-        @include Responsive(m-14) {
-            font-size: 28px;
-        }
-        @include Responsive(m-11) {
-            font-size: 24px;
-        }
+  }
+  &-h2 {
+    font-family: var(--f-raleway);
+    font-size: 44px;
+    line-height: 100%;
+    font-weight: 700;
+    @include Responsive(m-14) {
+      font-size: 40px;
+    }
+    @include Responsive(m-11) {
+      font-size: 38px;
+    }
 
-        @include Responsive(m-7) {
-            font-size: 20px;
-        }
+    @include Responsive(m-7) {
+      font-size: 32px;
     }
-    &-h5 {
-        font-family: var(--f-raleway);
-        font-size: 28px;
-        line-height: 142.8%;
-        font-weight: 600;
-        @include Responsive(m-14) {
-            font-size: 26px;
-        }
-        @include Responsive(m-11) {
-            font-size: 24px;
-        }
+  }
+  &-h3 {
+    font-family: var(--f-raleway);
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 600;
+    @include Responsive(m-14) {
+      font-size: 38px;
+    }
+    @include Responsive(m-11) {
+      font-size: 34px;
+    }
 
-        @include Responsive(m-7) {
-            font-size: 18px;
-        }
+    @include Responsive(m-7) {
+      font-size: 28px;
     }
-    &-h6 {
-        font-family: var(--f-raleway);
-        font-size: 24px;
-        line-height: 150%;
-        font-weight: 600;
-        @include Responsive(m-14) {
-            font-size: 22px;
-        }
-        @include Responsive(m-11) {
-            font-size: 20px;
-        }
+  }
+  &-h4 {
+    font-family: var(--f-raleway);
+    font-size: 32px;
+    line-height: 137.5%;
+    font-weight: 600;
+    @include Responsive(m-14) {
+      font-size: 28px;
+    }
+    @include Responsive(m-11) {
+      font-size: 24px;
+    }
 
-        @include Responsive(m-7) {
-            font-size: 16px;
-        }
+    @include Responsive(m-7) {
+      font-size: 20px;
     }
-    &-h7 {
-        font-family: var(--f-raleway);
-        font-size: 20px;
-        line-height: 120%;
-        font-weight: 600;
-        @include Responsive(m-14) {
-            font-size: 18px;
-        }
-        @include Responsive(m-11) {
-            font-size: 16px;
-        }
+  }
+  &-h5 {
+    font-family: var(--f-raleway);
+    font-size: 28px;
+    line-height: 142.8%;
+    font-weight: 600;
+    @include Responsive(m-14) {
+      font-size: 26px;
+    }
+    @include Responsive(m-11) {
+      font-size: 24px;
+    }
 
-        @include Responsive(m-7) {
-            font-size: 14px;
-        }
+    @include Responsive(m-7) {
+      font-size: 18px;
     }
+  }
+  &-h6 {
+    font-family: var(--f-raleway);
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 600;
+    @include Responsive(m-14) {
+      font-size: 22px;
+    }
+    @include Responsive(m-11) {
+      font-size: 20px;
+    }
+
+    @include Responsive(m-7) {
+      font-size: 16px;
+    }
+  }
+  &-h7 {
+    font-family: var(--f-raleway);
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 600;
+    @include Responsive(m-14) {
+      font-size: 18px;
+    }
+    @include Responsive(m-11) {
+      font-size: 16px;
+    }
+
+    @include Responsive(m-7) {
+      font-size: 14px;
+    }
+  }
 }
 // ----------------------- Text body style library -----------------------
 .text-body {
-    font-family: var(--f-inter);
-    &-xl {
-        font-size: 20px;
-        line-height: 150%;
+  font-family: var(--f-inter);
+  &-xl {
+    font-size: 20px;
+    line-height: 150%;
 
-        @include Responsive(m-14) {
-            font-size: 18px;
-        }
-        @include Responsive(m-11) {
-            font-size: 16px;
-        }
-        @include Responsive(m-7) {
-            font-size: 14px;
-        }
-
-        &-uppercase {
-            @extend .text-body-xl;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-
-        &-bold {
-            @extend .text-body-xl;
-            font-weight: 700;
-        }
-
-        &-semibold {
-            @extend .text-body-xl;
-            font-weight: 600;
-        }
-
-        &-medium {
-            @extend .text-body-xl;
-            font-weight: 500;
-        }
-
-        &-regular {
-            @extend .text-body-xl;
-            font-weight: 400;
-        }
+    @include Responsive(m-14) {
+      font-size: 18px;
+    }
+    @include Responsive(m-11) {
+      font-size: 16px;
+    }
+    @include Responsive(m-7) {
+      font-size: 14px;
     }
 
-    &-lg {
-        font-size: 18px;
-        line-height: 155.6%;
-
-        @include Responsive(m-14) {
-            font-size: 16px;
-        }
-        @include Responsive(m-11) {
-            font-size: 16px;
-        }
-        @include Responsive(m-7) {
-            font-size: 14px;
-        }
-
-        &-uppercase {
-            @extend .text-body-lg;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-
-        &-bold {
-            @extend .text-body-lg;
-            font-weight: 700;
-        }
-
-        &-semibold {
-            @extend .text-body-lg;
-            font-weight: 600;
-        }
-
-        &-medium {
-            @extend .text-body-lg;
-            font-weight: 500;
-        }
-
-        &-regular {
-            @extend .text-body-lg;
-            font-weight: 400;
-        }
+    &-uppercase {
+      @extend .text-body-xl;
+      font-weight: 500;
+      text-transform: uppercase;
     }
 
-    &-md {
-        font-size: 16px;
-        line-height: 150%;
-
-        @include Responsive(m-14) {
-            font-size: 14px;
-        }
-        @include Responsive(m-11) {
-            font-size: 14px;
-        }
-        @include Responsive(m-7) {
-            font-size: 12px;
-        }
-
-        &-uppercase {
-            @extend .text-body-md;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-
-        &-bold {
-            @extend .text-body-md;
-            font-weight: 700;
-        }
-
-        &-semibold {
-            @extend .text-body-md;
-            font-weight: 600;
-        }
-
-        &-medium {
-            @extend .text-body-md;
-            font-weight: 500;
-        }
-
-        &-regular {
-            @extend .text-body-md;
-            font-weight: 400;
-        }
+    &-bold {
+      @extend .text-body-xl;
+      font-weight: 700;
     }
 
-    &-sm {
-        font-size: 14px;
-        line-height: 171.5%;
-
-        &-uppercase {
-            @extend .text-body-sm;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-
-        &-bold {
-            @extend .text-body-sm;
-            font-weight: 700;
-        }
-
-        &-semibold {
-            @extend .text-body-sm;
-            font-weight: 600;
-        }
-
-        &-medium {
-            @extend .text-body-sm;
-            font-weight: 500;
-        }
-
-        &-regular {
-            @extend .text-body-sm;
-            font-weight: 400;
-        }
+    &-semibold {
+      @extend .text-body-xl;
+      font-weight: 600;
     }
 
-    &-xs {
-        font-size: 12px;
-        line-height: 166.7%;
-
-        &-uppercase {
-            @extend .text-body-xs;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-
-        &-bold {
-            @extend .text-body-xs;
-            font-weight: 700;
-        }
-
-        &-semibold {
-            @extend .text-body-xs;
-            font-weight: 600;
-        }
-
-        &-medium {
-            @extend .text-body-xs;
-            font-weight: 500;
-        }
-
-        &-regular {
-            @extend .text-body-xs;
-            font-weight: 400;
-        }
+    &-medium {
+      @extend .text-body-xl;
+      font-weight: 500;
     }
+
+    &-regular {
+      @extend .text-body-xl;
+      font-weight: 400;
+    }
+  }
+
+  &-lg {
+    font-size: 18px;
+    line-height: 155.6%;
+
+    @include Responsive(m-14) {
+      font-size: 16px;
+    }
+    @include Responsive(m-11) {
+      font-size: 16px;
+    }
+    @include Responsive(m-7) {
+      font-size: 14px;
+    }
+
+    &-uppercase {
+      @extend .text-body-lg;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    &-bold {
+      @extend .text-body-lg;
+      font-weight: 700;
+    }
+
+    &-semibold {
+      @extend .text-body-lg;
+      font-weight: 600;
+    }
+
+    &-medium {
+      @extend .text-body-lg;
+      font-weight: 500;
+    }
+
+    &-regular {
+      @extend .text-body-lg;
+      font-weight: 400;
+    }
+  }
+
+  &-md {
+    font-size: 16px;
+    line-height: 150%;
+
+    @include Responsive(m-14) {
+      font-size: 14px;
+    }
+    @include Responsive(m-11) {
+      font-size: 14px;
+    }
+    @include Responsive(m-7) {
+      font-size: 12px;
+    }
+
+    &-uppercase {
+      @extend .text-body-md;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    &-bold {
+      @extend .text-body-md;
+      font-weight: 700;
+    }
+
+    &-semibold {
+      @extend .text-body-md;
+      font-weight: 600;
+    }
+
+    &-medium {
+      @extend .text-body-md;
+      font-weight: 500;
+    }
+
+    &-regular {
+      @extend .text-body-md;
+      font-weight: 400;
+    }
+  }
+
+  &-sm {
+    font-size: 14px;
+    line-height: 171.5%;
+
+    &-uppercase {
+      @extend .text-body-sm;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    &-bold {
+      @extend .text-body-sm;
+      font-weight: 700;
+    }
+
+    &-semibold {
+      @extend .text-body-sm;
+      font-weight: 600;
+    }
+
+    &-medium {
+      @extend .text-body-sm;
+      font-weight: 500;
+    }
+
+    &-regular {
+      @extend .text-body-sm;
+      font-weight: 400;
+    }
+  }
+
+  &-xs {
+    font-size: 12px;
+    line-height: 166.7%;
+
+    &-uppercase {
+      @extend .text-body-xs;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    &-bold {
+      @extend .text-body-xs;
+      font-weight: 700;
+    }
+
+    &-semibold {
+      @extend .text-body-xs;
+      font-weight: 600;
+    }
+
+    &-medium {
+      @extend .text-body-xs;
+      font-weight: 500;
+    }
+
+    &-regular {
+      @extend .text-body-xs;
+      font-weight: 400;
+    }
+  }
 }
 
 .text-primary {
-    color: var(--primary);
+  color: var(--primary);
 }
 .text-gray-900 {
-    color: var(--gray-900);
+  color: var(--gray-900);
 }
 .text-gray-600 {
-    color: var(--gray-600);
+  color: var(--gray-600);
 }
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .truncate-1row {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .truncate-2row {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .truncate-3row {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .truncate-4row {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .flex {
-    display: flex;
-    &.flex-col {
-        flex-direction: column;
-    }
+  display: flex;
+  &.flex-col {
+    flex-direction: column;
+  }
 }
 
 .items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .gap-half {
-    gap: 2px;
+  gap: 2px;
 }
 
 .gap-2 {
-    gap: 8px;
+  gap: 8px;
 }
 
 .gap-6 {
-    gap: 24px;
+  gap: 24px;
 }
 
 .absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .w-half {
-    width: 50%;
+  width: 50%;
 }
 
 .items-end {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .gap-3 {
-    gap: 12px;
+  gap: 12px;
 }
 
-.justify-between{
-    justify-content: space-between;
+.justify-between {
+  justify-content: space-between;
 }
 
-.justify-end{
-    justify-content: flex-end;
+.justify-end {
+  justify-content: flex-end;
 }
 
 .input-label {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  .input-title {
+    @extend .text-body-md-medium;
+    color: #1f2237;
+    &.regular {
+      font-weight: 400;
+    }
+    &.semibold {
+      font-weight: 600;
+    }
+  }
+  .input-field {
+    @extend .text-body-md-regular;
     display: flex;
-    flex-direction: column;
-    gap: 4px;
-    .input-title {
-        @extend .text-body-md-medium;
-        color: #1f2237;
-        &.regular {
-            font-weight: 400;
-        }
-        &.semibold {
-            font-weight: 600;
-        }
+    padding: 12px;
+    align-items: flex-start;
+    border: 1px solid #dedfe0;
+    border-radius: 8px;
+    background: var(--white);
+    width: 100%;
+    color: #0f0f0f;
+    &::placeholder {
+      color: #6b7280;
     }
-    .input-field {
-        @extend .text-body-md-regular;
-        display: flex;
-        padding: 12px;
-        align-items: flex-start;
-        border: 1px solid #dedfe0;
-        border-radius: 8px;
-        background: var(--white);
-        width: 100%;
-        color: #0f0f0f;
-        &::placeholder {
-            color: #6b7280;
-        }
-        &:focus {
-            border: 2px solid var(--primary);
-            caret-color: var(--primary);
-        }
+    &:focus {
+      border: 2px solid var(--primary);
+      caret-color: var(--primary);
     }
+    &:disabled {
+      border: 1px solid var(--gray-300);
+      background: var(--gray-100);
+    }
+  }
 
-    select.input-field {
-        width: 100%;
-        appearance: none;
-        /* Remove default arrow */
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        background: url("../image/icon/dropdown-icon.svg") no-repeat right 12px center;
-        /* Adjust background position here */
-        background-size: 16px 16px;
-        /* Adjust background size here */
+  select.input-field {
+    width: 100%;
+    appearance: none;
+    /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../image/icon/dropdown-icon.svg") no-repeat right 12px
+      center;
+    /* Adjust background position here */
+    background-size: 16px 16px;
+    /* Adjust background size here */
 
-        &::after {
-            content: "";
-            /* Unicode for down arrow */
-            position: absolute;
-            top: 50%;
-            right: 15px;
-            transform: translateY(-50%);
-            pointer-events: none;
-            /* Allow click through */
-        }
+    &::after {
+      content: "";
+      /* Unicode for down arrow */
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      pointer-events: none;
+      /* Allow click through */
     }
-    .input-trans {
-        // @extend .text-body-sm-regular;
-        display: flex;
-        width: 100%;
-        border: none;
-        &:disabled {
-            background: transparent;
-        }
+    &:disabled {
+      border: 1px solid var(--gray-300);
+      background: var(--gray-100);
     }
-    select.input-trans {
-        width: 100%;
-        appearance: none;
-        /* Remove default arrow */
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        background: url("../../assets/image/icon/arrow-down.svg") no-repeat right 0 center;
+  }
+  .input-trans {
+    // @extend .text-body-sm-regular;
+    display: flex;
+    width: 100%;
+    border: none;
+    &:disabled {
+      background: transparent;
     }
+  }
+  select.input-trans {
+    width: 100%;
+    appearance: none;
+    /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../../assets/image/icon/arrow-down.svg") no-repeat right 0
+      center;
+  }
 }
 
 .breadcrumb-wrap {
