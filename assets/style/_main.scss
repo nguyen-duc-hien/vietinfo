@@ -593,3 +593,27 @@ $m-4: 480px;
         background: url("../../assets/image/icon/arrow-down.svg") no-repeat right 0 center;
     }
 }
+
+.breadcrumb-wrap {
+  display: flex;
+  padding: 16px 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  .breadcrumb {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      li {
+        @extend .text-body-md-medium;
+        &.item {
+          color: #373a51;
+        }
+        &.link {
+          color: var(--primary);
+        }
+      }
+    }
+  }
+}
