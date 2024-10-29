@@ -3504,7 +3504,7 @@ body {
           }
           h1 {
             @extend .text-body-xl-bold;
-            font-size: 40px;
+            font-size: 32px;
             color: #1d2939;
           }
         }
@@ -4072,6 +4072,9 @@ body {
           gap: 32px;
           width: 100%;
           max-width: 1048px;
+          &.w-full {
+            max-width: unset;
+          }
           .payment-method {
             display: flex;
             flex-direction: column;
@@ -4582,6 +4585,175 @@ body {
             }
           }
         }
+      }
+    }
+  }
+
+  // -----------------------term style -----------------------
+
+  .term {
+    &-head {
+      background: url(/assets/image/temr-of-service-banner.svg) no-repeat center
+        center;
+      background-size: cover;
+      position: relative;
+      aspect-ratio: 19.2/4.9;
+      .term-title {
+        width: 100%;
+        max-width: 497px;
+        padding-top: 75px;
+        h1 {
+          @extend .text-body-xl-bold;
+          color: var(--white);
+          font-size: 50px;
+          @include Responsive(m-11) {
+            font-style: 40px;
+          }
+        }
+        p {
+          @extend .text-body-xl-regular;
+          color: var(--white);
+          font-size: 40px;
+          @include Responsive(m-11) {
+            font-style: 30px;
+          }
+        }
+      }
+    }
+    &-info-wrap {
+    }
+    &-info-title {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      padding-top: 24px;
+      padding-bottom: 38px;
+      .title {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        .row {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          h2 {
+            @extend .text-body-xl-semibold;
+            color: var(--gray-800);
+          }
+        }
+        p {
+          @extend .text-body-md-regular;
+          color: var(--gray-700);
+        }
+      }
+    }
+    &-tab-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 16px;
+      .tab-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        height: 48px;
+        padding: 0 12px;
+        border-radius: 5px;
+        background: #d9d9d9;
+        box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.1);
+        @extend .text-body-md-semibold;
+        color: #464646;
+        svg {
+          path {
+            stroke: #464646;
+          }
+          rect {
+            stroke: #464646;
+          }
+        }
+
+        &:hover {
+          background: var(--primary);
+          color: var(--white);
+          svg {
+            path {
+              stroke: var(--white);
+            }
+            rect {
+              stroke: var(--white);
+            }
+          }
+        }
+        &.active {
+          background: var(--primary);
+          color: var(--white);
+          svg {
+            path {
+              stroke: var(--white);
+            }
+            rect {
+              stroke: var(--white);
+            }
+          }
+        }
+        &.cookie {
+          &:hover {
+            svg {
+              path {
+                fill: var(--white);
+              }
+            }
+          }
+          &.active {
+            svg {
+              path {
+                fill: var(--white);
+              }
+            }
+          }
+        }
+      }
+    }
+    &-info-view {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      p {
+        @extend .text-body-md-regular;
+        color: #344054;
+      }
+      .headline-wrap {
+        display: flex;
+        padding: 32px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 10px;
+        border: 1px solid #e3e3e3;
+        background: #fff;
+        box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+          0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+        .headline {
+          @extend .text-body-xl-bold;
+          color: var(--primary);
+        }
+      }
+    }
+    &-info-bottom {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 68px;
+      hr.middle-divider {
+        margin: 68px auto;
+        width: 50%;
+        max-width: 400px;
+        height: 2px;
+        border: none;
+        background: #000000;
+      }
+      p {
+        @extend .text-body-md-regular;
+        color: #344054;
       }
     }
   }
