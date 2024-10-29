@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/_dash_job_management.scss" />
+    <link rel="stylesheet" href="/assets/style/main.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <title>Quản lý tin việc làm</title>
+</head>
+
+<body>
+
+    <div class="dashboard">
+        <section class="dashboard-container" style="min-height: 100vh;">
+            <div class="left-nav">
+                <div class="fixed">
+                    <div class="top-nav">
+                        <a href="#" class="logo">
+                            <figure><img src="/assets/image/page-logo-white.svg" alt="logo"></figure>
+                        </a>
+                        <div class="info">
+                            <div class="avatar">
+                                <figure><img src="/assets/image/dashboard-avatar.svg" alt="avatar"></figure>
+                            </div>
+                            <div class="information">
+                                <h2 class="name">Tu Nguyen</h2>
+                                <span class="email">tu.nguyen@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="nav">
+                            <ul>
+                                <li class="nav-item active">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/dashboard.svg" alt="icon"></figure>
+                                        Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/user.svg" alt="icon"></figure>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/upload.svg" alt="icon"></figure>
+                                        Quản lý tin rao vặt
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/briefcase.svg" alt="icon"></figure>
+                                        Quản lý quảng cáo
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/card.svg" alt="icon"></figure>
+                                        Billing & Payments
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="title">
+                    <div class="left">
+                        <h1>Quản lý tin rao vặt</h1>
+                        <button class="button-trans p-0"></button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <path
+                                d="M20.595 31.5C20.3313 31.9546 19.9528 32.332 19.4973 32.5943C19.0419 32.8566 18.5256 32.9947 18 32.9947C17.4744 32.9947 16.9581 32.8566 16.5027 32.5943C16.0472 32.332 15.6687 31.9546 15.405 31.5M27 12C27 9.61305 26.0518 7.32387 24.364 5.63604C22.6761 3.94821 20.3869 3 18 3C15.6131 3 13.3239 3.94821 11.636 5.63604C9.94821 7.32387 9 9.61305 9 12C9 22.5 4.5 25.5 4.5 25.5H31.5C31.5 25.5 27 22.5 27 12Z"
+                                stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        </button>
+                    </div>
+                    <div class="right">
+                        <button class="button-primary uppercase">
+                            Đăng tin rao vặt miễn phí
+                        </button>
+                    </div>
+                </div>
+                <div class="news-slide">
+                    <span class="text-body-sm-medium news-notification-badge">News</span>
+                    <span class="text-body-sm-medium news-notification-content">Mừng năm mới 2025, VietInfo giảm giá 10%
+                        cho tất cả quảng cáo đăng ký trên 6 tháng!</span>
+                </div>
+                <form class="table-filter">
+                    <div class="search-input-field">
+                        <div class="search-icon">
+                            <figure><img src="/assets/image/icon/mag-glass.svg" alt="icon"></figure>
+                        </div>
+                        <div class="clear-icon">
+                            <figure><img src="/assets/image/icon/close-border.svg" alt="icon"></figure>
+                        </div>
+                        <input type="text" class="input-trans field-input" placeholder="Name">
+                    </div>
+                    <!-- Tất cả loại tin -->
+                    <div class="multi-dropdown" data-dropdown="menu1">
+                        <span class="multi-dropdown-label">
+                            Tất cả loại tin
+                        </span>
+                        <div class="multi-dropdown-content">
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">1</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">2</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">3</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Tất cả trạng thái -->
+                    <div class="multi-dropdown" data-dropdown="menu1">
+                        <div class="multi-dropdown-label">
+                            Tất cả trạng thái
+                        </div>
+                        <div class="multi-dropdown-content">
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">0</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">1</p>
+                            </label>
+                            <label class="custom-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </div>
+                                <p class="input-text">2</p>
+                            </label>
+
+                        </div>
+                    </div>
+                    <button class="button-lightblue" style="height: 50px;">Save Search</button>
+                </form>
+                <div class="table-wrapper">
+                    <div class="table-title">
+                        <div class="left">
+                            <h2>Lịch sử đăng tin</h2>
+                            <div class="post-num">
+                                10 post
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table style="width: 100%;">
+                            <thead>
+                                <tr>
+                                    <td class="" style="width: 30%;">
+                                        <div class="row-gap-12">
+                                            <label class="custom-checkbox">
+                                                <div class="checkbox-container">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                                <p class="input-text">Name</p>
+                                            </label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row-gap-4 justify-center">
+                                            <p>Status</p>
+                                            <figure>
+                                                <img src="/assets/image/icon/arrow-down-16.svg" alt="icon">
+                                            </figure>
+                                        </div>
+                                    </td>
+                                    <td class="">Last updated</td>
+                                    <td class="">Views</td>
+                                    <td class="">Turn on/off</td>
+                                    <td class="center">Re-Use & Quick Post</td>
+                                    <td class="center">Edit</td>
+                                    <td class="center">Delete</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="row-gap-12">
+                                            <label class="custom-checkbox">
+                                                <div class="checkbox-container">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+
+                                            <button class="button-trans sound-border">
+                                                <figure class="w-32"><img src="/assets/image/icon/v-dashboard.svg"
+                                                        alt="v">
+                                                </figure>
+                                            </button>
+                                            <div>
+                                                <div class="row-gap-8 flex items-center">
+                                                    <p class="text-body-sm-medium text-gray-900">Nhà ở 1</p>
+                                                    <button>
+                                                        <figure>
+                                                            <img src="./assets/image/external-link.svg" alt="">
+                                                        </figure>
+                                                    </button>
+                                                </div>
+                                                <p class="text-body-sm-medium text-gray-600">Cho thuê bất động sản
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="middle">
+                                        <div class="row-gap-12 justify-center">
+                                            <div class="status-badge warning text-body-xs-medium">
+                                                <div class="dot"></div>
+                                                Under review
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="middle text-body-sm-regular">
+                                        09/30/2024 10:00 AM
+                                    </td>
+                                    <td class="middle text-body-sm-regular">
+                                        1,000
+                                    </td>
+                                    <td class="middle">
+                                        <label class="switch-wrap">
+                                            <div class="switch-custom">
+                                                <input type="checkbox">
+                                                <span class="slider"></span>
+                                            </div>
+                                            <p class="switch-text text-body-sm-medium">On</p>
+                                        </label>
+                                    </td>
+                                    <td class="middle center">
+                                        <div class="w-full flex justify-center">
+                                            <button class="button-trans p-10">
+                                                <figure class="w-20"><img src="/assets/image/icon/rotate.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="middle center">
+                                        <div class="row-gap-4">
+                                            <button class="button-trans p-10">
+                                                <figure class="w-20"><img src="/assets/image/icon/pencil.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                            <button class="button-trans">
+                                                <figure class="w-35"><img src="/assets/image/icon/alert-triangle.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="middle center">
+                                        <button class="button-trans p-10">
+                                            <figure class="w-20"><img src="/assets/image/icon/trash.svg" alt="icon">
+                                            </figure>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="row-gap-12">
+                                            <label class="custom-checkbox">
+                                                <div class="checkbox-container">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+
+                                            <button class="button-trans sound-border">
+                                                <figure class="w-32"><img src="/assets/image/icon/v-dashboard.svg"
+                                                        alt="v">
+                                                </figure>
+                                            </button>
+                                            <div>
+                                                <div class="row-gap-8 flex items-center">
+                                                    <p class="text-body-sm-medium text-gray-900">Nhà ở 1</p>
+                                                    <button>
+                                                        <figure>
+                                                            <img src="./assets/image/external-link.svg" alt="">
+                                                        </figure>
+                                                    </button>
+                                                </div>
+                                                <p class="text-body-sm-medium text-gray-600">Cho thuê bất động sản
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="middle">
+                                        <div class="row-gap-12 justify-center">
+                                            <div class="status-badge inactive text-body-xs-medium">
+                                                <div class="dot"></div>
+                                                Inactive
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="middle text-body-sm-regular">
+                                        09/30/2024 10:00 AM
+                                    </td>
+                                    <td class="middle text-body-sm-regular">
+                                        1,000
+                                    </td>
+                                    <td class="middle">
+                                        <label class="switch-wrap">
+                                            <div class="switch-custom">
+                                                <input type="checkbox">
+                                                <span class="slider"></span>
+                                            </div>
+                                            <p class="switch-text text-body-sm-medium">On</p>
+                                        </label>
+                                    </td>
+                                    <td class="middle center">
+                                        <div class="w-full flex justify-center">
+                                            <button class="button-trans p-10">
+                                                <figure class="w-20"><img src="/assets/image/icon/rotate.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="middle center">
+                                        <div class="row-gap-4">
+                                            <button class="button-trans p-10">
+                                                <figure class="w-20"><img src="/assets/image/icon/pencil.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                            <button class="button-trans">
+                                                <figure class="w-35"><img src="/assets/image/icon/alert-triangle.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="middle center">
+                                        <button class="button-trans p-10">
+                                            <figure class="w-20"><img src="/assets/image/icon/trash.svg" alt="icon">
+                                            </figure>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="row-gap-12">
+                                            <label class="custom-checkbox">
+                                                <div class="checkbox-container">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </div>
+                                            </label>
+
+                                            <button class="button-trans sound-border">
+                                                <figure class="w-32"><img src="/assets/image/icon/v-dashboard.svg"
+                                                        alt="v">
+                                                </figure>
+                                            </button>
+                                            <div>
+                                                <div class="row-gap-8 flex items-center">
+                                                    <p class="text-body-sm-medium text-gray-900">Nhà ở 1</p>
+                                                    <button>
+                                                        <figure>
+                                                            <img src="./assets/image/external-link.svg" alt="">
+                                                        </figure>
+                                                    </button>
+                                                </div>
+                                                <p class="text-body-sm-medium text-gray-600">Cho thuê bất động sản
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="middle">
+                                        <div class="row-gap-12 justify-center">
+                                            <div class="status-badge active text-body-xs-medium">
+                                                <div class="dot"></div>
+                                                Active
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="middle text-body-sm-regular">
+                                        09/30/2024 10:00 AM
+                                    </td>
+                                    <td class="middle text-body-sm-regular">
+                                        1,000
+                                    </td>
+                                    <td class="middle">
+                                        <label class="switch-wrap">
+                                            <div class="switch-custom">
+                                                <input type="checkbox">
+                                                <span class="slider"></span>
+                                            </div>
+                                            <p class="switch-text text-body-sm-medium">On</p>
+                                        </label>
+                                    </td>
+                                    <td class="middle center">
+                                        <div class="w-full flex justify-center">
+                                            <button class="button-trans p-10">
+                                                <figure class="w-20"><img src="/assets/image/icon/rotate.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="middle center">
+                                        <div class="row-gap-4">
+                                            <button class="button-trans p-10">
+                                                <figure class="w-20"><img src="/assets/image/icon/pencil.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                            <button class="button-trans">
+                                                <figure class="w-35"><img src="/assets/image/icon/alert-triangle.svg"
+                                                        alt="icon">
+                                                </figure>
+                                            </button>
+                                        </div>
+                                    </td>
+                                    <td class="middle center">
+                                        <button class="button-trans p-10">
+                                            <figure class="w-20"><img src="/assets/image/icon/trash.svg" alt="icon">
+                                            </figure>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-bottom">
+                        <select name="" class="select-field" id="">
+                            <option value="6">6 items/page</option>
+                            <option value="1">1 items/page</option>
+                            <option value="2">2 items/page</option>
+                            <option value="3">3 items/page</option>
+                            <option value="4">4 items/page</option>
+                        </select>
+                        <div class="action-button">
+                            <div class="prev">
+                                <figure class="w-20">
+                                    <img src="assets/image/icon/arrow-down.svg" style="transform: rotate(90deg) ;"
+                                        alt="">
+                                </figure>
+                                Previous
+                            </div>
+                            <div class="flex gap-half items-center">
+                                <button class="page-num active">
+                                    <p>1</p>
+                                </button>
+                                <button class="page-num">
+                                    <p>2</p>
+                                </button>
+                            </div>
+                            <div class="next">
+                                Next
+                                <figure class="w-20">
+                                    <img src="assets/image/icon/arrow-down.svg" style="transform: rotate(-90deg) ;"
+                                        alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer></footer>
+                    <div class="footer">
+                        <div class="float-button">
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/chat-box.svg" alt=""></figure>
+                            </div>
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/mess.svg" alt=""></figure>
+                            </div>
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/totop.svg" alt=""></figure>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <a href="/">
+                                <figure><img src="/assets/image/footer-logo.svg" alt="logo"></figure>
+                            </a>
+                            <p>Cổng thông tin <span class="special">MIỄN PHÍ</span> dành cho cộng đồng người Việt tại Mỹ
+                            </p>
+                            <nav class="nav">
+                                <ul>
+                                    <li><a href="#">Việc làm</a></li>
+                                    <li><a href="#">Mua cửa tiệm</a></li>
+                                    <li><a href="#">Việt Event</a></li>
+                                    <li><a href="#">Thuê nhà</a></li>
+                                    <li><a href="#">Mua nhà</a></li>
+                                    <li><a href="#">Rao vặt</a></li>
+                                    <li><a href="#">Liên hệ quảng cáo</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="social">
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-fb.svg" alt="fb"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-yt.svg" alt="yt"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-ins.svg" alt="ins"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-x.svg" alt="x"></figure>
+                                </a>
+                            </div>
+                            <div class="contact">
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                            </div>
+
+                            <div class="payment">
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-visa.svg" alt="visa"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-mc.svg" alt="mc"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-amex.svg" alt="amex"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-ap.svg" alt="ap"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-pp.svg" alt="pp"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-jcb.svg" alt="jcb"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-dcv.svg" alt="dcv"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-dc.svg" alt="dc"></figure>
+                                </div>
+                            </div>
+
+                            <div class="policy">
+                                <div class="left">
+                                    <a href="#">Privacy Policy</a>
+                                    |
+                                    <a href="#">Terms of Service</a>
+                                    |
+                                    <a href="#">Sitemap</a>
+                                </div>
+                                <p>Designed by Qixtech - Web Design & Digital Marketing</p>
+                                <p>Copyright © 2024. Vietinfo LLC. All Right Reserved. </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </div>
+
+    <!-- modal script -->
+    <script defer src="/assets/js/modal.js"></script>
+
+    <!-- multi dropdown js, file này là dummy demo, về sau nhân ra để xử lý nhiều chỗ -->
+    <script defer src="/assets/js/multi-dropdown.js"></script>
+
+</body>
+
+</html>
