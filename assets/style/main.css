@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(./fonts/typography.css);
+@import url(./fonts/typography.css);
 html,
 body,
 section,
@@ -80,7 +81,8 @@ time,
 mark,
 audio,
 video,
-input {
+input,
+textarea {
   margin: 0;
   padding: 0;
   border: 0;
@@ -369,6 +371,7 @@ th {
   --gray-500: #667085;
   --gray-300: #d0d5dd;
   --gray-200: #e4e7ec;
+  --gray-100: #f2f4f7;
 }
 
 body {
@@ -605,50 +608,50 @@ select:focus {
 .text-body {
   font-family: var(--f-inter);
 }
-.text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+.text-body-xl, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
 body .homepage .for-rent .container .bottom .item .info .second-row h2,
 body .homepage .for-rent .container .bottom .item .info .third-row h2,
 body .homepage .for-sale .container .bottom .item .info .first-row h2,
 body .homepage .for-sale .container .bottom .item .info .second-row h2,
 body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
 body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
   font-size: 20px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-xl, .text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, .text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  .text-body-xl, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
   body .homepage .for-rent .container .bottom .item .info .second-row h2,
   body .homepage .for-rent .container .bottom .item .info .third-row h2,
   body .homepage .for-sale .container .bottom .item .info .first-row h2,
   body .homepage .for-sale .container .bottom .item .info .second-row h2,
   body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
   body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
-  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-uppercase {
     font-size: 14px;
   }
 }
@@ -656,10 +659,10 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-xl-bold, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span {
+.text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span {
   font-weight: 700;
 }
-.text-body-xl-semibold, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+.text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
 body .homepage .for-rent .container .bottom .item .info .second-row h2,
 body .homepage .for-rent .container .bottom .item .info .third-row h2,
 body .homepage .for-sale .container .bottom .item .info .first-row h2,
@@ -669,10 +672,10 @@ body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
 body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2 {
   font-weight: 600;
 }
-.text-body-xl-medium {
+.text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2 {
   font-weight: 500;
 }
-.text-body-xl-regular, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
+.text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
   font-weight: 400;
 }
 .text-body-lg, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-bold, .text-body-lg-uppercase {
@@ -710,26 +713,42 @@ body .homepage .store-for-sale .container .bottom .item .info .third-row h2, bod
 .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
   font-weight: 400;
 }
-.text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .input-label .input-title, .text-body-md-semibold, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
+.text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .breadcrumb-wrap .breadcrumb ul li, .input-label .input-title, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
   font-size: 16px;
   line-height: 150%;
 }
 @media only screen and (max-width: 1480px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .input-label .input-title, .text-body-md-semibold, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .breadcrumb-wrap .breadcrumb ul li, .input-label .input-title, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .input-label .input-title, .text-body-md-semibold, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .breadcrumb-wrap .breadcrumb ul li, .input-label .input-title, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .input-label .input-title, .text-body-md-semibold, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
+  .text-body-md, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-field, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .breadcrumb-wrap .breadcrumb ul li, .input-label .input-title, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-uppercase {
     font-size: 12px;
   }
 }
@@ -737,22 +756,26 @@ body .homepage .for-sale .container .top .left p, body .homepage .event .contain
   font-weight: 500;
   text-transform: uppercase;
 }
-.text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue {
+.text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue {
   font-weight: 700;
 }
-.text-body-md-semibold, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label {
+.text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label {
   font-weight: 600;
 }
-.text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .input-label .input-title {
+.text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .breadcrumb-wrap .breadcrumb ul li, .input-label .input-title {
   font-weight: 500;
 }
-.text-body-md-regular, body .footer .container .nav ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
-body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .file-upload .text, .input-label .input-field {
+.text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-field {
   font-weight: 400;
 }
 .text-body-sm, .text-body-sm-regular, body .footer .container .policy .left,
 body .footer .container .policy a,
-body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .card, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .info, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap .term, body .dashboard .addnew-content .payment-wrapper .right .product-info .card, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
@@ -760,7 +783,11 @@ body .homepage .for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .store-for-sale .container .bottom .item .info .first-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .second-row .flexible p,
 body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .sign-content .sign-wrapper .form-sign .keep-signin p, body .modal-job-content .right .contact-card p, body .job-list-item .context .line-location .location p,
-body .job-list-item .context .line-location .address p, body .datepicker-custom .datepicker-header .context, body .validate-password .row p, .text-body-sm-medium, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .job-list-item .context .line-location .address p, body .datepicker-custom .datepicker-header .context, body .validate-password .row p, .text-body-sm-medium, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .address,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .address, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context p, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
 body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
 body .homepage .for-rent .container .bottom .item .info .second-row span,
@@ -775,7 +802,7 @@ body .homepage .store-for-sale .container .bottom .item .info .second-row span,
 body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item, body .switch-text,
 body .input-text, .text-body-sm-semibold, body .footer .container .contact .single h2, body .dashboard .table-wrapper .table-bottom .action-button .next,
 body .dashboard .table-wrapper .table-bottom .action-button .prev, body .dashboard .table-wrapper .table-container table thead tr td, body .homepage .for-rent .container .bottom .item .image .type p,
-body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, body .job-list-item .line-time .locate p, .text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-lightblue, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .cancel-button, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-lightblue, body .modal-job-content .right .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .modal-job-content .right .job-list-banner .cancel-button, body .modal-job-content .right .share span, .text-body-sm-uppercase {
+body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, .text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-lightblue, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .cancel-button, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-lightblue, body .modal-job-content .right .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .modal-job-content .right .job-list-banner .cancel-button, body .modal-job-content .right .share span, .text-body-sm-uppercase {
   font-size: 14px;
   line-height: 171.5%;
 }
@@ -788,10 +815,14 @@ body .homepage .for-sale .container .bottom .item .image .type p, body .homepage
 }
 .text-body-sm-semibold, body .footer .container .contact .single h2, body .dashboard .table-wrapper .table-bottom .action-button .next,
 body .dashboard .table-wrapper .table-bottom .action-button .prev, body .dashboard .table-wrapper .table-container table thead tr td, body .homepage .for-rent .container .bottom .item .image .type p,
-body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, body .job-list-item .line-time .locate p {
+body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a {
   font-weight: 600;
 }
-.text-body-sm-medium, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+.text-body-sm-medium, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .address,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .address, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context p, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
 body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
 body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
 body .homepage .for-rent .container .bottom .item .info .second-row span,
@@ -809,7 +840,7 @@ body .input-text {
 }
 .text-body-sm-regular, body .footer .container .policy .left,
 body .footer .container .policy a,
-body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .card, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .info, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap .term, body .dashboard .addnew-content .payment-wrapper .right .product-info .card, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
 body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
 body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
@@ -887,6 +918,57 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   overflow: hidden;
 }
 
+.flex {
+  display: flex;
+}
+.flex.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-half {
+  gap: 2px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.gap-3 {
+  gap: 12px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .input-label {
   width: 100%;
   display: flex;
@@ -922,6 +1004,10 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   border: 2px solid var(--primary);
   caret-color: var(--primary);
 }
+.input-label .input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
+}
 .input-label select.input-field {
   width: 100%;
   appearance: none;
@@ -943,6 +1029,10 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   pointer-events: none;
   /* Allow click through */
 }
+.input-label select.input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
+}
 .input-label .input-trans {
   display: flex;
   width: 100%;
@@ -958,6 +1048,1189 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   -webkit-appearance: none;
   -moz-appearance: none;
   background: url("../../assets/image/icon/arrow-down.svg") no-repeat right 0 center;
+}
+
+.breadcrumb-wrap {
+  display: flex;
+  padding: 16px 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.breadcrumb-wrap .breadcrumb ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.breadcrumb-wrap .breadcrumb ul li.item {
+  color: #373a51;
+}
+.breadcrumb-wrap .breadcrumb ul li.link {
+  color: var(--primary);
+}
+
+html,
+body,
+section,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+input,
+button:focus {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: currentColor;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Text-level semantic
+ */
+:active {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Embedded content
+ */
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/**
+ * Grouping content
+ */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 16px;
+}
+
+/**
+ * Forms
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button,
+input[type=submit] {
+  padding: 0;
+  overflow: visible;
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+  border-radius: 0;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: none;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: inherit;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: inherit;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Tables
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+
+:root {
+  --f-raleway: "Raleway";
+  --f-inter: "Inter";
+  --primary: #004dd1;
+  --secondary: #e7b55e;
+  --black: #000;
+  --white: #fff;
+  --text: #232323;
+  --gray-900: #101828;
+  --gray-800: #1d2939;
+  --gray-700: #344054;
+  --gray-600: #475467;
+  --gray-500: #667085;
+  --gray-300: #d0d5dd;
+  --gray-200: #e4e7ec;
+  --gray-100: #f2f4f7;
+}
+
+body {
+  font-family: var(--f-inter);
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary);
+}
+
+b {
+  font-weight: 700;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+input,
+textarea,
+select {
+  outline: 0;
+  background: transparent;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button,
+textarea::-webkit-outer-spin-button,
+textarea::-webkit-inner-spin-button,
+select::-webkit-outer-spin-button,
+select::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+@media only screen and (max-width: 1480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 60px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+}
+
+.text-heading {
+  font-family: var(--f-raleway);
+}
+.text-heading-h1, body .homepage .home-banner .container h1 {
+  font-family: var(--f-raleway);
+  font-size: 72px;
+  line-height: normal;
+  font-weight: 800;
+}
+@media only screen and (max-width: 1480px) {
+  .text-heading-h1, body .homepage .home-banner .container h1 {
+    font-size: 64px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-heading-h1, body .homepage .home-banner .container h1 {
+    font-size: 52px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-heading-h1, body .homepage .home-banner .container h1 {
+    font-size: 48px;
+  }
+}
+.text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
+  font-family: var(--f-raleway);
+  font-size: 44px;
+  line-height: 100%;
+  font-weight: 700;
+}
+@media only screen and (max-width: 1480px) {
+  .text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-heading-h2, body .homepage .other-task .container .bottom .side-banner h2, body .homepage .banner-cta .container .banner .content h2 {
+    font-size: 32px;
+  }
+}
+.text-heading-h3 {
+  font-family: var(--f-raleway);
+  font-size: 40px;
+  line-height: 140%;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1480px) {
+  .text-heading-h3 {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-heading-h3 {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-heading-h3 {
+    font-size: 28px;
+  }
+}
+.text-heading-h4 {
+  font-family: var(--f-raleway);
+  font-size: 32px;
+  line-height: 137.5%;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1480px) {
+  .text-heading-h4 {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-heading-h4 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-heading-h4 {
+    font-size: 20px;
+  }
+}
+.text-heading-h5 {
+  font-family: var(--f-raleway);
+  font-size: 28px;
+  line-height: 142.8%;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1480px) {
+  .text-heading-h5 {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-heading-h5 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-heading-h5 {
+    font-size: 18px;
+  }
+}
+.text-heading-h6 {
+  font-family: var(--f-raleway);
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1480px) {
+  .text-heading-h6 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-heading-h6 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-heading-h6 {
+    font-size: 16px;
+  }
+}
+.text-heading-h7, body .homepage .banner-cta .container .banner .content p {
+  font-family: var(--f-raleway);
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1480px) {
+  .text-heading-h7, body .homepage .banner-cta .container .banner .content p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-heading-h7, body .homepage .banner-cta .container .banner .content p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-heading-h7, body .homepage .banner-cta .container .banner .content p {
+    font-size: 14px;
+  }
+}
+
+.text-body {
+  font-family: var(--f-inter);
+}
+.text-body-xl, .text-body-xl-uppercase, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+body .homepage .for-rent .container .bottom .item .info .second-row h2,
+body .homepage .for-rent .container .bottom .item .info .third-row h2,
+body .homepage .for-sale .container .bottom .item .info .first-row h2,
+body .homepage .for-sale .container .bottom .item .info .second-row h2,
+body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
+body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
+body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
+  font-size: 20px;
+  line-height: 150%;
+}
+@media only screen and (max-width: 1480px) {
+  .text-body-xl, .text-body-xl-uppercase, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  body .homepage .for-rent .container .bottom .item .info .second-row h2,
+  body .homepage .for-rent .container .bottom .item .info .third-row h2,
+  body .homepage .for-sale .container .bottom .item .info .first-row h2,
+  body .homepage .for-sale .container .bottom .item .info .second-row h2,
+  body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
+  body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-body-xl, .text-body-xl-uppercase, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  body .homepage .for-rent .container .bottom .item .info .second-row h2,
+  body .homepage .for-rent .container .bottom .item .info .third-row h2,
+  body .homepage .for-sale .container .bottom .item .info .first-row h2,
+  body .homepage .for-sale .container .bottom .item .info .second-row h2,
+  body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
+  body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-body-xl, .text-body-xl-uppercase, .text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span, .text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+  body .homepage .for-rent .container .bottom .item .info .second-row h2,
+  body .homepage .for-rent .container .bottom .item .info .third-row h2,
+  body .homepage .for-sale .container .bottom .item .info .first-row h2,
+  body .homepage .for-sale .container .bottom .item .info .second-row h2,
+  body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
+  body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
+  body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2, .text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2, .text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
+    font-size: 14px;
+  }
+}
+.text-body-xl-uppercase {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text-body-xl-bold, body .term-info-view .headline-wrap .headline, body .term-head .term-title h1, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-title, body .dashboard .dashboard-container .right-content .title h1, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner h2, body .homepage .community-document .container .bottom .view-item .item .context .second-row h2, body .homepage .event .container .bottom .right-content .item .context h3, body .homepage .event .container .bottom .left-filter .qc h3, body .homepage .statistic .container .item .content .title, body .modal-job-content .right .job-list-banner h2, body .modal-job-content .left .description .title, body .modal-job-content .left .title-wrap .first-row .title h2, body .job-list-item .context .line-salary .salary span {
+  font-weight: 700;
+}
+.text-body-xl-semibold, body .term-info-title .title .row h2, body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2, body .homepage .other-task .container .bottom .item .context h2, body .homepage .for-rent .container .bottom .item .info .first-row h2,
+body .homepage .for-rent .container .bottom .item .info .second-row h2,
+body .homepage .for-rent .container .bottom .item .info .third-row h2,
+body .homepage .for-sale .container .bottom .item .info .first-row h2,
+body .homepage .for-sale .container .bottom .item .info .second-row h2,
+body .homepage .for-sale .container .bottom .item .info .third-row h2, body .homepage .solution .container .bottom .item .content h3, body .homepage .store-for-sale .container .bottom .item .info .first-row h2,
+body .homepage .store-for-sale .container .bottom .item .info .second-row h2,
+body .homepage .store-for-sale .container .bottom .item .info .third-row h2, body .modal-job-content .right .contact-card h2, body .job-list-item .context h2 {
+  font-weight: 600;
+}
+.text-body-xl-medium, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total, body .dashboard .addnew-content .payment-wrapper .right .product-top h2, body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2, body .modal-wrapper .modal-container .modal-head h2 {
+  font-weight: 500;
+}
+.text-body-xl-regular, body .term-head .term-title p, body .sign-content .sign-wrapper .sign-container .tab-container .tab-item, body .modal-job-content .left .title-wrap .first-row .title p {
+  font-weight: 400;
+}
+.text-body-lg, .text-body-lg-uppercase, .text-body-lg-bold, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
+  font-size: 18px;
+  line-height: 155.6%;
+}
+@media only screen and (max-width: 1480px) {
+  .text-body-lg, .text-body-lg-uppercase, .text-body-lg-bold, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-body-lg, .text-body-lg-uppercase, .text-body-lg-bold, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-body-lg, .text-body-lg-uppercase, .text-body-lg-bold, .text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p, .text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2, .text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
+    font-size: 14px;
+  }
+}
+.text-body-lg-uppercase {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text-body-lg-bold {
+  font-weight: 700;
+}
+.text-body-lg-semibold, body .homepage .solution .container .top h2, body .homepage .statistic .container .item .content .text, body .homepage .banner-cta .container .banner .sponsored p {
+  font-weight: 600;
+}
+.text-body-lg-medium, body .dashboard .table-wrapper .table-title .left h2, body .sign-content .sign-wrapper .form-sign .other-connect h2 {
+  font-weight: 500;
+}
+.text-body-lg-regular, body .homepage .event .container .bottom .left-filter .filter-wrap .filter-container .time-row p {
+  font-weight: 400;
+}
+.text-body-md, .text-body-md-uppercase, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-title, .input-label .input-field, .breadcrumb-wrap .breadcrumb ul li {
+  font-size: 16px;
+  line-height: 150%;
+}
+@media only screen and (max-width: 1480px) {
+  .text-body-md, .text-body-md-uppercase, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-title, .input-label .input-field, .breadcrumb-wrap .breadcrumb ul li {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .text-body-md, .text-body-md-uppercase, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-title, .input-label .input-field, .breadcrumb-wrap .breadcrumb ul li {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text-body-md, .text-body-md-uppercase, .text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue, .text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label, .text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+  body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+  body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-title, .input-label .input-field, .breadcrumb-wrap .breadcrumb ul li {
+    font-size: 12px;
+  }
+}
+.text-body-md-uppercase {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text-body-md-bold, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-title, body .dashboard .bill-context .name, body .header .second-row .container .button-trans span, body .header .second-row .container .button-border span, body .header .second-row .container .button-bg-white span, body .header .second-row .container .button-bg-red span, body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border, body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .button-lightblue {
+  font-weight: 700;
+}
+.text-body-md-semibold, body .term-tab-wrapper .tab-item, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type, body .dashboard .addnew-content .progress .progress-bar .progress-item .content, body .dashboard .table-filter .select-des, body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a, body .search-result .search-result-page .result-filter .select-des, body .homepage .other-task .container .bottom .side-banner p, body .homepage .home-banner .container .form-banner-1 .select-des, body .job-list-item .line-time .locate p, body .header .header-scroll .container .form-header .select-des, body .datepicker-custom .datepicker-header .first-row .year-display, body .multi-dropdown .multi-dropdown-label {
+  font-weight: 600;
+}
+.text-body-md-medium, body .footer .container p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2, body .dashboard .addnew-content .payment-wrapper .right .product-info .info, body .dashboard .addnew-content .payment-wrapper .right .product-content .price, body .dashboard .addnew-content .addnew-form .row-between .order-info-total, body .search-result .search-result-page .result-view .right .top .row-between .row-select .select-for, body .homepage .home-banner .container .form-banner-1 .home-search-field .field .input-trans, body .sign-content .sign-wrapper .form-sign .other-connect .other-container a, body .header .header-scroll .container .button-primary, body .header .header-scroll .container .button-lightblue, body .header .header-scroll .container .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .header .header-scroll .container .cancel-button, body .header .first-row .container p, body .datepicker-custom .datepicker-footer .selected-months p, body .select-trans, body .input-trans, body a.primary-under, .input-label .input-title, .breadcrumb-wrap .breadcrumb ul li {
+  font-weight: 500;
+}
+.text-body-md-regular, body .footer .container .nav ul li, body .term-info-bottom p, body .term-info-view p, body .term-info-title .title p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span, body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info, body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end, body .dashboard .addnew-content .step-list .step p, body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .banner-option .option-content ul li, body .dashboard .addnew-content .image-banner-view .banner-view .old-banner-container .old-banner .name p, body .dashboard .addnew-content .image-banner-tab .banner-tab .tab-des, body .dashboard .addnew-content .addnew-form .row-between .order-info-content, body .dashboard .addnew-content .addnew-form .row-between .order-info-title, body .dashboard .addnew-content .addnew-form .multi-dropdown-label.input-field, body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email, body .dashboard .bill-context .other, body .dashboard .bill-context .info, body .search-result .search-result-page .result-view .right .top .row-between p, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .community-document .container .top .left p, body .homepage .other-task .container .top .left p, body .homepage .for-rent .container .top .left p,
+body .homepage .for-sale .container .top .left p, body .homepage .event .container .bottom .right-content .item .context > p, body .homepage .event .container .top .left p, body .homepage .solution .container .bottom .item .content p, body .homepage .solution .container .top p, body .homepage .store-for-sale .container .top .left p, body .homepage .job-list .container .top .left p, body .sign-content .sign-wrapper .form-sign .keep-signin label, body .sign-content .sign-wrapper .form-sign .forgot-password a, body .sign-content .sign-wrapper .form-sign .term-service, body .modal-job-content .left .other-job .top .left p, body .modal-job-content .left .description .more-info .row p, body .modal-job-content .left .description .content p.des, body .modal-job-content .left .title-wrap .hashtag-wrap .hashtag p, body .job-list-item .context .line-salary .views p, body .job-list-item .context .line-salary .salary p, body .header .second-row .container .nav ul li, body .datepicker-custom .datepicker-footer .selected-months .selected-list .selected-item, body .radio-context .other, body .file-upload .text, .input-label .input-field {
+  font-weight: 400;
+}
+.text-body-sm, .text-body-sm-uppercase, .text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-lightblue, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .cancel-button, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-lightblue, body .modal-job-content .right .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .modal-job-content .right .job-list-banner .cancel-button, body .modal-job-content .right .share span, .text-body-sm-semibold, body .footer .container .contact .single h2, body .dashboard .table-wrapper .table-bottom .action-button .next,
+body .dashboard .table-wrapper .table-bottom .action-button .prev, body .dashboard .table-wrapper .table-container table thead tr td, body .homepage .for-rent .container .bottom .item .image .type p,
+body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a, .text-body-sm-medium, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .address,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .address, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context p, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
+body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
+body .homepage .for-rent .container .bottom .item .info .second-row span,
+body .homepage .for-rent .container .bottom .item .info .third-row span,
+body .homepage .for-sale .container .bottom .item .info .first-row span,
+body .homepage .for-sale .container .bottom .item .info .second-row span,
+body .homepage .for-sale .container .bottom .item .info .third-row span, body .homepage .for-rent .container .bottom .item .image .first-row p,
+body .homepage .for-sale .container .bottom .item .image .first-row p, body .homepage .event .container .bottom .right-content .item .context .date-time .info p, body .homepage .event .container .bottom .right-content .item .context a p, body .homepage .store-for-sale .container .bottom .item .info .location, body .homepage .store-for-sale .container .bottom .item .info .first-row p,
+body .homepage .store-for-sale .container .bottom .item .info .second-row p,
+body .homepage .store-for-sale .container .bottom .item .info .third-row p, body .homepage .store-for-sale .container .bottom .item .info .first-row span,
+body .homepage .store-for-sale .container .bottom .item .info .second-row span,
+body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item, body .switch-text,
+body .input-text, .text-body-sm-regular, body .footer .container .policy .left,
+body .footer .container .policy a,
+body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .card, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .info, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap .term, body .dashboard .addnew-content .payment-wrapper .right .product-info .card, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
+body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
+body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
+body .homepage .for-sale .container .bottom .item .info .second-row .flexible p,
+body .homepage .for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .store-for-sale .container .bottom .item .info .first-row .flexible p,
+body .homepage .store-for-sale .container .bottom .item .info .second-row .flexible p,
+body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .sign-content .sign-wrapper .form-sign .keep-signin p, body .modal-job-content .right .contact-card p, body .job-list-item .context .line-location .location p,
+body .job-list-item .context .line-location .address p, body .datepicker-custom .datepicker-header .context, body .validate-password .row p {
+  font-size: 14px;
+  line-height: 171.5%;
+}
+.text-body-sm-uppercase {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text-body-sm-bold, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-primary, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .button-lightblue, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner .cancel-button, body .modal-job-content .right .job-list-banner .button-primary, body .modal-job-content .right .job-list-banner .button-lightblue, body .modal-job-content .right .job-list-banner .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .modal-job-content .right .job-list-banner .cancel-button, body .modal-job-content .right .share span {
+  font-weight: 700;
+}
+.text-body-sm-semibold, body .footer .container .contact .single h2, body .dashboard .table-wrapper .table-bottom .action-button .next,
+body .dashboard .table-wrapper .table-bottom .action-button .prev, body .dashboard .table-wrapper .table-container table thead tr td, body .homepage .for-rent .container .bottom .item .image .type p,
+body .homepage .for-sale .container .bottom .item .image .type p, body .homepage .store-for-sale .container .bottom .item .image .type p, body .modal-job-content .right .contact-card a {
+  font-weight: 600;
+}
+.text-body-sm-medium, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info p, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .address,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .address, body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context p, body .dashboard .table-wrapper .table-bottom .action-button .page-num, body .dashboard .table-wrapper .table-title .left .post-num, body .dashboard .dashboard-container .right-content .news p, body .search-result .search-result-page .result-view .right .bottom .item-view .job-list-banner p, body .homepage .community-document .container .bottom .view-item .item .context .first-row .date p,
+body .homepage .community-document .container .bottom .view-item .item .context .first-row .view p, body .homepage .other-task .container .bottom .item .context .second-row span, body .homepage .for-rent .container .bottom .item .info .location,
+body .homepage .for-sale .container .bottom .item .info .location, body .homepage .for-rent .container .bottom .item .info .first-row span,
+body .homepage .for-rent .container .bottom .item .info .second-row span,
+body .homepage .for-rent .container .bottom .item .info .third-row span,
+body .homepage .for-sale .container .bottom .item .info .first-row span,
+body .homepage .for-sale .container .bottom .item .info .second-row span,
+body .homepage .for-sale .container .bottom .item .info .third-row span, body .homepage .for-rent .container .bottom .item .image .first-row p,
+body .homepage .for-sale .container .bottom .item .image .first-row p, body .homepage .event .container .bottom .right-content .item .context .date-time .info p, body .homepage .event .container .bottom .right-content .item .context a p, body .homepage .store-for-sale .container .bottom .item .info .location, body .homepage .store-for-sale .container .bottom .item .info .first-row p,
+body .homepage .store-for-sale .container .bottom .item .info .second-row p,
+body .homepage .store-for-sale .container .bottom .item .info .third-row p, body .homepage .store-for-sale .container .bottom .item .info .first-row span,
+body .homepage .store-for-sale .container .bottom .item .info .second-row span,
+body .homepage .store-for-sale .container .bottom .item .info .third-row span, body .homepage .store-for-sale .container .bottom .item .image .date-release p, body .modal-job-content .right .job-list-banner p, body .job-list-item .line-time .time p, body .pagination .page-list .page-item, body .switch-text,
+body .input-text {
+  font-weight: 500;
+}
+.text-body-sm-regular, body .footer .container .policy .left,
+body .footer .container .policy a,
+body .footer .container .policy p, body .footer .container .contact .single a, body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .card, body .dashboard .addnew-content .payment-wrapper .right .order-info .row .info, body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap .term, body .dashboard .addnew-content .payment-wrapper .right .product-info .card, body .dashboard .table-wrapper .table-container table tbody tr td, body .dashboard .dashboard-container .right-content .news .new, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .first-row .flexible p,
+body .homepage .for-rent .container .bottom .item .info .second-row .flexible p,
+body .homepage .for-rent .container .bottom .item .info .third-row .flexible p,
+body .homepage .for-sale .container .bottom .item .info .first-row .flexible p,
+body .homepage .for-sale .container .bottom .item .info .second-row .flexible p,
+body .homepage .for-sale .container .bottom .item .info .third-row .flexible p, body .homepage .store-for-sale .container .bottom .item .info .first-row .flexible p,
+body .homepage .store-for-sale .container .bottom .item .info .second-row .flexible p,
+body .homepage .store-for-sale .container .bottom .item .info .third-row .flexible p, body .sign-content .sign-wrapper .form-sign .keep-signin p, body .modal-job-content .right .contact-card p, body .job-list-item .context .line-location .location p,
+body .job-list-item .context .line-location .address p, body .datepicker-custom .datepicker-header .context, body .validate-password .row p {
+  font-weight: 400;
+}
+.text-body-xs, .text-body-xs-uppercase, .text-body-xs-bold, .text-body-xs-semibold, .text-body-xs-medium, .text-body-xs-regular, body .status-badge {
+  font-size: 12px;
+  line-height: 166.7%;
+}
+.text-body-xs-uppercase {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text-body-xs-bold {
+  font-weight: 700;
+}
+.text-body-xs-semibold {
+  font-weight: 600;
+}
+.text-body-xs-medium {
+  font-weight: 500;
+}
+.text-body-xs-regular, body .status-badge {
+  font-weight: 400;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-gray-900 {
+  color: var(--gray-900);
+}
+
+.text-gray-600 {
+  color: var(--gray-600);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.truncate-1row, body .job-list-item .context .line-location .location p,
+body .job-list-item .context .line-location .address p, body .job-list-item .context h2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-2row, body .homepage .other-task .container .bottom .item .context p, body .homepage .for-rent .container .bottom .item .info .location,
+body .homepage .for-sale .container .bottom .item .info .location, body .homepage .store-for-sale .container .bottom .item .info .location {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-3row, body .homepage .community-document .container .bottom .view-item .item .context .second-row p, body .homepage .event .container .bottom .right-content .item .context > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-4row {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+.flex.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-half {
+  gap: 2px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.gap-3 {
+  gap: 12px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.input-label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input-label .input-title {
+  color: #1f2237;
+}
+.input-label .input-title.regular {
+  font-weight: 400;
+}
+.input-label .input-title.semibold {
+  font-weight: 600;
+}
+.input-label .input-field {
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  border: 1px solid #dedfe0;
+  border-radius: 8px;
+  background: var(--white);
+  width: 100%;
+  color: #0f0f0f;
+}
+.input-label .input-field::-moz-placeholder {
+  color: #6b7280;
+}
+.input-label .input-field::placeholder {
+  color: #6b7280;
+}
+.input-label .input-field:focus {
+  border: 2px solid var(--primary);
+  caret-color: var(--primary);
+}
+.input-label .input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
+}
+.input-label select.input-field {
+  width: 100%;
+  appearance: none;
+  /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("../image/icon/dropdown-icon.svg") no-repeat right 12px center;
+  /* Adjust background position here */
+  background-size: 16px 16px;
+  /* Adjust background size here */
+}
+.input-label select.input-field::after {
+  content: "";
+  /* Unicode for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Allow click through */
+}
+.input-label select.input-field:disabled {
+  border: 1px solid var(--gray-300);
+  background: var(--gray-100);
+}
+.input-label .input-trans {
+  display: flex;
+  width: 100%;
+  border: none;
+}
+.input-label .input-trans:disabled {
+  background: transparent;
+}
+.input-label select.input-trans {
+  width: 100%;
+  appearance: none;
+  /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("../../assets/image/icon/arrow-down.svg") no-repeat right 0 center;
+}
+
+.breadcrumb-wrap {
+  display: flex;
+  padding: 16px 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.breadcrumb-wrap .breadcrumb ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.breadcrumb-wrap .breadcrumb ul li.item {
+  color: #373a51;
+}
+.breadcrumb-wrap .breadcrumb ul li.link {
+  color: var(--primary);
+}
+
+.basic-info,
+.detail-info,
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  border: 1px solid #d0d5dd;
+  border-radius: 5px;
+  padding: 16px 20px;
+  box-shadow: 0px 2px 4px -2px rgba(16, 24, 40, 0.0588235294);
+}
+.basic-info .title,
+.detail-info .title,
+.contact-info .title {
+  display: block !important;
+  padding: 0 !important;
+  text-align: center;
+}
+
+.job-management-label {
+  color: #344054;
+}
+
+.select2-selection--single {
+  height: unset !important;
+  padding: 13px;
+  border-color: #d0d5dd !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 0.77px 1.55px 0px rgba(16, 24, 40, 0.0509803922);
+}
+
+.select2-selection__arrow {
+  height: unset !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+}
+
+.job-management-input {
+  box-shadow: 0px 0.77px 1.55px 0px rgba(16, 24, 40, 0.0509803922);
+  padding: 17px;
+  border: 1px solid #d0d5dd;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+}
+.job-management-input::-moz-placeholder {
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+}
+.job-management-input::placeholder {
+  color: #667085;
+  font-size: 16px;
+  line-height: 24px;
+}
+.job-management-input:disabled {
+  background-color: #f2f4f7;
+}
+
+.copy-input-button {
+  width: 24px;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.contact-info-radio-text .add-new-info {
+  color: #004dd1;
+  font-weight: 400;
+}
+.contact-info-radio-text .name {
+  color: #1e1e1e;
+  font-weight: 600;
+}
+.contact-info-radio-text .description {
+  color: #757575;
+  font-size: 14px;
+}
+
+.upload-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.button-upload-post {
+  background-color: #004dd1;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  min-width: 527px;
+  border-radius: 5px;
+  border: none;
 }
 
 body a.primary-under {
@@ -982,6 +2255,10 @@ body figure.w-24 {
   width: 24px;
   height: 24px;
 }
+body figure.w-28 {
+  width: 28px;
+  height: 28px;
+}
 body figure.w-32 {
   width: 32px;
   height: 32px;
@@ -997,6 +2274,10 @@ body figure.w-36 {
 body figure.w-40 {
   width: 40px;
   height: 40px;
+}
+body figure.w-120 {
+  width: 120px;
+  height: 120px;
 }
 body figure img {
   width: 100%;
@@ -1031,6 +2312,31 @@ body .row-gap-16 {
 }
 body .flex-1 {
   flex: 1;
+}
+body .radio-black {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #757575;
+  border-radius: 50%;
+  position: relative;
+}
+body .radio-black:checked {
+  background-color: #fff;
+  border-color: #1e1e1e;
+}
+body .radio-black:checked::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
 }
 body .file-upload {
   width: 100%;
@@ -1157,11 +2463,34 @@ body .checkbox-container .checkmark:after {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+body .radio-black-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+body .radio-black-item input {
+  width: 16px;
+  height: 16px;
+}
+body .radio-black-item.col {
+  flex-direction: column;
+}
+body .radio-context {
+  display: flex;
+  flex-direction: column;
+}
+body .radio-context .other {
+  color: #1e1e1e;
+}
+body .radio-context.between {
+  width: 100%;
+  justify-content: space-between;
+}
 body .select-field {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 44px 10px 14px;
+  padding: 8px 44px 8px 14px;
   border-radius: 8px;
   border: 1px solid #d5d7da;
   background: #fff;
@@ -1198,6 +2527,12 @@ body .button-primary, body .datepicker-custom .datepicker-footer .action-buttons
   background: var(--primary);
   border-radius: 8px;
   color: #f3f3f3;
+}
+body .button-primary.h-56, body .datepicker-custom .datepicker-footer .action-buttons .h-56.cancel-button, body .h-56.button-lightblue {
+  height: 56px;
+}
+body .button-primary.w-full, body .datepicker-custom .datepicker-footer .action-buttons .w-full.cancel-button, body .w-full.button-lightblue {
+  width: 100%;
 }
 body .button-trans, body .button-bg-red, body .button-bg-white, body .button-border {
   width: -moz-fit-content;
@@ -1509,6 +2844,19 @@ body .datepicker-custom .datepicker-footer .action-buttons .save-button {
   background: #0052cc;
   color: white;
 }
+body .payment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .payment.center {
+  justify-content: center;
+}
+body .payment .logo-icon {
+  width: 54px;
+  height: 35px;
+  filter: drop-shadow(0px 0.5232px 5.2304px rgba(183, 183, 183, 0.08)) drop-shadow(0px 5.2304px 10.4608px rgba(183, 183, 183, 0.08));
+}
 body .custom-scrollbar::-webkit-scrollbar, body .modal-wrapper .modal-container .modal-content::-webkit-scrollbar, body .max-h-300::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -1649,7 +2997,6 @@ body .modal-wrapper .modal-container {
   gap: 24px;
   background: var(--white);
   border-radius: 5px;
-  background: #fcfcfd;
   position: relative;
 }
 @media only screen and (max-width: 1199px) {
@@ -1661,6 +3008,9 @@ body .modal-wrapper .modal-container {
   body .modal-wrapper .modal-container {
     padding: 48px 10px 48px 24px;
   }
+}
+body .modal-wrapper .modal-container.w-640 {
+  max-width: 640px;
 }
 body .modal-wrapper .modal-container .modal-head {
   display: flex;
@@ -1680,6 +3030,9 @@ body .modal-wrapper .modal-container .modal-head figure.logo-modal img {
   -o-object-fit: cover;
      object-fit: cover;
   aspect-ratio: 19/5;
+}
+body .modal-wrapper .modal-container .modal-head h2 {
+  color: #1f2237;
 }
 body .modal-wrapper .modal-container .modal-head .close-modal {
   position: absolute;
@@ -1739,6 +3092,7 @@ body .header .first-row .container .right .language {
   display: flex;
   align-items: center;
   padding: 8px;
+  min-width: 67px;
   padding-left: 32px;
   appearance: none;
   background: #f7f7f7;
@@ -1764,6 +3118,7 @@ body .header .first-row .container .right .language::after {
 }
 body .header .second-row {
   background: #f5f5f5;
+  height: 48px;
 }
 body .header .second-row hr.head-divider {
   width: 2px;
@@ -2402,7 +3757,7 @@ body .sign-content .sign-wrapper .form-sign .other-connect .other-container a {
   color: #344054;
 }
 body .homepage .home-banner {
-  background: url(/assets/image/home-banner-1.png) no-repeat;
+  background: url(/assets/image/home-banner-1.png) no-repeat center;
   background-size: cover;
   position: relative;
   min-height: 527px;
@@ -2509,10 +3864,11 @@ body .homepage .banner-cta {
 body .homepage .banner-cta .container .banner {
   position: relative;
   height: 220px;
-  background: url(/assets/image/home-banner.png) no-repeat;
+  background: url(/assets/image/home-banner.png) no-repeat center;
   background-size: cover;
   display: flex;
   align-items: center;
+  border-radius: 16px;
   padding-left: 86px;
 }
 body .homepage .banner-cta .container .banner .content {
@@ -2628,9 +3984,19 @@ body .homepage .job-list .container .top .right .prev svg {
 }
 body .homepage .job-list .container .bottom {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 416px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-top: 48px;
+}
+@media only screen and (max-width: 991px) {
+  body .homepage .job-list .container .bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 667px) {
+  body .homepage .job-list .container .bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 body .homepage .statistic {
   padding-top: 68px;
@@ -3991,6 +5357,38 @@ body .search-result .search-result-page .result-view .right .bottom .item-view .
 body .dashboard {
   display: flex;
 }
+body .dashboard .bill-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+body .dashboard .bill-item.w-50 {
+  width: 50%;
+}
+body .dashboard .bill-item input {
+  width: 16px;
+  height: 16px;
+}
+body .dashboard .bill-item.col {
+  flex-direction: column;
+}
+body .dashboard .bill-context {
+  display: flex;
+  flex-direction: column;
+}
+body .dashboard .bill-context .name {
+  color: #1e1e1e;
+}
+body .dashboard .bill-context .info {
+  color: #757575;
+}
+body .dashboard .bill-context .other {
+  color: var(--primary);
+}
+body .dashboard .bill-context.between {
+  width: 100%;
+  justify-content: space-between;
+}
 body .dashboard .dashboard-container {
   width: 100%;
   display: flex;
@@ -4054,6 +5452,7 @@ body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .avatar fig
 body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .name {
   font-size: 22px;
   color: var(--white);
+  text-align: center;
 }
 body .dashboard .dashboard-container .left-nav .fixed .top-nav .info .information .email {
   color: var(--white);
@@ -4064,6 +5463,7 @@ body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul {
   gap: 22px;
 }
 body .dashboard .dashboard-container .left-nav .fixed .bottom-nav .nav ul .nav-item a {
+  width: 224px;
   display: flex;
   padding: 8px 12px;
   align-items: center;
@@ -4094,7 +5494,7 @@ body .dashboard .dashboard-container .right-content {
   margin: auto;
   padding: 0 32px;
   width: 100%;
-  max-width: 1504px;
+  max-width: 1568px;
 }
 body .dashboard .dashboard-container .right-content .title {
   display: flex;
@@ -4122,7 +5522,7 @@ body .dashboard .dashboard-container .right-content .title .right {
   gap: 16px;
 }
 body .dashboard .dashboard-container .right-content .title h1 {
-  font-size: 40px;
+  font-size: 32px;
   color: #1d2939;
 }
 body .dashboard .dashboard-container .right-content .news {
@@ -4149,7 +5549,7 @@ body .dashboard .dashboard-container .right-content .news p {
 body .dashboard .table-filter {
   display: flex;
   align-items: center;
-  padding: 16px 48px;
+  padding: 16px 24px;
   gap: 8px;
   border: 1px solid #d0d5dd;
 }
@@ -4568,20 +5968,6 @@ body .dashboard .addnew-content .image-banner-view .banner-view .no-banner {
   flex-direction: column;
   gap: 16px;
 }
-body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list .step {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-}
-body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .step-list .step p {
-  color: #475467;
-  flex: 1;
-}
 body .dashboard .addnew-content .image-banner-view .banner-view .no-banner .half-divider {
   width: 50%;
   height: 1px;
@@ -4616,13 +6002,608 @@ body .dashboard .addnew-content .submit-button .button-primary, body .dashboard 
   max-width: 530px;
   height: 56px;
 }
+body .dashboard .addnew-content .step-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body .dashboard .addnew-content .step-list .step {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+body .dashboard .addnew-content .step-list .step p {
+  color: #475467;
+  flex: 1;
+}
 body .dashboard .addnew-content .payment-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+body .dashboard .addnew-content .payment-wrapper .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  max-width: 1048px;
+}
+body .dashboard .addnew-content .payment-wrapper .left.w-full {
+  max-width: unset;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  background: var(--white);
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method > h2 {
+  color: #1f2237;
+  padding: 8px 24px 0 24px;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list {
+  border-top: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #d1d5db;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-item:last-child {
+  border-bottom: none;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-item input {
+  width: 20px;
+  height: 20px;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-item.col {
+  flex-direction: column;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context figure {
+  width: 54px;
+  height: 35px;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: drop-shadow(0px 0.523px 5.23px rgba(183, 183, 183, 0.08)) drop-shadow(0px 5.23px 10.46px rgba(183, 183, 183, 0.08));
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .type {
+  color: #1f2237;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context .num-end {
+  color: #6b7280;
+}
+body .dashboard .addnew-content .payment-wrapper .left .payment-method .payment-list .payment-context.between {
+  width: 100%;
+  justify-content: space-between;
+}
+body .dashboard .addnew-content .payment-wrapper .left .bill-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 24px;
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  background: var(--white);
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+body .dashboard .addnew-content .payment-wrapper .left .bill-info > h2 {
+  color: #1f2237;
+}
+body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .w-50 {
+  width: calc(50% - 10px);
+}
+body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .w-33 {
+  width: calc(33% - 13.3333333333px);
+}
+body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1f2237;
+}
+body .dashboard .addnew-content .payment-wrapper .left .bill-info .form-info .save-info input {
+  width: 20px;
+  height: 20px;
+}
+body .dashboard .addnew-content .payment-wrapper .left .button-submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+body .dashboard .addnew-content .payment-wrapper .left .button-submit .button-primary, body .dashboard .addnew-content .payment-wrapper .left .button-submit .button-lightblue, body .dashboard .addnew-content .payment-wrapper .left .button-submit .datepicker-custom .datepicker-footer .action-buttons .cancel-button, body .datepicker-custom .datepicker-footer .action-buttons .dashboard .addnew-content .payment-wrapper .left .button-submit .cancel-button {
+  width: 205px;
+  height: 56px;
+}
+body .dashboard .addnew-content .payment-wrapper .right {
+  width: 100%;
+  max-width: 437px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-info-wrap {
+  display: flex;
+  padding: 8px 0px 24px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--gray-300);
+  background: var(--white);
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 10px;
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-top h2 {
+  color: #1f2237;
+  flex: 1;
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-content .icon {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 636.364px;
+  background: var(--gray-100);
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-content .price {
+  color: var(--primary);
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-info .info {
+  color: #373a51;
+  width: 100%;
+}
+body .dashboard .addnew-content .payment-wrapper .right .product-info .card {
+  color: #4b4e63;
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f3f4f6;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap {
+  width: 100%;
+  display: flex;
+  padding: 16px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  border-radius: 5px;
+  border: 1px solid var(--gray-300);
+  background: #fff;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap h2 {
+  color: #1f2237;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap .term {
+  color: #4b4e63;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info-wrap .term a {
+  color: #0e74bc;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info .row .info {
+  color: #4b4e63;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price {
+  color: #1f2237;
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info .row .price-total {
+  color: var(--primary);
+}
+body .dashboard .addnew-content .payment-wrapper .right .order-info hr.row-divider {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background: #e5e7eb;
+}
+body .dashboard .addnew-content .thank-payment-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .thank-payment {
+  width: 100%;
+  display: flex;
+  padding: 40px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-radius: 5px;
+  border: 1px solid var(--gray-300);
+  background: var(--white);
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 884px;
+  gap: 16px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context h2 {
+  font-size: 24px;
+  color: var(--primary);
+}
+body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context p {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+body .dashboard .addnew-content .thank-payment-wrap .thank-payment .context p a {
+  color: var(--primary);
+}
+body .dashboard .addnew-content .thank-payment-wrap .thank-payment .back-to-home {
+  width: 268px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe {
+  display: flex;
+  padding: 16px 24px;
   flex-direction: column;
   border-radius: 5px;
   border: 1px solid var(--gray-300);
   background: var(--white);
   box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code {
+  display: flex;
+  align-items: center;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .day {
+  color: #373a51;
+  margin-right: 16px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order {
+  color: #1f2237;
+  margin-left: 16px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .order-code {
+  margin-left: 8px;
+  color: #6b7280;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .title .day-code .copy {
+  margin-left: 8px;
+  cursor: pointer;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail {
+  display: flex;
+  padding: 24px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .icon {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 636.364px;
+  background: var(--gray-100);
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-content .price {
+  color: var(--primary);
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .info {
+  color: #373a51;
+  width: 100%;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .product-info .card {
+  color: #4b4e63;
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f3f4f6;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total {
+  width: 100%;
+  display: flex;
+  padding: 0px 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total .button-view-detail {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text span {
+  color: #6b7280;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .product-detail .total-text p {
+  font-size: 24px;
+  color: var(--primary);
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info {
+  display: flex;
+  padding: 16px 32px;
+  gap: 24px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .vertical-divider {
+  width: 1px;
+  height: 68px;
+  margin: auto;
+  border: none;
+  background: #d1d5db;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .payment-method p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .contact-title p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .payment-method p {
+  color: #373a51;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .name,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .name {
+  color: #373a51;
+  margin-bottom: 8px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .info .address,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .mail,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .info .address {
+  color: #6b7280;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info figure,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info figure {
+  width: 46px;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info figure img,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .left .card-info p,
+body .dashboard .addnew-content .thank-payment-wrap .order-recipe .contact-info .right .card-info p {
+  color: #6b7280;
+}
+body .term-head {
+  background: url(/assets/image/temr-of-service-banner.svg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  aspect-ratio: 19.2/4.9;
+}
+body .term-head .term-title {
+  width: 100%;
+  max-width: 497px;
+  padding-top: 75px;
+}
+body .term-head .term-title h1 {
+  color: var(--white);
+  font-size: 50px;
+}
+@media only screen and (max-width: 1199px) {
+  body .term-head .term-title h1 {
+    font-style: 40px;
+  }
+}
+body .term-head .term-title p {
+  color: var(--white);
+  font-size: 40px;
+}
+@media only screen and (max-width: 1199px) {
+  body .term-head .term-title p {
+    font-style: 30px;
+  }
+}
+body .term-info-title {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 24px;
+  padding-bottom: 38px;
+}
+body .term-info-title .title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body .term-info-title .title .row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .term-info-title .title .row h2 {
+  color: var(--gray-800);
+}
+body .term-info-title .title p {
+  color: var(--gray-700);
+}
+body .term-tab-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+body .term-tab-wrapper .tab-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  padding: 0 12px;
+  border-radius: 5px;
+  background: #d9d9d9;
+  box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.1);
+  color: #464646;
+}
+body .term-tab-wrapper .tab-item svg path {
+  stroke: #464646;
+}
+body .term-tab-wrapper .tab-item svg rect {
+  stroke: #464646;
+}
+body .term-tab-wrapper .tab-item:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+body .term-tab-wrapper .tab-item:hover svg path {
+  stroke: var(--white);
+}
+body .term-tab-wrapper .tab-item:hover svg rect {
+  stroke: var(--white);
+}
+body .term-tab-wrapper .tab-item.active {
+  background: var(--primary);
+  color: var(--white);
+}
+body .term-tab-wrapper .tab-item.active svg path {
+  stroke: var(--white);
+}
+body .term-tab-wrapper .tab-item.active svg rect {
+  stroke: var(--white);
+}
+body .term-tab-wrapper .tab-item.cookie:hover svg path {
+  fill: var(--white);
+}
+body .term-tab-wrapper .tab-item.cookie.active svg path {
+  fill: var(--white);
+}
+body .term-info-view {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+body .term-info-view p {
+  color: #344054;
+}
+body .term-info-view .headline-wrap {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  background: #fff;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+body .term-info-view .headline-wrap .headline {
+  color: var(--primary);
+}
+body .term-info-bottom {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 68px;
+}
+body .term-info-bottom hr.middle-divider {
+  margin: 68px auto;
+  width: 50%;
+  max-width: 400px;
+  height: 2px;
+  border: none;
+  background: #000000;
+}
+body .term-info-bottom p {
+  color: #344054;
 }
 body .introduction {
   font-family: Inter;
@@ -4891,7 +6872,6 @@ body .footer {
   padding-top: 48px;
   padding-bottom: 12px;
   background: var(--white);
-  box-shadow: 0px -1px 4px 0px rgba(12, 12, 13, 0.05);
 }
 body .footer .float-button {
   position: fixed;
@@ -4951,6 +6931,16 @@ body .footer .container .social {
   align-items: center;
   gap: 24px;
 }
+body .footer .container .social a figure {
+  width: 32px;
+  height: 32px;
+}
+body .footer .container .social a figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 body .footer .container .contact {
   width: 100%;
   display: grid;
@@ -4977,16 +6967,6 @@ body .footer .container .contact .single a {
 }
 body .footer .container .contact .single a:hover {
   color: var(--primary);
-}
-body .footer .container .payment {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-body .footer .container .payment .logo-icon {
-  width: 55px;
-  height: 36px;
-  filter: drop-shadow(0px 0.5232px 5.2304px rgba(183, 183, 183, 0.08)) drop-shadow(0px 5.2304px 10.4608px rgba(183, 183, 183, 0.08));
 }
 body .footer .container .policy {
   width: 100%;
@@ -5032,8 +7012,5 @@ body .footer.search-footer .container .policy {
   flex-direction: column;
   gap: 12px;
   align-items: center;
-  justify-content: center;
-}
-body .footer.search-footer .container .policy .left {
   justify-content: center;
 }/*# sourceMappingURL=main.css.map */

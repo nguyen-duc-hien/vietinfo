@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/style/main.css" />
-    <title>Quản lý quảng cáo - Tạo mới</title>
+    <title>Quản lý thông tin thanh toán và hoá đơn</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
@@ -87,45 +87,12 @@
                         </button>
                     </div>
 
-                    <h1>Đăng ký dịch vụ quảng cáo</h1>
+                    <h1>Quản lý thông tin thanh toán và hoá đơn</h1>
                 </div>
 
                 <div class="addnew-content">
-                    <div class="progress">
-                        <div class="progress-bar">
-                            <!-- thêm active khi đã xong tiến trình -->
-                            <div class="progress-item active">
-                                <div class="dot"></div>
-                                <div class="content">
-                                    <figure class="w-36"><img src="/assets/image/icon/gear.svg" alt="icon"></figure>
-                                    <p>Thiết lập quảng cáo</p>
-                                </div>
-                            </div>
-                            <!-- thêm active khi đã xong tiến trình -->
-                            <div class="progress-divider first active"></div>
-                            <div class="progress-item active">
-                                <div class="dot"></div>
-                                <div class="content">
-                                    <figure class="w-36"><img src="/assets/image/icon/board-check.svg" alt="icon">
-                                    </figure>
-                                    <p>Thanh tóan</p>
-                                </div>
-                            </div>
-                            <!-- thêm active khi đã xong tiến trình -->
-                            <div class="progress-divider second"></div>
-                            <div class="progress-item">
-                                <div class="dot"></div>
-                                <div class="content">
-                                    <figure class="w-36"><img src="/assets/image/icon/internet-global.svg" alt="icon">
-                                    </figure>
-                                    <p>Online</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="payment-wrapper">
-                        <div class="left">
+                        <div class="left w-full">
                             <div class="payment-method">
                                 <h2>Payment method</h2>
                                 <div class="payment-list">
@@ -180,44 +147,6 @@
                                             </div>
                                         </div>
                                     </label>
-                                    <label class="payment-item">
-                                        <input type="radio" name="payment" class="" id="">
-                                        <div class="payment-context">
-                                            <p class="num-end">Thanh toán qua chuyển khoản ACH/Zelle</p>
-                                        </div>
-                                    </label>
-                                    <!-- mục này là extend của phần thanh toán qua chuyển khoản, hiện khi chuyển khoản được chọn -->
-                                    <div class="payment-item col">
-                                        <div class="step-list">
-                                            <div class="step">
-                                                <figure class="w-20"><img src="/assets/image/check-round-broke.svg"
-                                                        alt="icon">
-                                                </figure>
-                                                <p>Bước 1: Hoàn tất các bước đăng ký quảng cáo như bình thường.
-                                                </p>
-                                            </div>
-                                            <div class="step">
-                                                <figure class="w-20"><img src="/assets/image/check-round-broke.svg"
-                                                        alt="icon">
-                                                </figure>
-                                                <p>
-                                                    Bước 2: Chuyển khoản thanh toán tới tài khoản VietInfo. <b>Thông tin
-                                                        cho việc chuyển khoản sẽ được cung cấp chi tiết tại bước cuối
-                                                        cùng,
-                                                        đồng thời sẽ được gửi đến email của anh/chị ngay sau đó.</b>
-                                                </p>
-                                            </div>
-                                            <div class="step">
-                                                <figure class="w-20"><img src="/assets/image/check-round-broke.svg"
-                                                        alt="icon">
-                                                </figure>
-                                                <p>
-                                                    Bước 3: Upload receipt payment thông qua mục “Quản lý quảng cáo”
-                                                    trên tài khoản của anh/chị.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
@@ -279,10 +208,6 @@
                                         <input type="text" class="input-field" placeholder="Zip code">
                                     </label>
 
-                                    <label for="" class="save-info">
-                                        <input type="checkbox" class="">
-                                        Save this information for next time
-                                    </label>
                                 </div>
                             </div>
 
@@ -292,120 +217,9 @@
 
 
                         </div>
-                        <div class="right">
-                            <div class="product-info-wrap">
-                                <div class="product-top">
-                                    <figure class="w-24"><img src="/assets/image/ticket-sale.svg" alt="icon"></figure>
-                                    <h2>Product info</h2>
-                                    <figure class="w-24"><img src="/assets/image/icon/chevron-down.svg" alt="icon">
-                                    </figure>
-                                </div>
-                                <div class="product-content">
-                                    <div class="icon">
-                                        <figure class="w-35"><img src="/assets/image/icon/sound-dashboard.svg"
-                                                alt="icon">
-                                        </figure>
-                                    </div>
-                                    <div class="product-info">
-                                        <p class="info">Trang chủ - homepage Ad</p>
-                                        <div class="card">H1</div>
-                                        <div class="card">May, June, July, <b>+5</b></div>
-                                    </div>
-                                    <p class="price">$96.00</p>
-                                </div>
-                            </div>
-
-                            <div class="order-info-wrap">
-                                <h2>Order summary</h2>
-                                <div class="order-info">
-                                    <div class="row">
-                                        <p class="info">Sub total</p>
-                                        <p class="price">$96.00</p>
-                                    </div>
-                                    <hr class="row-divider">
-                                    <div class="row">
-                                        <p class="info">Sub total</p>
-                                        <p class="price">$96.00</p>
-                                    </div>
-                                    <div class="row">
-                                        <p class="info">Sub total</p>
-                                        <p class="price">$96.00</p>
-                                    </div>
-                                    <hr class="row-divider">
-                                    <div class="row">
-                                        <p class="info">Sub total</p>
-                                        <p class="price-total">$96.00</p>
-                                    </div>
-                                </div>
-
-                                <p class="term">By proceeding with your purchase, you agree to <a href="#">Vietinfo's
-                                        Terms of
-                                        Service</a> and
-                                    <a href="#">Personal Data Processing Policy.</a>
-                                </p>
-
-                                <button class="button-primary w-full h-56">Checkout</button>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
 
-                <!-- modal add thẻ -->
-                <!-- <div id="modalJobDetail" class="modal-wrapper" style="display: flex;">
-                    <div class="modal-container w-640">
-                        <div class="modal-head">
-                            <h2>Debit or credit card</h2>
-                            <button class="close-modal">
-                                <figure>
-                                    <img src="/assets/image/icon/x-border.svg" alt="icon">
-                                </figure>
-                            </button>
-                        </div>
-                        <div class="modal-content">
-                            <div class="payment center">
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-visa.svg" alt="visa">
-                                    </figure>
-                                </div>
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-mc.svg" alt="mc"></figure>
-                                </div>
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-amex.svg" alt="amex">
-                                    </figure>
-                                </div>
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-ap.svg" alt="ap"></figure>
-                                </div>
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-pp.svg" alt="pp"></figure>
-                                </div>
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-jcb.svg" alt="jcb"></figure>
-                                </div>
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-dcv.svg" alt="dcv"></figure>
-                                </div>
-                                <div class="logo-icon">
-                                    <figure><img src="/assets/image/footer-dc.svg" alt="dc"></figure>
-                                </div>
-                            </div>
-
-                            <div class="">
-                                <label for="" class="input-label">
-                                    <p class="input-title"></p>
-                                    <input type="text" class="input-field" placeholder="Name on card">
-                                </label>
-                                <label for="" class="input-label card-hold">
-                                    <p class="input-title"></p>
-                                    <figure><img src="/assets/image/icon/card-holder.svg" alt="icon"></figure>
-                                    <input type="text" class="input-field" placeholder="Name on card">
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
                 <footer>
                     <div class="footer">
                         <div class="float-button hidden">
