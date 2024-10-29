@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/main.css" />
+    <link rel="stylesheet" href="/assets/style/_job_management.scss" />
+    <title>Quản lý tin việc làm</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="dashboard">
+        <section class="dashboard-container" style="min-height: 100vh;">
+            <div class="left-nav">
+                <div class="fixed">
+                    <div class="top-nav">
+                        <a href="#" class="logo">
+                            <figure><img src="/assets/image/page-logo-white.svg" alt="logo"></figure>
+                        </a>
+                        <div class="info">
+                            <div class="avatar">
+                                <figure><img src="/assets/image/dashboard-avatar.svg" alt="avatar"></figure>
+                            </div>
+                            <div class="information">
+                                <h2 class="name">Tu Nguyen</h2>
+                                <span class="email">tu.nguyen@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="nav">
+                            <ul>
+                                <li class="nav-item active">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/dashboard.svg" alt="icon"></figure>
+                                        Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/user.svg" alt="icon"></figure>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/upload.svg" alt="icon"></figure>
+                                        Quản lý tin rao vặt
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/briefcase.svg" alt="icon"></figure>
+                                        Quản lý quảng cáo
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <figure><img src="/assets/image/dashboard/card.svg" alt="icon"></figure>
+                                        Billing & Payments
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="right-content">
+                <div class="title">
+                    <div class="left">
+                        <h1>Quản lý tin rao vặt</h1>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <div class="basic-info">
+                        <span class="text-body-xl-semibold title">THÔNG TIN CHUNG</span>
+                        <div class="flex w-full gap-6">
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Chọn loại tin cần đăng</span>
+                                <select class="basic-info-select" name="">
+                                    <option value="">Alabama</option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Loại việc làm</span>
+                                <select class="basic-info-select" name="">
+                                    <option value="">1</option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Tiêu đề tin đăng</span>
+                                <select class="basic-info-select" name="">
+                                    <option value="">1</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2 w-full">
+                            <span class="text-body-md-semibold job-management-label">Link URL</span>
+                            <div class="relative w-half">
+                                <input value="vietinfo.com/my-post-title" id="linkUrl" class="job-management-input"
+                                    disabled />
+                                <button class="absolute copy-input-button" id="job-management-btn-copy">
+                                    <figure>
+                                        <img src="./assets/image/copy.svg" alt="">
+                                    </figure>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail-info">
+                        <span class="text-body-xl-semibold title">THÔNG TIN CHI TIẾT</span>
+                        <div class="flex w-full gap-6">
+                            <div class="flex flex-col gap-2" style="width: 35%;">
+                                <span class="text-body-md-semibold job-management-label">Tên cơ sở kinh doanh</span>
+                                <input placeholder="Nhập tên cơ sở kinh doanh" class="job-management-input" />
+                            </div>
+                            <div class="flex gap-2 items-end" style="width: 26%;">
+                                <div class="flex flex-col gap-2 w-full">
+                                    <span class="text-body-md-semibold job-management-label">Mức lương từ</span>
+                                    <div class="relative">
+                                        <input placeholder="Từ" class="job-management-input"
+                                            style="padding-left: 22px;" />
+                                        <span class="absolute text-body-md-regular"
+                                            style="color: #667085; transform: translate(-50%, -50%); left: 14px; top: 50%;">$</span>
+                                    </div>
+                                </div>
+                                <span class="job-management-label text-body-md-semibold"
+                                    style="margin-bottom: 16px;">-</span>
+                                <div class="flex flex-col gap-2 w-full">
+                                    <span class="text-body-md-semibold job-management-label">Tới <span
+                                            class="text-body-md-regular">(không bắt buộc)</span></span>
+                                    <div class="relative">
+                                        <input placeholder="Tới" class="job-management-input"
+                                            style="padding-left: 22px;" />
+                                        <span class="absolute text-body-md-regular"
+                                            style="color: #667085; transform: translate(-50%, -50%); left: 14px; top: 50%;">$</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex gap-6 items-center" style="height: fit-content; margin-top: 50px;">
+                                <div class="flex gap-3 items-center">
+                                    <input type="radio" id="hour" name="time" value="hour" checked="checked">
+                                    <label for="hour">Hour</label>
+                                </div>
+                                <div class="flex gap-3 items-center">
+                                    <input type="radio" id="month" name="time" value="month">
+                                    <label for="month">Month</label>
+                                </div>
+                                <div class="flex gap-3 items-center">
+                                    <input type="radio" id="year" name="time" value="year">
+                                    <label for="year">Year</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-full gap-6">
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Address 1</span>
+                                <input placeholder="Nhập address 1" class="job-management-input" />
+                            </div>
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Address 2 <span
+                                        class="text-body-md-regular">(không bắt buộc)</span></span>
+                                <input placeholder="Nhập address 2" class="job-management-input" />
+                            </div>
+                        </div>
+                        <div class="flex w-full gap-6">
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">City</span>
+                                <input placeholder="Nhập city" class="job-management-input" />
+                            </div>
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">State</span>
+                                <select class="basic-info-select" name="">
+                                    <option value="">123</option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Zip code</span>
+                                <input placeholder="Nhập zip code" class="job-management-input" />
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2 w-full">
+                            <span class="text-body-md-semibold job-management-label">Mô tả chi tiết</span>
+                            <textarea style="box-sizing: border-box; resize: vertical;"
+                                placeholder="Nhập mô tả chi tiết" rows="6" class="job-management-input"></textarea>
+                        </div>
+                        <div class="flex flex-col gap-2 w-full">
+                            <span class="text-body-md-semibold job-management-label">Ngày tin đăng hết hạn - expired
+                                <span class="text-body-md-regular">(sau khi đăng tin, bất cứ lúc nào cũng có thể gia hạn
+                                    thêm thông qua dashboard “quản lý tin rao vặt")</span></span>
+                            <input type="text" id="datepicker" class="job-management-input"
+                                placeholder="Chọn ngày tháng bạn muốn tin này hết hiệu lực">
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <span class="text-body-xl-semibold title">THÔNG TIN LIÊN HỆ</span>
+                        <div class="flex justify-between items-center" style="width: 50%;">
+                            <div class="flex gap-3 items-center">
+                                <input type="radio" id="item1" name="contact-info" value="item1" checked="checked">
+                                <label for="item1" class="flex flex-col contact-info-radio-text">
+                                    <span class="name">Tu Nguyen</span>
+                                    <span class="description">Email: admin@vietinfo.us</span>
+                                    <span class="description">Phone: 0123456789</span>
+                                </label>
+                            </div>
+                            <div class="flex gap-3 items-center">
+                                <input type="radio" id="item2" name="contact-info" value="item2">
+                                <label for="item2" class="flex flex-col contact-info-radio-text">
+                                    <span class="add-new-info">Thêm thông tin liên lạc khác</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="flex w-full gap-6">
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Name</span>
+                                <input placeholder="Your name" class="job-management-input" />
+                            </div>
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Email</span>
+                                <input placeholder="Enter your email" class="job-management-input" />
+                            </div>
+                            <div class="flex flex-col gap-2 w-full">
+                                <span class="text-body-md-semibold job-management-label">Phone number</span>
+                                <input type="tel" placeholder="Contact number" class="job-management-input" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upload-button-wrapper">
+                    <button class="button-upload-post">
+                        <span style="font-weight: 700; font-size: 18px; color: #fff; line-height: 21px;">Đăng bài</span>
+                    </button>
+                </div>
+                <footer>
+                    <div class="footer">
+                        <div class="float-button">
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/chat-box.svg" alt=""></figure>
+                            </div>
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/mess.svg" alt=""></figure>
+                            </div>
+                            <div class="float-item">
+                                <figure><img src="/assets/image/icon/totop.svg" alt=""></figure>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <a href="/">
+                                <figure><img src="/assets/image/footer-logo.svg" alt="logo"></figure>
+                            </a>
+                            <p>Cổng thông tin <span class="special">MIỄN PHÍ</span> dành cho cộng đồng người Việt tại Mỹ
+                            </p>
+                            <nav class="nav">
+                                <ul>
+                                    <li><a href="#">Việc làm</a></li>
+                                    <li><a href="#">Mua cửa tiệm</a></li>
+                                    <li><a href="#">Việt Event</a></li>
+                                    <li><a href="#">Thuê nhà</a></li>
+                                    <li><a href="#">Mua nhà</a></li>
+                                    <li><a href="#">Rao vặt</a></li>
+                                    <li><a href="#">Liên hệ quảng cáo</a></li>
+                                </ul>
+                            </nav>
+
+                            <div class="social">
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-fb.svg" alt="fb"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-yt.svg" alt="yt"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-ins.svg" alt="ins"></figure>
+                                </a>
+                                <a href="#">
+                                    <figure><img src="/assets/image/icon/footer-x.svg" alt="x"></figure>
+                                </a>
+                            </div>
+                            <div class="contact">
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                                <div class="single">
+                                    <h2>Liên hệ hợp tác</h2>
+                                    <a href="#">Email: contact@vietinfo.us</a>
+                                    <a href="#">Phone: 678 408 2288</a>
+                                </div>
+                            </div>
+
+                            <div class="payment">
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-visa.svg" alt="visa"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-mc.svg" alt="mc"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-amex.svg" alt="amex"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-ap.svg" alt="ap"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-pp.svg" alt="pp"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-jcb.svg" alt="jcb"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-dcv.svg" alt="dcv"></figure>
+                                </div>
+                                <div class="logo-icon">
+                                    <figure><img src="/assets/image/footer-dc.svg" alt="dc"></figure>
+                                </div>
+                            </div>
+
+                            <div class="policy">
+                                <div class="left">
+                                    <a href="#">Privacy Policy</a>
+                                    |
+                                    <a href="#">Terms of Service</a>
+                                    |
+                                    <a href="#">Sitemap</a>
+                                </div>
+                                <p>Designed by Qixtech - Web Design & Digital Marketing</p>
+                                <p>Copyright © 2024. Vietinfo LLC. All Right Reserved. </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </form>
+    </div>
+    </div>
+    </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js"
+        integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" crossorigin="anonymous"></script>
+
+    <script src="./assets/js/job-management.js"></script>
+
+</body>
+
+</html>
