@@ -1,6 +1,7 @@
 @import url(./fonts/typography.css);
 @import "_reset";
 @import "_main";
+@import "_dash_job_management";
 
 body {
   // -----------------------component extend style -----------------------
@@ -261,7 +262,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 44px 10px 14px;
+    padding: 8px 44px 8px 14px;
     border-radius: 8px;
     border: 1px solid #d5d7da;
     background: #fff;
@@ -3493,7 +3494,7 @@ body {
     .table-filter {
       display: flex;
       align-items: center;
-      padding: 16px 48px;
+      padding: 16px 24px;
       gap: 8px;
       border: 1px solid #d0d5dd;
       .search-input-field {
@@ -4338,7 +4339,7 @@ body {
     padding-bottom: 12px;
     background: var(--white);
 
-    box-shadow: 0px -1px 4px 0px rgba(12, 12, 13, 0.05);
+    // box-shadow: 0px -1px 4px 0px rgba(12, 12, 13, 0.05);
     .float-button {
       position: fixed;
       right: 87px;

@@ -468,6 +468,29 @@ $m-4: 480px;
   overflow: hidden;
 }
 
+.flex {
+  display: flex;
+  &.flex-col {
+    flex-direction: column;
+  }
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-half {
+  gap: 2px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
 .input-label {
   width: 100%;
   display: flex;
