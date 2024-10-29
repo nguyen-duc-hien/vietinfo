@@ -1,7 +1,6 @@
 @import url(./fonts/typography.css);
 @import "_reset";
 @import "_main";
-@import "_dash_job_management";
 
 body {
   // -----------------------component extend style -----------------------
@@ -682,6 +681,21 @@ body {
     }
   }
 
+  // payment footer, file and modal
+  .payment {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    &.center {
+      justify-content: center;
+    }
+    .logo-icon {
+      width: 54px;
+      height: 35px;
+      filter: drop-shadow(0px 0.5232px 5.2304px rgba(183, 183, 183, 0.08))
+        drop-shadow(0px 5.2304px 10.4608px rgba(183, 183, 183, 0.08));
+    }
+  }
   // scrollbar custom
   .custom-scrollbar {
     &::-webkit-scrollbar {
@@ -815,7 +829,6 @@ body {
       gap: 24px;
       background: var(--white);
       border-radius: 5px;
-      background: #fcfcfd;
       position: relative;
 
       @include Responsive(m-11) {
@@ -824,6 +837,10 @@ body {
 
       @include Responsive(m-7) {
         padding: 48px 10px 48px 24px;
+      }
+
+      &.w-640 {
+        max-width: 640px;
       }
 
       .modal-head {
@@ -843,6 +860,11 @@ body {
             object-fit: cover;
             aspect-ratio: 19/5;
           }
+        }
+
+        h2 {
+          @extend .text-body-xl-medium;
+          color: #1f2237;
         }
 
         .close-modal {
@@ -4047,19 +4069,6 @@ body {
               border-top: 1px solid #d1d5db;
               border-bottom: 1px solid #d1d5db;
               .payment {
-                display: flex;
-                align-items: center;
-                gap: 8px;
-                .logo-icon {
-                  width: 54px;
-                  height: 35px;
-                  filter: drop-shadow(
-                      0px 0.5232px 5.2304px rgba(183, 183, 183, 0.08)
-                    )
-                    drop-shadow(
-                      0px 5.2304px 10.4608px rgba(183, 183, 183, 0.08)
-                    );
-                }
                 &-item {
                   display: flex;
                   align-items: center;
@@ -4444,17 +4453,6 @@ body {
               color: var(--primary);
             }
           }
-        }
-      }
-      .payment {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        .logo-icon {
-          width: 54px;
-          height: 35px;
-          filter: drop-shadow(0px 0.5232px 5.2304px rgba(183, 183, 183, 0.08))
-            drop-shadow(0px 5.2304px 10.4608px rgba(183, 183, 183, 0.08));
         }
       }
       .policy {
