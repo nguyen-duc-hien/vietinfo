@@ -267,6 +267,34 @@ body {
     }
   }
 
+  .radio {
+    &-black-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      input {
+        width: 16px;
+        height: 16px;
+      }
+      &.col {
+        flex-direction: column;
+      }
+    }
+    &-context {
+      display: flex;
+      flex-direction: column;
+      .other {
+        @extend .text-body-md-regular;
+        color: #1e1e1e;
+      }
+
+      &.between {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+
   .select-field {
     display: flex;
     justify-content: center;
@@ -3353,6 +3381,45 @@ body {
   .dashboard {
     display: flex;
 
+    .bill {
+      &-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        &.w-50 {
+          width: 50%;
+        }
+        input {
+          width: 16px;
+          height: 16px;
+        }
+        &.col {
+          flex-direction: column;
+        }
+      }
+      &-context {
+        display: flex;
+        flex-direction: column;
+        .name {
+          @extend .text-body-md-bold;
+          color: #1e1e1e;
+        }
+        .info {
+          @extend .text-body-md-regular;
+          color: #757575;
+        }
+        .other {
+          @extend .text-body-md-regular;
+          color: var(--primary);
+        }
+
+        &.between {
+          width: 100%;
+          justify-content: space-between;
+        }
+      }
+    }
+
     .dashboard-container {
       width: 100%;
       display: flex;
@@ -4162,42 +4229,6 @@ body {
               @extend .text-body-xl-semibold;
               color: #1f2237;
             }
-            .bill {
-              &-item {
-                display: flex;
-                align-items: center;
-                gap: 12px;
-                input {
-                  width: 16px;
-                  height: 16px;
-                }
-                &.col {
-                  flex-direction: column;
-                }
-              }
-              &-context {
-                display: flex;
-                flex-direction: column;
-                .name {
-                  @extend .text-body-md-bold;
-                  color: #1e1e1e;
-                }
-                .info {
-                  @extend .text-body-md-regular;
-                  color: #757575;
-                }
-                .other {
-                  @extend .text-body-md-regular;
-                  color: var(--primary);
-                }
-
-                &.between {
-                  width: 100%;
-                  justify-content: space-between;
-                }
-              }
-            }
-
             .form-info {
               display: flex;
               flex-wrap: wrap;

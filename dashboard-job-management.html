@@ -88,154 +88,207 @@
                     <div class="basic-info">
                         <span class="text-body-xl-semibold title">THÔNG TIN CHUNG</span>
                         <div class="flex w-full gap-6">
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Chọn loại tin cần đăng</span>
-                                <select class="basic-info-select" name="">
-                                    <option value="">Alabama</option>
+                            <label for="" class="input-label">
+                                <p class="input-title semibold">Chọn loại tin cần đăng</p>
+                                <select name="" id="" class="input-field">
+                                    <option value="">Việc làm - tìm người làm</option>
                                 </select>
-                            </div>
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Loại việc làm</span>
-                                <select class="basic-info-select" name="">
-                                    <option value="">1</option>
+                            </label>
+                            <label for="" class="input-label">
+                                <p class="input-title semibold">Loại việc làm</p>
+                                <select name="" id="" class="input-field">
+                                    <option value="">Làm Nail</option>
                                 </select>
-                            </div>
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Tiêu đề tin đăng</span>
-                                <select class="basic-info-select" name="">
-                                    <option value="">1</option>
+                            </label>
+                            <label for="" class="input-label">
+                                <p class="input-title semibold">Tiêu đề tin đăng</p>
+                                <select name="" id="" class="input-field">
+                                    <option value="">Tuyển thợ Nail</option>
                                 </select>
-                            </div>
+                            </label>
                         </div>
-                        <div class="flex flex-col gap-2 w-full">
-                            <span class="text-body-md-semibold job-management-label">Link URL</span>
+
+                        <label for="" class="input-label">
+                            <p class="input-title semibold">Link URL</p>
                             <div class="relative w-half">
-                                <input value="vietinfo.com/my-post-title" id="linkUrl" class="job-management-input"
-                                    disabled />
+                                <input value="vietinfo.com/my-post-title" id="linkUrl" class="input-field " disabled />
                                 <button class="absolute copy-input-button" id="job-management-btn-copy">
                                     <figure>
                                         <img src="./assets/image/copy.svg" alt="">
                                     </figure>
                                 </button>
                             </div>
-                        </div>
+                        </label>
                     </div>
                     <div class="detail-info">
                         <span class="text-body-xl-semibold title">THÔNG TIN CHI TIẾT</span>
-                        <div class="flex w-full gap-6">
-                            <div class="flex flex-col gap-2" style="width: 35%;">
-                                <span class="text-body-md-semibold job-management-label">Tên cơ sở kinh doanh</span>
-                                <input placeholder="Nhập tên cơ sở kinh doanh" class="job-management-input" />
-                            </div>
+                        <div class="flex w-full gap-6 items-center">
+
+                            <label for="" class="input-label" style="width: 50%;">
+                                <p class="input-title semibold">Tên cơ sở kinh doanh</p>
+                                <input placeholder="Nhập tên cơ sở kinh doanh" class="input-field" />
+                            </label>
+
                             <div class="flex gap-2 items-end" style="width: 26%;">
-                                <div class="flex flex-col gap-2 w-full">
-                                    <span class="text-body-md-semibold job-management-label">Mức lương từ</span>
+                                <label for="" class="input-label">
+                                    <p class="input-title semibold">Mức lương từ</p>
                                     <div class="relative">
-                                        <input placeholder="Từ" class="job-management-input"
-                                            style="padding-left: 22px;" />
+                                        <input placeholder="Từ" class="input-field" style="padding-left: 22px;" />
                                         <span class="absolute text-body-md-regular"
                                             style="color: #667085; transform: translate(-50%, -50%); left: 14px; top: 50%;">$</span>
                                     </div>
-                                </div>
+                                </label>
                                 <span class="job-management-label text-body-md-semibold"
                                     style="margin-bottom: 16px;">-</span>
-                                <div class="flex flex-col gap-2 w-full">
-                                    <span class="text-body-md-semibold job-management-label">Tới <span
-                                            class="text-body-md-regular">(không bắt buộc)</span></span>
+                                <label for="" class="input-label">
+                                    <p class="input-title semibold">Tới <span class="text-body-md-regular">(ko bắt
+                                            buộc)</span></p>
                                     <div class="relative">
-                                        <input placeholder="Tới" class="job-management-input"
-                                            style="padding-left: 22px;" />
+                                        <input placeholder="Tới" class="input-field" style="padding-left: 22px;" />
                                         <span class="absolute text-body-md-regular"
                                             style="color: #667085; transform: translate(-50%, -50%); left: 14px; top: 50%;">$</span>
                                     </div>
-                                </div>
+                                </label>
                             </div>
-                            <div class="flex gap-6 items-center" style="height: fit-content; margin-top: 50px;">
-                                <div class="flex gap-3 items-center">
-                                    <input type="radio" id="hour" name="time" value="hour" checked="checked">
-                                    <label for="hour">Hour</label>
-                                </div>
-                                <div class="flex gap-3 items-center">
-                                    <input type="radio" id="month" name="time" value="month">
-                                    <label for="month">Month</label>
-                                </div>
-                                <div class="flex gap-3 items-center">
-                                    <input type="radio" id="year" name="time" value="year">
-                                    <label for="year">Year</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex w-full gap-6">
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Address 1</span>
-                                <input placeholder="Nhập address 1" class="job-management-input" />
-                            </div>
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Address 2 <span
-                                        class="text-body-md-regular">(không bắt buộc)</span></span>
-                                <input placeholder="Nhập address 2" class="job-management-input" />
+                            <div class="flex items-center gap-6 items-center" style="margin-top: 30px;">
+                                <label class="radio-black-item">
+                                    <input type="radio" name="bill" class="radio-black" id="">
+                                    <div class="radio-context">
+                                        <p class="other">Hour</p>
+                                    </div>
+                                </label>
+                                <label class="radio-black-item">
+                                    <input type="radio" name="bill" class="radio-black" id="">
+                                    <div class="radio-context">
+                                        <p class="other">Month</p>
+                                    </div>
+                                </label>
+                                <label class="radio-black-item">
+                                    <input type="radio" name="bill" class="radio-black" id="">
+                                    <div class="radio-context">
+                                        <p class="other">Year</p>
+                                    </div>
+                                </label>
                             </div>
                         </div>
                         <div class="flex w-full gap-6">
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">City</span>
-                                <input placeholder="Nhập city" class="job-management-input" />
-                            </div>
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">State</span>
-                                <select class="basic-info-select" name="">
-                                    <option value="">123</option>
+                            <label for="" class="input-label"">
+                                <p class=" input-title semibold">Address 1</p>
+                                <input placeholder="Street address" class="input-field" />
+                            </label>
+                            <label for="" class="input-label"">
+                                <p class=" input-title semibold">Address 2 <span class="text-body-md-regular">(ko bắt
+                                    buộc)</span></p>
+                                <input placeholder="Apt, suite, unit, building, floor, etc." class="input-field" />
+                            </label>
+                        </div>
+                        <div class="flex w-full gap-6">
+                            <label for="" class="input-label w-33">
+                                <p class="input-title">City</p>
+                                <input type="text" class="input-field" placeholder="City name">
+                            </label>
+                            <label for="" class="input-label w-33">
+                                <p class="input-title">State</p>
+                                <select name="" id="" class="input-field">
+                                    <option value="">Choose state</option>
+                                    <option value="">Bang 1</option>
+                                    <option value="">Bang 2</option>
+                                    <option value="">Bang 3</option>
                                 </select>
-                            </div>
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Zip code</span>
-                                <input placeholder="Nhập zip code" class="job-management-input" />
-                            </div>
+                            </label>
+                            <label for="" class="input-label w-33">
+                                <p class="input-title">Zip code</p>
+                                <input type="text" class="input-field" placeholder="Zip code">
+                            </label>
                         </div>
-                        <div class="flex flex-col gap-2 w-full">
-                            <span class="text-body-md-semibold job-management-label">Mô tả chi tiết</span>
-                            <textarea style="box-sizing: border-box; resize: vertical;"
-                                placeholder="Nhập mô tả chi tiết" rows="6" class="job-management-input"></textarea>
-                        </div>
-                        <div class="flex flex-col gap-2 w-full">
-                            <span class="text-body-md-semibold job-management-label">Ngày tin đăng hết hạn - expired
-                                <span class="text-body-md-regular">(sau khi đăng tin, bất cứ lúc nào cũng có thể gia hạn
-                                    thêm thông qua dashboard “quản lý tin rao vặt")</span></span>
-                            <input type="text" id="datepicker" class="job-management-input"
+                        <label for="" class="input-label">
+                            <p class="input-title">Mô tả chi tiết</p>
+                            <textarea placeholder="Nhập mô tả chi tiết" rows="6" class="input-field"></textarea>
+                        </label>
+
+                        <label for="" class="input-label relative">
+                            <p class="input-title semibold">
+                                Thời gian quảng cáo
+                                <span class="input-title regular">
+                                    (5% discount tự động apply dành cho quảng cáo trên 6 months)
+                                </span>
+                            </p>
+                            <input type="text" class="input-field date-picker-open" readonly style="width: 50%;"
                                 placeholder="Chọn ngày tháng bạn muốn tin này hết hiệu lực">
-                        </div>
+                            <!-- DatePicker -->
+                            <div class="datepicker-custom">
+                                <div class="datepicker-header">
+                                    <div class="first-row">
+                                        <button class="prev-year">&lt;</button>
+                                        <div class="year-display">2024</div>
+                                        <button class="next-year">&gt;</button>
+                                    </div>
+                                    <p class="context">Ngày tin đăng hết hạn - expired <span
+                                            class="text-body-md-regular">(sau khi đăng tin, bất cứ lúc nào cũng có thể
+                                            gia hạn thêm thông qua dashboard “quản lý tin rao vặt")</span></p>
+                                </div>
+                                <div class="datepicker-content">
+                                    <div class="month-grid">
+                                        <button type="button" class="month-item" data-month="January">January</button>
+                                        <button type="button" class="month-item" data-month="February">February</button>
+                                        <button type="button" class="month-item" data-month="March">March</button>
+                                        <button type="button" class="month-item" data-month="April">April</button>
+                                        <button type="button" class="month-item" data-month="May">May</button>
+                                        <button type="button" class="month-item" data-month="June">June</button>
+                                        <button type="button" class="month-item" data-month="July">July</button>
+                                        <button type="button" class="month-item" data-month="August">August</button>
+                                        <button type="button" class="month-item disabled"
+                                            data-month="September">September</button>
+                                        <button type="button" class="month-item" data-month="October">October</button>
+                                        <button type="button" class="month-item" data-month="November">November</button>
+                                        <button type="button" class="month-item" data-month="December">December</button>
+                                    </div>
+                                </div>
+                                <div class="datepicker-footer">
+                                    <div class="selected-months">
+                                        <p>Thời gian quảng cáo:</p>
+                                        <div class="selected-list"></div>
+                                    </div>
+                                    <div class="action-buttons">
+                                        <button class="cancel-button">Cancel</button>
+                                        <button class="button-primary save-button">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+
                     </div>
                     <div class="contact-info">
                         <span class="text-body-xl-semibold title">THÔNG TIN LIÊN HỆ</span>
-                        <div class="flex justify-between items-center" style="width: 50%;">
-                            <div class="flex gap-3 items-center">
-                                <input type="radio" id="item1" name="contact-info" value="item1" checked="checked">
-                                <label for="item1" class="flex flex-col contact-info-radio-text">
-                                    <span class="name">Tu Nguyen</span>
-                                    <span class="description">Email: admin@vietinfo.us</span>
-                                    <span class="description">Phone: 0123456789</span>
-                                </label>
-                            </div>
-                            <div class="flex gap-3 items-center">
-                                <input type="radio" id="item2" name="contact-info" value="item2">
-                                <label for="item2" class="flex flex-col contact-info-radio-text">
-                                    <span class="add-new-info">Thêm thông tin liên lạc khác</span>
-                                </label>
-                            </div>
+                        <div class="flex justify-between items-center" style="width: 50%; padding: 0 24px; gap: 8px;">
+                            <label class="bill-item w-50">
+                                <input type="radio" name="bill" class="radio-black" id="">
+                                <div class="bill-context">
+                                    <p class="name">Tu Nguyen</p>
+                                    <p class="info">139 Triumph Rd <br>
+                                        Dallas, TX 75241</p>
+                                </div>
+                            </label>
+                            <label class="bill-item w-50">
+                                <input type="radio" name="bill" class="radio-black" id="">
+                                <div class="bill-context">
+                                    <p class="other">Thêm thông tin khác</p>
+                                </div>
+                            </label>
                         </div>
                         <div class="flex w-full gap-6">
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Name</span>
-                                <input placeholder="Your name" class="job-management-input" />
-                            </div>
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Email</span>
-                                <input placeholder="Enter your email" class="job-management-input" />
-                            </div>
-                            <div class="flex flex-col gap-2 w-full">
-                                <span class="text-body-md-semibold job-management-label">Phone number</span>
-                                <input type="tel" placeholder="Contact number" class="job-management-input" />
-                            </div>
+                            <label for="" class="input-label">
+                                <p class="input-title">Name</p>
+                                <input type="text" placeholder="Your name" class="input-field" />
+                            </label>
+                            <label for="" class="input-label">
+                                <p class="input-title">Email</p>
+                                <input type="text" placeholder="Enter your email" class="input-field" />
+                            </label>
+                            <label for="" class="input-label">
+                                <p class="input-title">Phone number</p>
+                                <input type="text" placeholder="Contact number" class="input-field" />
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -355,15 +408,90 @@
     </section>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- script datepicker custom -->
+    <script defer>
+        document.addEventListener('DOMContentLoaded', function () {
+            const inputField = document.querySelector('.date-picker-open');
+            const datePicker = document.querySelector('.datepicker-custom');
+            const monthButtons = document.querySelectorAll('.month-item');
+            const selectedList = document.querySelector('.selected-list');
+            const prevYearButton = document.querySelector('.prev-year');
+            const nextYearButton = document.querySelector('.next-year');
+            const yearDisplay = document.querySelector('.year-display');
+            const saveButton = document.querySelector('.save-button');
+            const cancelButton = document.querySelector('.cancel-button');
+            let selectedMonths = [];
 
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+            // Hiển thị DatePicker khi click vào input
+            inputField.addEventListener('click', function (event) {
+                datePicker.style.display = 'block';
+                event.stopPropagation(); // Ngăn không cho sự kiện click truyền lên document
+            });
 
-    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js"
-        integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" crossorigin="anonymous"></script>
+            // Xử lý khi click vào các tháng
+            monthButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const month = this.getAttribute('data-month');
 
-    <script src="./assets/js/job-management.js"></script>
+                    if (this.classList.contains('selected')) {
+                        this.classList.remove('selected');
+                        selectedMonths = selectedMonths.filter(m => m !== month);
+                    } else {
+                        this.classList.add('selected');
+                        selectedMonths.push(month);
+                    }
+
+                    renderSelectedMonths();
+                });
+            });
+
+            // Hiển thị các tháng đã chọn
+            function renderSelectedMonths() {
+                selectedList.innerHTML = '';
+                const selectedText = selectedMonths.map(month => month.substring(0, 3)).join(', ');
+                inputField.value = selectedText; // Hiển thị trong input
+                selectedMonths.forEach(month => {
+                    const item = document.createElement('div');
+                    item.classList.add('selected-item');
+                    item.textContent = month.substring(0, 3); // Viết tắt tháng
+                    selectedList.appendChild(item);
+                });
+            }
+
+            // Xử lý nút chuyển năm
+            prevYearButton.addEventListener('click', () => changeYear(-1));
+            nextYearButton.addEventListener('click', () => changeYear(1));
+
+            function changeYear(change) {
+                const currentYear = parseInt(yearDisplay.textContent);
+                yearDisplay.textContent = currentYear + change;
+            }
+
+            // Xử lý nút Save
+            saveButton.addEventListener('click', function () {
+                datePicker.style.display = 'none';
+            });
+
+            // Xử lý nút Cancel
+            cancelButton.addEventListener('click', function () {
+                datePicker.style.display = 'none';
+            });
+
+            // Đóng DatePicker nếu click ra ngoài
+            document.addEventListener('click', function (event) {
+                // Kiểm tra nếu click không nằm trong DatePicker và không phải input
+                if (!datePicker.contains(event.target) && event.target !== inputField) {
+                    datePicker.style.display = 'none';
+                }
+            });
+
+            // Ngăn không cho sự kiện click bên trong DatePicker đóng modal
+            datePicker.addEventListener('click', function (event) {
+                event.stopPropagation(); // Ngăn sự kiện click truyền lên document
+            });
+        });
+
+    </script>
 
 </body>
 
