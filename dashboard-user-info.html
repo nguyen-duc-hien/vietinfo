@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style/main.css" />
+    <title>Quản lý thông tin user</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="dashboard">
+      <section class="dashboard-container" style="min-height: 100vh">
+        <div class="left-nav">
+          <div class="fixed">
+            <div class="top-nav">
+              <a href="#" class="logo">
+                <figure>
+                  <img src="/assets/image/page-logo-white.svg" alt="logo" />
+                </figure>
+              </a>
+              <div class="info">
+                <div class="avatar">
+                  <figure>
+                    <img
+                      src="/assets/image/dashboard-avatar.svg"
+                      alt="avatar"
+                    />
+                  </figure>
+                </div>
+                <div class="information">
+                  <h2 class="name">Tu Nguyen</h2>
+                  <span class="email">tu.nguyen@gmail.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-nav">
+              <div class="nav">
+                <ul>
+                  <li class="nav-item active">
+                    <a href="#">
+                      <figure>
+                        <img
+                          src="/assets/image/dashboard/dashboard.svg"
+                          alt="icon"
+                        />
+                      </figure>
+                      Dashboard
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">
+                      <figure>
+                        <img
+                          src="/assets/image/dashboard/user.svg"
+                          alt="icon"
+                        />
+                      </figure>
+                      Profile
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">
+                      <figure>
+                        <img
+                          src="/assets/image/dashboard/upload.svg"
+                          alt="icon"
+                        />
+                      </figure>
+                      Quản lý tin rao vặt
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">
+                      <figure>
+                        <img
+                          src="/assets/image/dashboard/briefcase.svg"
+                          alt="icon"
+                        />
+                      </figure>
+                      Quản lý quảng cáo
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">
+                      <figure>
+                        <img
+                          src="/assets/image/dashboard/card.svg"
+                          alt="icon"
+                        />
+                      </figure>
+                      Billing & Payments
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-content">
+          <div class="title">
+            <div class="left">
+              <h1>Quản lý thông tin user</h1>
+              <button class="button-trans p-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                >
+                  <path
+                    d="M20.595 31.5C20.3313 31.9546 19.9528 32.332 19.4973 32.5943C19.0419 32.8566 18.5256 32.9947 18 32.9947C17.4744 32.9947 16.9581 32.8566 16.5027 32.5943C16.0472 32.332 15.6687 31.9546 15.405 31.5M27 12C27 9.61305 26.0518 7.32387 24.364 5.63604C22.6761 3.94821 20.3869 3 18 3C15.6131 3 13.3239 3.94821 11.636 5.63604C9.94821 7.32387 9 9.61305 9 12C9 22.5 4.5 25.5 4.5 25.5H31.5C31.5 25.5 27 22.5 27 12Z"
+                    stroke="#101828"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="right">
+              <button class="button-border uppercase">THAY ĐỔI MẬT KHẨU</button>
+              <button class="button-primary uppercase" id="changeUserInfo">
+                THAY ĐỔI THÔNG TIN
+              </button>
+            </div>
+          </div>
+          <form class="flex flex-col gap-4">
+            <div class="wrapper-style col gap-4">
+              <div class="profile-avatar-section">
+                <span class="text-body-md-medium">Profile Image</span>
+                <figure class="w-120">
+                  <img src="./assets/image/avatar-demo.svg" alt="" />
+                </figure>
+              </div>
+              <div class="flex flex-col gap-5">
+                <div class="flex w-full gap-6 items-center">
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">Fullname</p>
+                    <input
+                      disabled
+                      placeholder="Nhập tên"
+                      class="input-field"
+                    />
+                  </label>
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">Phone number</p>
+                    <input
+                      disabled
+                      placeholder="Nhập số điện thoại"
+                      class="input-field"
+                    />
+                  </label>
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">Email</p>
+                    <input
+                      disabled
+                      placeholder="Nhập email"
+                      class="input-field"
+                    />
+                  </label>
+                </div>
+                <div class="flex w-full gap-6 items-center">
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">Address 1</p>
+                    <input
+                      disabled
+                      placeholder="Nhập address 1"
+                      class="input-field"
+                    />
+                  </label>
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">
+                      Address 2
+                      <span style="color: #667085" class="text-body-md-regular"
+                        >(optional)</span
+                      >
+                    </p>
+                    <input
+                      disabled
+                      placeholder="Nhập address 2"
+                      class="input-field"
+                    />
+                  </label>
+                </div>
+                <div class="flex w-full gap-6 items-center">
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">City</p>
+                    <input
+                      disabled
+                      placeholder="Nhập city"
+                      class="input-field"
+                    />
+                  </label>
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">State</p>
+                    <select disabled name="" id="" class="input-field">
+                      <option value="">Tuyển thợ Nail</option>
+                    </select>
+                  </label>
+                  <label for="" class="input-label" style="width: 50%">
+                    <p class="input-title semibold">Zip code</p>
+                    <input
+                      disabled
+                      placeholder="Nhập zip code"
+                      class="input-field"
+                    />
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="w-full flex justify-end hidden" id="buttonSaveWrapper">
+              <button
+                type="button"
+                id="buttonSave"
+                class="button-save text-body-md-semibold"
+                style="color: #fff"
+              >
+                Save
+              </button>
+            </div>
+          </form>
+          <footer>
+            <div class="footer">
+              <div class="float-button">
+                <div class="float-item">
+                  <figure>
+                    <img src="/assets/image/icon/chat-box.svg" alt="" />
+                  </figure>
+                </div>
+                <div class="float-item">
+                  <figure>
+                    <img src="/assets/image/icon/mess.svg" alt="" />
+                  </figure>
+                </div>
+                <div class="float-item">
+                  <figure>
+                    <img src="/assets/image/icon/totop.svg" alt="" />
+                  </figure>
+                </div>
+              </div>
+
+              <div class="container">
+                <a href="/">
+                  <figure>
+                    <img src="/assets/image/footer-logo.svg" alt="logo" />
+                  </figure>
+                </a>
+                <p>
+                  Cổng thông tin <span class="special">MIỄN PHÍ</span> dành cho
+                  cộng đồng người Việt tại Mỹ
+                </p>
+                <nav class="nav">
+                  <ul>
+                    <li><a href="#">Việc làm</a></li>
+                    <li><a href="#">Mua cửa tiệm</a></li>
+                    <li><a href="#">Việt Event</a></li>
+                    <li><a href="#">Thuê nhà</a></li>
+                    <li><a href="#">Mua nhà</a></li>
+                    <li><a href="#">Rao vặt</a></li>
+                    <li><a href="#">Liên hệ quảng cáo</a></li>
+                  </ul>
+                </nav>
+
+                <div class="social">
+                  <a href="#">
+                    <figure>
+                      <img src="/assets/image/icon/footer-fb.svg" alt="fb" />
+                    </figure>
+                  </a>
+                  <a href="#">
+                    <figure>
+                      <img src="/assets/image/icon/footer-yt.svg" alt="yt" />
+                    </figure>
+                  </a>
+                  <a href="#">
+                    <figure>
+                      <img src="/assets/image/icon/footer-ins.svg" alt="ins" />
+                    </figure>
+                  </a>
+                  <a href="#">
+                    <figure>
+                      <img src="/assets/image/icon/footer-x.svg" alt="x" />
+                    </figure>
+                  </a>
+                </div>
+                <div class="contact">
+                  <div class="single">
+                    <h2>Liên hệ hợp tác</h2>
+                    <a href="#">Email: contact@vietinfo.us</a>
+                    <a href="#">Phone: 678 408 2288</a>
+                  </div>
+                  <div class="single">
+                    <h2>Liên hệ hợp tác</h2>
+                    <a href="#">Email: contact@vietinfo.us</a>
+                    <a href="#">Phone: 678 408 2288</a>
+                  </div>
+                  <div class="single">
+                    <h2>Liên hệ hợp tác</h2>
+                    <a href="#">Email: contact@vietinfo.us</a>
+                    <a href="#">Phone: 678 408 2288</a>
+                  </div>
+                </div>
+
+                <div class="payment">
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-visa.svg" alt="visa" />
+                    </figure>
+                  </div>
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-mc.svg" alt="mc" />
+                    </figure>
+                  </div>
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-amex.svg" alt="amex" />
+                    </figure>
+                  </div>
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-ap.svg" alt="ap" />
+                    </figure>
+                  </div>
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-pp.svg" alt="pp" />
+                    </figure>
+                  </div>
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-jcb.svg" alt="jcb" />
+                    </figure>
+                  </div>
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-dcv.svg" alt="dcv" />
+                    </figure>
+                  </div>
+                  <div class="logo-icon">
+                    <figure>
+                      <img src="/assets/image/footer-dc.svg" alt="dc" />
+                    </figure>
+                  </div>
+                </div>
+
+                <div class="policy">
+                  <div class="left">
+                    <a href="#">Privacy Policy</a>
+                    |
+                    <a href="#">Terms of Service</a>
+                    |
+                    <a href="#">Sitemap</a>
+                  </div>
+                  <p>Designed by Qixtech - Web Design & Digital Marketing</p>
+                  <p>Copyright © 2024. Vietinfo LLC. All Right Reserved.</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      const listInputForm = document.querySelectorAll(".input-field");
+      const changeInfoButton = document.getElementById("changeUserInfo");
+      const buttonSaveWrapper = document.getElementById("buttonSaveWrapper");
+      const buttonSave = document.getElementById("buttonSave");
+
+      changeInfoButton.addEventListener("click", () => {
+        listInputForm.forEach((input) => {
+          input.removeAttribute("disabled");
+        });
+        buttonSaveWrapper.classList.remove("hidden");
+      });
+
+      buttonSave.addEventListener("click", () => {
+        buttonSaveWrapper.classList.add("hidden");
+        listInputForm.forEach((input) => {
+          input.setAttribute("disabled", true);
+        });
+      });
+    </script>
+  </body>
+</html>

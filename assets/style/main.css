@@ -945,6 +945,14 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   gap: 24px;
 }
 
+.gap-4 {
+  gap: 16px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
 .absolute {
   position: absolute;
 }
@@ -2013,6 +2021,14 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
   gap: 24px;
 }
 
+.gap-4 {
+  gap: 16px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
 .absolute {
   position: absolute;
 }
@@ -2225,6 +2241,36 @@ body .homepage .for-sale .container .bottom .item .info .location, body .homepag
 }
 
 .button-upload-post {
+  background-color: #004dd1;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  min-width: 527px;
+  border-radius: 5px;
+  border: none;
+}
+
+.wrapper-style {
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.0588235294);
+  border: 1px solid #d0d5dd;
+  border-radius: 5px;
+  padding: 16px 24px;
+}
+.wrapper-style.row {
+  display: flex;
+}
+.wrapper-style.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-avatar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.button-save {
   background-color: #004dd1;
   padding-top: 17px;
   padding-bottom: 17px;
